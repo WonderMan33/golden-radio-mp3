@@ -27,7 +27,7 @@
     .controls-row {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 12px;
       align-items: center;
       margin-bottom: 10px;
     }
@@ -42,6 +42,18 @@
       border: 1px solid #333;
       padding: 4px 8px;
       font-size: 13px;
+    }
+    button {
+      background: #333;
+      color: #f4f4f4;
+      border: 1px solid #555;
+      padding: 5px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    button:hover {
+      background: #444;
     }
     audio {
       width: 100%;
@@ -69,24 +81,12 @@
       padding: 8px 10px;
       margin: 0;
       border-bottom: 1px solid #222;
-      border-radius: 0;
-      cursor: pointer;
       background: #181818;
-      font-size: 13px;
+      cursor: pointer;
       display: flex;
       justify-content: space-between;
       gap: 8px;
-    }
-    ul#playlist li span.title {
-      flex: 1 1 auto;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    ul#playlist li span.time {
-      flex: 0 0 auto;
-      font-variant-numeric: tabular-nums;
-      opacity: 0.7;
+      font-size: 13px;
     }
     ul#playlist li.active {
       background: #f5c24b;
@@ -112,6 +112,9 @@
       <select id="show-filter">
         <option value="__all__">All shows</option>
       </select>
+
+      <!-- SHUFFLE BUTTON -->
+      <button id="shuffle-button">Shuffle</button>
     </div>
 
     <audio id="audio-player" controls>
@@ -126,8 +129,7 @@
   </div>
 
   <script>
-    // ✔️ FIXED FOR YOUR REPO
-    // `shows.json` is NEXT TO mp3.html, so use a relative path:
+    // JSON is next to mp3.html
     const DATA_URL = "shows.json";
 
     let allTracks = [];
@@ -137,6 +139,7 @@
     const audioEl = document.getElementById("audio-player");
     const playlistEl = document.getElementById("playlist");
     const showFilterEl = document.getElementById("show-filter");
+    const shuffleBtn = document.getElementById("shuffle-button");
     const currentTitleEl = document.getElementById("current-title");
     const currentMetaEl = document.getElementById("current-meta");
     const errorEl = document.getElementById("error");
@@ -169,29 +172,36 @@
       });
     }
 
-    function applyFilter() {
+    function shuffleArray(arr) {
+      // Fisher-Yates shuffle
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+    }
+
+    function applyFilter(keepOrder = false) {
       const selected = showFilterEl.value;
+
       if (selected === "__all__") {
         filteredTracks = [...allTracks];
       } else {
         filteredTracks = allTracks.filter(t => t.show === selected);
       }
 
-      filteredTracks.sort((a, b) => {
-        const sa = (a.displayTitle || a.title || "").toLowerCase();
-        const sb = (b.displayTitle || b.title || "").toLowerCase();
-        return sa.localeCompare(sb);
-      });
+      // Only sort alphabetically if NOT shuffled
+      if (!keepOrder) {
+        filteredTracks.sort((a, b) => {
+          const sa = (a.displayTitle || a.title || "").toLowerCase();
+          const sb = (b.displayTitle || b.title || "").toLowerCase();
+          return sa.localeCompare(sb);
+        });
+      }
 
       renderPlaylist();
-
       if (filteredTracks.length > 0) {
         currentIndex = 0;
         loadTrack(0, false);
-      } else {
-        audioEl.removeAttribute("src");
-        currentTitleEl.textContent = "Now Playing: –";
-        currentMetaEl.textContent = "";
       }
     }
 
@@ -199,9 +209,9 @@
       playlistEl.innerHTML = "";
       filteredTracks.forEach((track, idx) => {
         const li = document.createElement("li");
-
         const titleSpan = document.createElement("span");
         titleSpan.className = "title";
+
         const title = track.displayTitle || track.title || "Untitled";
         const showName = track.show || "";
         titleSpan.textContent = showName ? `[${showName}] ${title}` : title;
@@ -219,6 +229,7 @@
 
         playlistEl.appendChild(li);
       });
+
       highlightActive();
     }
 
@@ -233,8 +244,8 @@
       if (!track) return;
 
       currentIndex = index;
-
       audioEl.src = track.url;
+
       const title = track.displayTitle || track.title || "Untitled";
       currentTitleEl.textContent = "Now Playing: " + title;
 
@@ -248,9 +259,7 @@
       currentMetaEl.textContent = metaParts.join(" • ");
 
       highlightActive();
-      if (autoplay) {
-        audioEl.play().catch(() => {});
-      }
+      if (autoplay) audioEl.play().catch(() => {});
     }
 
     function handleEnded() {
@@ -260,32 +269,23 @@
       }
     }
 
+    // SHUFFLE HANDLER
+    shuffleBtn.addEventListener("click", () => {
+      shuffleArray(filteredTracks);
+      applyFilter(true); // keep new shuffled order
+      loadTrack(0, true);
+    });
+
     async function init() {
       try {
         errorEl.textContent = "";
         const res = await fetch(DATA_URL, { cache: "no-store" });
-        if (!res.ok) {
-          throw new Error(`HTTP ${res.status}`);
-        }
-        const data = await res.json();
-        if (!Array.isArray(data)) {
-          throw new Error("JSON is not an array");
-        }
-        allTracks = data;
-        if (allTracks.length === 0) {
-          throw new Error("No tracks found in JSON");
-        }
-        renderShowFilter();
-        showFilterEl.addEventListener("change", applyFilter);
-        applyFilter();
-      } catch (err) {
-        console.error(err);
-        errorEl.textContent = "Error loading playlist: " + err.message;
-      }
-    }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-    audioEl.addEventListener("ended", handleEnded);
-    init();
-  </script>
-</body>
-</html>
+        const data = await res.json();
+        if (!Array.isArray(data)) throw new Error("JSON is not an array");
+
+        allTracks = data;
+        if (allTracks.length === 0) throw new Error("No tracks found in JSON");
+
+        r
