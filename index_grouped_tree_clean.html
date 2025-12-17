@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Golden Radio Hour – MP3 Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root{
+      --bg:#070707;
+      --panel:#121212;
+      --panel2:#161616;
+      --line:#262626;
+      --text:#f2f2f2;
+      --muted:#b9b9b9;
+      --gold:#f5c24b;
+      --gold2:#d7a53a;
+      --chip:#0d0d0d;
+      --chipLine:#2b2b2b;
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      padding:18px;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 30% -10%, rgba(245,194,75,.10), transparent 55%),
+                  radial-gradient(1000px 500px at 90% 0%, rgba(245,194,75,.06), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+    }
+
+    .wrap{
+      max-width: 980px;
+      margin:0 auto;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background: linear-gradient(180deg, rgba(255,255,255,.03), transparent 70%), var(--panel);
+      box-shadow: 0 20px 60px rgba(0,0,0,.55);
+      overflow:hidden;
+    }
+
+    .topbar{
+      padding:16px 16px 12px;
+      border-bottom:1px solid var(--line);
+      background: linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,0));
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(6px);
+    }
+
+    .title-row{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+
+    h1{
+      margin:0;
+      font-size:18px;
+      letter-spacing:.2px;
+      color:var(--gold);
+      font-weight:800;
+    }
+
+    .controls{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      margin-top:10px;
+    }
+
+    .control{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      font-size:12.5px;
+      color:var(--muted);
+    }
+
+    select, input[type="text"]{
+      background: var(--panel2);
+      color: var(--text);
+      border: 1px solid var(--line);
+      border-radius:10px;
+      padding:8px 10px;
+      font-size:13px;
+      outline:none;
+      min-width: 210px;
+    }
+
+    input[type="text"]{
+      min-width: 260px;
+      width: 320px;
+      max-width: 100%;
+    }
+
+    .now{
+      padding:12px 16px 14px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.02);
+    }
+
+    audio{ width:100%; margin: 4px 0 0; }
+    .np-title{
+      margin: 0 0 6px;
+      font-size:14px;
+      font-weight:700;
+      color: var(--text);
+    }
+    .np-meta{
+      font-size:12px;
+      color: var(--muted);
+      line-height:1.35;
+      margin: 4px 0 0;
+    }
+
+    .tree{
+      padding: 14px 14px 16px;
+      max-height: 540px;
+      overflow:auto;
+    }
+
+    details.group{
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(255,255,255,.02);
+      overflow:hidden;
+      margin-bottom:10px;
+    }
+    details.group[open]{
+      background: rgba(255,255,255,.03);
+    }
+
+    summary{
+      list-style:none;
+      cursor:pointer;
+      user-select:none;
+      padding:10px 12px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+    }
+    summary::-webkit-details-marker{ display:none; }
+
+    .g-left{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width:0;
+      flex: 1 1 auto;
+    }
+    .caret{
+      width: 8px;
+      height: 8px;
+      border-right: 2px solid var(--gold);
+      border-bottom: 2px solid var(--gold);
+      transform: rotate(-45deg);
+      transition: transform 140ms ease;
+      opacity:.95;
+      flex:0 0 auto;
+      margin-left:2px;
+    }
+    details[open] .caret{ transform: rotate(45deg); }
+
+    .g-title{
+      font-weight:800;
+      font-size:13px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .g-right{
+      display:flex;
+      gap:8px;
+      align-items:center;
+      flex:0 0 auto;
+    }
+    .chip{
+      font-size:12px;
+      color: var(--muted);
+      border:1px solid var(--chipLine);
+      background: var(--chip);
+      padding:2px 8px;
+      border-radius:999px;
+      font-variant-numeric: tabular-nums;
+      white-space:nowrap;
+    }
+
+    ul.tracklist{
+      margin:0;
+      padding:0;
+      list-style:none;
+      border-top:1px solid var(--line);
+    }
+
+    li.track{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding: 9px 12px;
+      border-bottom:1px solid rgba(255,255,255,.06);
+      background: rgba(0,0,0,.12);
+      cursor:pointer;
+      transition: background 120ms ease, transform 120ms ease;
+      font-size: 13px;
+    }
+    li.track:nth-child(even){ background: rgba(0,0,0,.06); }
+    li.track:hover{ background: rgba(245,194,75,.10); }
+    li.track.active{
+      background: linear-gradient(90deg, rgba(245,194,75,.95), rgba(215,165,58,.92));
+      color:#0c0c0c;
+      font-weight:800;
+    }
+
+    .t-title{
+      flex: 1 1 auto;
+      min-width: 0;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .t-time{
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+    li.track.active .t-time{ color:#111; opacity:.9; }
+
+    .error{
+      padding: 0 16px 16px;
+      color: #ff8a8a;
+      font-size: 13px;
+    }
+
+    .tiny{
+      font-size:12px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="title-row">
+        <h1>Golden Radio Hour – MP3 Player</h1>
+        <div class="tiny">Grouped by show • Click to expand</div>
+      </div>
+
+      <div class="controls">
+        <div class="control">
+          <span>Show</span>
+          <select id="show-filter">
+            <option value="__all__">All shows</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <span>Search</span>
+          <input id="search" type="text" placeholder="Type to filter episodes (title, tags)..." />
+        </div>
+      </div>
+    </div>
+
+    <div class="now">
+      <div class="np-title" id="current-title">Now Playing: –</div>
+      <audio id="audio-player" controls></audio>
+      <div class="np-meta" id="current-meta"></div>
+    </div>
+
+    <div class="tree" id="tree"></div>
+    <div class="error" id="error"></div>
+  </div>
+
+<script>
+  const DATA_URL = "shows.json";
+
+  let allTracks = [];
+  let currentKey = null;
+  const audioEl = document.getElementById("audio-player");
+  const showFilterEl = document.getElementById("show-filter");
+  const searchEl = document.getElementById("search");
+  const currentTitleEl = document.getElementById("current-title");
+  const currentMetaEl = document.getElementById("current-meta");
+  const errorEl = document.getElementById("error");
+  const treeEl = document.getElementById("tree");
+
+  function formatTime(seconds){
+    if (!Number.isFinite(seconds)) return "";
+    seconds = Math.max(0, Math.floor(seconds));
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = seconds % 60;
+    const pad = n => String(n).padStart(2, "0");
+    return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${m}:${pad(s)}`;
+  }
+
+  function sumDuration(tracks){
+    return tracks.reduce((acc,t)=> acc + (Number.isFinite(t.durationSeconds)? t.durationSeconds:0), 0);
+  }
+
+  function uniqueShows(tracks){
+    const set = new Set();
+    tracks.forEach(t => set.add(t.show || "Unknown"));
+    return Array.from(set).sort((a,b)=>a.localeCompare(b));
+  }
+
+  function renderShowFilter(){
+    const shows = uniqueShows(allTracks);
+    for (const show of shows){
+      const opt = document.createElement("option");
+      opt.value = show;
+      opt.textContent = show;
+      showFilterEl.appendChild(opt);
+    }
+  }
+
+  function norm(s){ return (s || "").toString().toLowerCase(); }
+
+  function matchesQuery(track, q){
+    if (!q) return true;
+    const hay = [
+      track.show,
+      track.displayTitle,
+      track.title,
+      track.genre,
+      (Array.isArray(track.tags) ? track.tags.join(" ") : "")
+    ].map(norm).join(" ");
+    return hay.includes(q);
+  }
+
+  function groupTracks(tracks){
+    const map = new Map();
+    tracks.forEach(t=>{
+      const show = t.show || "Unknown";
+      if (!map.has(show)) map.set(show, []);
+      map.get(show).push(t);
+    });
+
+    const shows = Array.from(map.keys()).sort((a,b)=>a.localeCompare(b));
+    const grouped = [];
+    for (const show of shows){
+      const list = map.get(show) || [];
+      list.sort((a,b)=>{
+        const sa = norm(a.displayTitle || a.title);
+        const sb = norm(b.displayTitle || b.title);
+        return sa.localeCompare(sb);
+      });
+      grouped.push([show, list]);
+    }
+    return grouped;
+  }
+
+  function highlightActive(){
+    treeEl.querySelectorAll("li.track.active").forEach(li => li.classList.remove("active"));
+    if (!currentKey) return;
+    const el = treeEl.querySelector(`[data-key="${CSS.escape(currentKey)}"]`);
+    if (el) el.classList.add("active");
+  }
+
+  function loadTrack(track, key, autoplay){
+    if (!track) return;
+    currentKey = key;
+
+    audioEl.src = track.url;
+    const title = track.displayTitle || track.title || "Untitled";
+    currentTitleEl.textContent = "Now Playing: " + title;
+
+    const meta = [];
+    meta.push(`Show: ${(track.show || "Unknown")}`);
+    if (track.genre) meta.push(`Genre: ${track.genre}`);
+    if (Array.isArray(track.tags) && track.tags.length) meta.push(`Tags: ${track.tags.join(", ")}`);
+    meta.push(`Length: ${formatTime(track.durationSeconds)}`);
+    currentMetaEl.textContent = meta.join(" • ");
+
+    highlightActive();
+    if (autoplay) audioEl.play().catch(()=>{});
+  }
+
+  function makeTrackLI(track, show, idx, realIndexKey){
+    const li = document.createElement("li");
+    li.className = "track";
+    const key = `${show}|${realIndexKey}`;
+    li.dataset.key = key;
+
+    const left = document.createElement("span");
+    left.className = "t-title";
+    left.textContent = track.displayTitle || track.title || "Untitled";
+
+    const right = document.createElement("span");
+    right.className = "t-time";
+    right.textContent = formatTime(track.durationSeconds);
+
+    li.appendChild(left);
+    li.appendChild(right);
+    li.addEventListener("click", () => loadTrack(track, key, true));
+    return li;
+  }
+
+  function renderGroupedTree(tracks, query){
+    treeEl.innerHTML = "";
+    const grouped = groupTracks(tracks);
+
+    grouped.forEach(([show, list]) => {
+      const filtered = list.filter(t => matchesQuery(t, query));
+      if (filtered.length === 0) return;
+
+      const details = document.createElement("details");
+      details.className = "group";
+
+      // Auto-open if a search is active
+      if (query) details.open = true;
+
+      const summary = document.createElement("summary");
+
+      const left = document.createElement("div");
+      left.className = "g-left";
+
+      const caret = document.createElement("div");
+      caret.className = "caret";
+
+      const title = document.createElement("div");
+      title.className = "g-title";
+      title.textContent = show;
+
+      left.appendChild(caret);
+      left.appendChild(title);
+
+      const right = document.createElement("div");
+      right.className = "g-right";
+
+      const chip1 = document.createElement("span");
+      chip1.className = "chip";
+      chip1.textContent = `${filtered.length} ep`;
+
+      const chip2 = document.createElement("span");
+      chip2.className = "chip";
+      chip2.textContent = formatTime(sumDuration(filtered));
+
+      right.appendChild(chip1);
+      right.appendChild(chip2);
+
+      summary.appendChild(left);
+      summary.appendChild(right);
+      details.appendChild(summary);
+
+      const ul = document.createElement("ul");
+      ul.className = "tracklist";
+
+      // we need stable keys that match the real sorted list index within that show
+      // Build a show-sorted list to match handleEnded logic.
+      const showSorted = [...list].sort((a,b)=>{
+        const sa = norm(a.displayTitle || a.title);
+        const sb = norm(b.displayTitle || b.title);
+        return sa.localeCompare(sb);
+      });
+
+      filtered.forEach((track) => {
+        const realIndex = showSorted.indexOf(track);
+        ul.appendChild(makeTrackLI(track, show, realIndex, realIndex));
+      });
+
+      details.appendChild(ul);
+      treeEl.appendChild(details);
+    });
+
+    highlightActive();
+  }
+
+  function renderSingleShow(tracks, showName, query){
+    treeEl.innerHTML = "";
+    const showTracks = tracks
+      .filter(t => (t.show || "Unknown") === showName)
+      .sort((a,b)=>{
+        const sa = norm(a.displayTitle || a.title);
+        const sb = norm(b.displayTitle || b.title);
+        return sa.localeCompare(sb);
+      });
+
+    const filtered = showTracks.filter(t => matchesQuery(t, query));
+
+    const details = document.createElement("details");
+    details.className = "group";
+    details.open = true;
+
+    const summary = document.createElement("summary");
+    const left = document.createElement("div");
+    left.className = "g-left";
+    const caret = document.createElement("div");
+    caret.className = "caret";
+    const title = document.createElement("div");
+    title.className = "g-title";
+    title.textContent = showName;
+
+    left.appendChild(caret);
+    left.appendChild(title);
+
+    const right = document.createElement("div");
+    right.className = "g-right";
+    const chip1 = document.createElement("span");
+    chip1.className = "chip";
+    chip1.textContent = `${filtered.length} ep`;
+    const chip2 = document.createElement("span");
+    chip2.className = "chip";
+    chip2.textContent = formatTime(sumDuration(filtered));
+    right.appendChild(chip1);
+    right.appendChild(chip2);
+
+    summary.appendChild(left);
+    summary.appendChild(right);
+    details.appendChild(summary);
+
+    const ul = document.createElement("ul");
+    ul.className = "tracklist";
+    filtered.forEach((track, idx) => ul.appendChild(makeTrackLI(track, showName, idx, idx)));
+    details.appendChild(ul);
+    treeEl.appendChild(details);
+
+    highlightActive();
+  }
+
+  function applyFilterAndRender(){
+    const selected = showFilterEl.value;
+    const query = norm(searchEl.value).trim();
+
+    if (selected === "__all__"){
+      renderGroupedTree(allTracks, query);
+      // default load first visible track
+      const firstVisible = treeEl.querySelector("li.track");
+      if (firstVisible){
+        const key = firstVisible.dataset.key;
+        const [show, idxStr] = key.split("|");
+        const idx = Number(idxStr);
+        const showTracks = allTracks
+          .filter(t => (t.show || "Unknown") === show)
+          .sort((a,b)=> norm(a.displayTitle || a.title).localeCompare(norm(b.displayTitle || b.title)));
+        const track = showTracks[idx];
+        if (track) loadTrack(track, key, false);
+      }
+      return;
+    }
+
+    renderSingleShow(allTracks, selected, query);
+    const first = treeEl.querySelector("li.track");
+    if (first){
+      const key = first.dataset.key;
+      const [show, idxStr] = key.split("|");
+      const idx = Number(idxStr);
+      const showTracks = allTracks
+        .filter(t => (t.show || "Unknown") === show)
+        .sort((a,b)=> norm(a.displayTitle || a.title).localeCompare(norm(b.displayTitle || b.title)));
+      const track = showTracks[idx];
+      if (track) loadTrack(track, key, false);
+    }
+  }
+
+  function handleEnded(){
+    if (!currentKey) return;
+    const [show, idxStr] = currentKey.split("|");
+    const idx = Number(idxStr);
+    if (!Number.isFinite(idx)) return;
+
+    const showTracks = allTracks
+      .filter(t => (t.show || "Unknown") === show)
+      .sort((a,b)=> norm(a.displayTitle || a.title).localeCompare(norm(b.displayTitle || b.title)));
+
+    const next = idx + 1;
+    if (next < showTracks.length){
+      loadTrack(showTracks[next], `${show}|${next}`, true);
+    }
+  }
+
+  async function init(){
+    try{
+      errorEl.textContent = "";
+      const res = await fetch(DATA_URL, { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (!Array.isArray(data)) throw new Error("JSON is not an array");
+
+      allTracks = data;
+      if (!allTracks.length) throw new Error("No tracks found in JSON");
+
+      renderShowFilter();
+      showFilterEl.addEventListener("change", applyFilterAndRender);
+      searchEl.addEventListener("input", applyFilterAndRender);
+      applyFilterAndRender();
+    } catch (err){
+      console.error(err);
+      errorEl.textContent = "Error loading playlist: " + err.message;
+    }
+  }
+
+  audioEl.addEventListener("ended", handleEnded);
+  init();
+</script>
+</body>
+</html>
