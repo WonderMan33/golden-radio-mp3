@@ -1,0 +1,11 @@
+Golden Radio Hour artwork folder
+Show: Mr. Keen, Tracer of Lost Persons
+Catalog ID: mr-keen-tracer-of-lost-persons
+Episodes in current Pass 180 catalog: 68
+
+Add artwork here using these names:
+  cover.jpg        - primary square artwork (recommended 1200x1200)
+  thumb.webp       - optional smaller thumbnail
+  background.jpg   - optional wide/background artwork
+
+Do not rename this folder unless artwork.json is updated too.

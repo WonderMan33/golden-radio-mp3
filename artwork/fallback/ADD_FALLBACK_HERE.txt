@@ -1,0 +1,2 @@
+Place your default/fallback GRH artwork here as fallback.jpg.
+This can be shown whenever a program does not yet have its own cover art.

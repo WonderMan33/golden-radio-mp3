@@ -1,0 +1,814 @@
+{
+  "2000 Plus": {
+    "id": "2000-plus",
+    "image": "artwork/shows/2000-plus/cover.jpg",
+    "thumbnail": "artwork/shows/2000-plus/thumb.webp",
+    "background": "artwork/shows/2000-plus/background.jpg",
+    "episodeCount": 17
+  },
+  "A Man Called X": {
+    "id": "a-man-called-x",
+    "image": "artwork/shows/a-man-called-x/cover.jpg",
+    "thumbnail": "artwork/shows/a-man-called-x/thumb.webp",
+    "background": "artwork/shows/a-man-called-x/background.jpg",
+    "episodeCount": 115
+  },
+  "Academy Award Theater": {
+    "id": "academy-award-theater",
+    "image": "artwork/shows/academy-award-theater/cover.jpg",
+    "thumbnail": "artwork/shows/academy-award-theater/thumb.webp",
+    "background": "artwork/shows/academy-award-theater/background.jpg",
+    "episodeCount": 39
+  },
+  "All Star Western Theatre": {
+    "id": "all-star-western-theatre",
+    "image": "artwork/shows/all-star-western-theatre/cover.jpg",
+    "thumbnail": "artwork/shows/all-star-western-theatre/thumb.webp",
+    "background": "artwork/shows/all-star-western-theatre/background.jpg",
+    "episodeCount": 92
+  },
+  "Barrie Craig": {
+    "id": "barrie-craig",
+    "image": "artwork/shows/barrie-craig/cover.jpg",
+    "thumbnail": "artwork/shows/barrie-craig/thumb.webp",
+    "background": "artwork/shows/barrie-craig/background.jpg",
+    "episodeCount": 59
+  },
+  "BBC Chillers": {
+    "id": "bbc-chillers",
+    "image": "artwork/shows/bbc-chillers/cover.jpg",
+    "thumbnail": "artwork/shows/bbc-chillers/thumb.webp",
+    "background": "artwork/shows/bbc-chillers/background.jpg",
+    "episodeCount": 4
+  },
+  "BBC Ghosts from the Past": {
+    "id": "bbc-ghosts-from-the-past",
+    "image": "artwork/shows/bbc-ghosts-from-the-past/cover.jpg",
+    "thumbnail": "artwork/shows/bbc-ghosts-from-the-past/thumb.webp",
+    "background": "artwork/shows/bbc-ghosts-from-the-past/background.jpg",
+    "episodeCount": 4
+  },
+  "BBC Philip Marlowe": {
+    "id": "bbc-philip-marlowe",
+    "image": "artwork/shows/bbc-philip-marlowe/cover.jpg",
+    "thumbnail": "artwork/shows/bbc-philip-marlowe/thumb.webp",
+    "background": "artwork/shows/bbc-philip-marlowe/background.jpg",
+    "episodeCount": 8
+  },
+  "BBC Presents Alfred Hitchcock": {
+    "id": "bbc-presents-alfred-hitchcock",
+    "image": "artwork/shows/bbc-presents-alfred-hitchcock/cover.jpg",
+    "thumbnail": "artwork/shows/bbc-presents-alfred-hitchcock/thumb.webp",
+    "background": "artwork/shows/bbc-presents-alfred-hitchcock/background.jpg",
+    "episodeCount": 19
+  },
+  "BBC Sci-Fi Radio Plays": {
+    "id": "bbc-sci-fi-radio-plays",
+    "image": "artwork/shows/bbc-sci-fi-radio-plays/cover.jpg",
+    "thumbnail": "artwork/shows/bbc-sci-fi-radio-plays/thumb.webp",
+    "background": "artwork/shows/bbc-sci-fi-radio-plays/background.jpg",
+    "episodeCount": 43
+  },
+  "Beyond Midnight": {
+    "id": "beyond-midnight",
+    "image": "artwork/shows/beyond-midnight/cover.jpg",
+    "thumbnail": "artwork/shows/beyond-midnight/thumb.webp",
+    "background": "artwork/shows/beyond-midnight/background.jpg",
+    "episodeCount": 57
+  },
+  "Bob and Ray": {
+    "id": "bob-and-ray",
+    "image": "artwork/shows/bob-and-ray/cover.jpg",
+    "thumbnail": "artwork/shows/bob-and-ray/thumb.webp",
+    "background": "artwork/shows/bob-and-ray/background.jpg",
+    "episodeCount": 1837
+  },
+  "Boston Blackie": {
+    "id": "boston-blackie",
+    "image": "artwork/shows/boston-blackie/cover.jpg",
+    "thumbnail": "artwork/shows/boston-blackie/thumb.webp",
+    "background": "artwork/shows/boston-blackie/background.jpg",
+    "episodeCount": 197
+  },
+  "Box 13": {
+    "id": "box-13",
+    "image": "artwork/shows/box-13/cover.jpg",
+    "thumbnail": "artwork/shows/box-13/thumb.webp",
+    "background": "artwork/shows/box-13/background.jpg",
+    "episodeCount": 52
+  },
+  "Broadway Is My Beat": {
+    "id": "broadway-is-my-beat",
+    "image": "artwork/shows/broadway-is-my-beat/cover.jpg",
+    "thumbnail": "artwork/shows/broadway-is-my-beat/thumb.webp",
+    "background": "artwork/shows/broadway-is-my-beat/background.jpg",
+    "episodeCount": 153
+  },
+  "Candy Matson": {
+    "id": "candy-matson",
+    "image": "artwork/shows/candy-matson/cover.jpg",
+    "thumbnail": "artwork/shows/candy-matson/thumb.webp",
+    "background": "artwork/shows/candy-matson/background.jpg",
+    "episodeCount": 14
+  },
+  "Casey, Crime Photographer": {
+    "id": "casey-crime-photographer",
+    "image": "artwork/shows/casey-crime-photographer/cover.jpg",
+    "thumbnail": "artwork/shows/casey-crime-photographer/thumb.webp",
+    "background": "artwork/shows/casey-crime-photographer/background.jpg",
+    "episodeCount": 77
+  },
+  "CBC Theatre 10:30": {
+    "id": "cbc-theatre-10-30",
+    "image": "artwork/shows/cbc-theatre-10-30/cover.jpg",
+    "thumbnail": "artwork/shows/cbc-theatre-10-30/thumb.webp",
+    "background": "artwork/shows/cbc-theatre-10-30/background.jpg",
+    "episodeCount": 13
+  },
+  "CBS Complete Broadcast Day: D-Day": {
+    "id": "cbs-complete-broadcast-day-d-day",
+    "image": "artwork/shows/cbs-complete-broadcast-day-d-day/cover.jpg",
+    "thumbnail": "artwork/shows/cbs-complete-broadcast-day-d-day/thumb.webp",
+    "background": "artwork/shows/cbs-complete-broadcast-day-d-day/background.jpg",
+    "episodeCount": 24
+  },
+  "CBS Radio Mystery Theater": {
+    "id": "cbs-radio-mystery-theater",
+    "image": "artwork/shows/cbs-radio-mystery-theater/cover.jpg",
+    "thumbnail": "artwork/shows/cbs-radio-mystery-theater/thumb.webp",
+    "background": "artwork/shows/cbs-radio-mystery-theater/background.jpg",
+    "episodeCount": 1429
+  },
+  "CBS Radio Workshop": {
+    "id": "cbs-radio-workshop",
+    "image": "artwork/shows/cbs-radio-workshop/cover.jpg",
+    "thumbnail": "artwork/shows/cbs-radio-workshop/thumb.webp",
+    "background": "artwork/shows/cbs-radio-workshop/background.jpg",
+    "episodeCount": 86
+  },
+  "Christmas Spirits (BBC)": {
+    "id": "christmas-spirits-bbc",
+    "image": "artwork/shows/christmas-spirits-bbc/cover.jpg",
+    "thumbnail": "artwork/shows/christmas-spirits-bbc/thumb.webp",
+    "background": "artwork/shows/christmas-spirits-bbc/background.jpg",
+    "episodeCount": 22
+  },
+  "Cloak and Dagger": {
+    "id": "cloak-and-dagger",
+    "image": "artwork/shows/cloak-and-dagger/cover.jpg",
+    "thumbnail": "artwork/shows/cloak-and-dagger/thumb.webp",
+    "background": "artwork/shows/cloak-and-dagger/background.jpg",
+    "episodeCount": 22
+  },
+  "Columbia Workshop": {
+    "id": "columbia-workshop",
+    "image": "artwork/shows/columbia-workshop/cover.jpg",
+    "thumbnail": "artwork/shows/columbia-workshop/thumb.webp",
+    "background": "artwork/shows/columbia-workshop/background.jpg",
+    "episodeCount": 333
+  },
+  "Counterspy": {
+    "id": "counterspy",
+    "image": "artwork/shows/counterspy/cover.jpg",
+    "thumbnail": "artwork/shows/counterspy/thumb.webp",
+    "background": "artwork/shows/counterspy/background.jpg",
+    "episodeCount": 71
+  },
+  "Crime and Peter Chambers": {
+    "id": "crime-and-peter-chambers",
+    "image": "artwork/shows/crime-and-peter-chambers/cover.jpg",
+    "thumbnail": "artwork/shows/crime-and-peter-chambers/thumb.webp",
+    "background": "artwork/shows/crime-and-peter-chambers/background.jpg",
+    "episodeCount": 25
+  },
+  "Danger, Dr. Danfield": {
+    "id": "danger-dr-danfield",
+    "image": "artwork/shows/danger-dr-danfield/cover.jpg",
+    "thumbnail": "artwork/shows/danger-dr-danfield/thumb.webp",
+    "background": "artwork/shows/danger-dr-danfield/background.jpg",
+    "episodeCount": 26
+  },
+  "Dangerous Assignment": {
+    "id": "dangerous-assignment",
+    "image": "artwork/shows/dangerous-assignment/cover.jpg",
+    "thumbnail": "artwork/shows/dangerous-assignment/thumb.webp",
+    "background": "artwork/shows/dangerous-assignment/background.jpg",
+    "episodeCount": 200
+  },
+  "Dangerously Yours": {
+    "id": "dangerously-yours",
+    "image": "artwork/shows/dangerously-yours/cover.jpg",
+    "thumbnail": "artwork/shows/dangerously-yours/thumb.webp",
+    "background": "artwork/shows/dangerously-yours/background.jpg",
+    "episodeCount": 13
+  },
+  "Dark Fantasy": {
+    "id": "dark-fantasy",
+    "image": "artwork/shows/dark-fantasy/cover.jpg",
+    "thumbnail": "artwork/shows/dark-fantasy/thumb.webp",
+    "background": "artwork/shows/dark-fantasy/background.jpg",
+    "episodeCount": 27
+  },
+  "Dimension X": {
+    "id": "dimension-x",
+    "image": "artwork/shows/dimension-x/cover.jpg",
+    "thumbnail": "artwork/shows/dimension-x/thumb.webp",
+    "background": "artwork/shows/dimension-x/background.jpg",
+    "episodeCount": 25
+  },
+  "Duffy's Tavern": {
+    "id": "duffy-s-tavern",
+    "image": "artwork/shows/duffy-s-tavern/cover.jpg",
+    "thumbnail": "artwork/shows/duffy-s-tavern/thumb.webp",
+    "background": "artwork/shows/duffy-s-tavern/background.jpg",
+    "episodeCount": 160
+  },
+  "Encore Theater": {
+    "id": "encore-theater",
+    "image": "artwork/shows/encore-theater/cover.jpg",
+    "thumbnail": "artwork/shows/encore-theater/thumb.webp",
+    "background": "artwork/shows/encore-theater/background.jpg",
+    "episodeCount": 13
+  },
+  "Father Knows Best": {
+    "id": "father-knows-best",
+    "image": "artwork/shows/father-knows-best/cover.jpg",
+    "thumbnail": "artwork/shows/father-knows-best/thumb.webp",
+    "background": "artwork/shows/father-knows-best/background.jpg",
+    "episodeCount": 151
+  },
+  "Fibber McGee and Molly": {
+    "id": "fibber-mcgee-and-molly",
+    "image": "artwork/shows/fibber-mcgee-and-molly/cover.jpg",
+    "thumbnail": "artwork/shows/fibber-mcgee-and-molly/thumb.webp",
+    "background": "artwork/shows/fibber-mcgee-and-molly/background.jpg",
+    "episodeCount": 527
+  },
+  "Fort Laramie": {
+    "id": "fort-laramie",
+    "image": "artwork/shows/fort-laramie/cover.jpg",
+    "thumbnail": "artwork/shows/fort-laramie/thumb.webp",
+    "background": "artwork/shows/fort-laramie/background.jpg",
+    "episodeCount": 41
+  },
+  "Frontier Gentleman": {
+    "id": "frontier-gentleman",
+    "image": "artwork/shows/frontier-gentleman/cover.jpg",
+    "thumbnail": "artwork/shows/frontier-gentleman/thumb.webp",
+    "background": "artwork/shows/frontier-gentleman/background.jpg",
+    "episodeCount": 61
+  },
+  "Frontier Town": {
+    "id": "frontier-town",
+    "image": "artwork/shows/frontier-town/cover.jpg",
+    "thumbnail": "artwork/shows/frontier-town/thumb.webp",
+    "background": "artwork/shows/frontier-town/background.jpg",
+    "episodeCount": 48
+  },
+  "Fu Manchu": {
+    "id": "fu-manchu",
+    "image": "artwork/shows/fu-manchu/cover.jpg",
+    "thumbnail": "artwork/shows/fu-manchu/thumb.webp",
+    "background": "artwork/shows/fu-manchu/background.jpg",
+    "episodeCount": 87
+  },
+  "George Orwell Radio Collection": {
+    "id": "george-orwell-radio-collection",
+    "image": "artwork/shows/george-orwell-radio-collection/cover.jpg",
+    "thumbnail": "artwork/shows/george-orwell-radio-collection/thumb.webp",
+    "background": "artwork/shows/george-orwell-radio-collection/background.jpg",
+    "episodeCount": 19
+  },
+  "Gunsmoke": {
+    "id": "gunsmoke",
+    "image": "artwork/shows/gunsmoke/cover.jpg",
+    "thumbnail": "artwork/shows/gunsmoke/thumb.webp",
+    "background": "artwork/shows/gunsmoke/background.jpg",
+    "episodeCount": 474
+  },
+  "Have Gun, Will Travel": {
+    "id": "have-gun-will-travel",
+    "image": "artwork/shows/have-gun-will-travel/cover.jpg",
+    "thumbnail": "artwork/shows/have-gun-will-travel/thumb.webp",
+    "background": "artwork/shows/have-gun-will-travel/background.jpg",
+    "episodeCount": 106
+  },
+  "Hearthstone of the Death Squad": {
+    "id": "hearthstone-of-the-death-squad",
+    "image": "artwork/shows/hearthstone-of-the-death-squad/cover.jpg",
+    "thumbnail": "artwork/shows/hearthstone-of-the-death-squad/thumb.webp",
+    "background": "artwork/shows/hearthstone-of-the-death-squad/background.jpg",
+    "episodeCount": 3
+  },
+  "In the Name of the Law": {
+    "id": "in-the-name-of-the-law",
+    "image": "artwork/shows/in-the-name-of-the-law/cover.jpg",
+    "thumbnail": "artwork/shows/in-the-name-of-the-law/thumb.webp",
+    "background": "artwork/shows/in-the-name-of-the-law/background.jpg",
+    "episodeCount": 9
+  },
+  "Inner Sanctum Mysteries": {
+    "id": "inner-sanctum-mysteries",
+    "image": "artwork/shows/inner-sanctum-mysteries/cover.jpg",
+    "thumbnail": "artwork/shows/inner-sanctum-mysteries/thumb.webp",
+    "background": "artwork/shows/inner-sanctum-mysteries/background.jpg",
+    "episodeCount": 155
+  },
+  "Inspector Thorne": {
+    "id": "inspector-thorne",
+    "image": "artwork/shows/inspector-thorne/cover.jpg",
+    "thumbnail": "artwork/shows/inspector-thorne/thumb.webp",
+    "background": "artwork/shows/inspector-thorne/background.jpg",
+    "episodeCount": 10
+  },
+  "It's a Crime, Mr. Collins": {
+    "id": "it-s-a-crime-mr-collins",
+    "image": "artwork/shows/it-s-a-crime-mr-collins/cover.jpg",
+    "thumbnail": "artwork/shows/it-s-a-crime-mr-collins/thumb.webp",
+    "background": "artwork/shows/it-s-a-crime-mr-collins/background.jpg",
+    "episodeCount": 9
+  },
+  "Jeff Regan, Investigator": {
+    "id": "jeff-regan-investigator",
+    "image": "artwork/shows/jeff-regan-investigator/cover.jpg",
+    "thumbnail": "artwork/shows/jeff-regan-investigator/thumb.webp",
+    "background": "artwork/shows/jeff-regan-investigator/background.jpg",
+    "episodeCount": 59
+  },
+  "John Steele, Adventurer": {
+    "id": "john-steele-adventurer",
+    "image": "artwork/shows/john-steele-adventurer/cover.jpg",
+    "thumbnail": "artwork/shows/john-steele-adventurer/thumb.webp",
+    "background": "artwork/shows/john-steele-adventurer/background.jpg",
+    "episodeCount": 49
+  },
+  "Let George Do It": {
+    "id": "let-george-do-it",
+    "image": "artwork/shows/let-george-do-it/cover.jpg",
+    "thumbnail": "artwork/shows/let-george-do-it/thumb.webp",
+    "background": "artwork/shows/let-george-do-it/background.jpg",
+    "episodeCount": 140
+  },
+  "Lights Out": {
+    "id": "lights-out",
+    "image": "artwork/shows/lights-out/cover.jpg",
+    "thumbnail": "artwork/shows/lights-out/thumb.webp",
+    "background": "artwork/shows/lights-out/background.jpg",
+    "episodeCount": 159
+  },
+  "Luke Slaughter of Tombstone": {
+    "id": "luke-slaughter-of-tombstone",
+    "image": "artwork/shows/luke-slaughter-of-tombstone/cover.jpg",
+    "thumbnail": "artwork/shows/luke-slaughter-of-tombstone/thumb.webp",
+    "background": "artwork/shows/luke-slaughter-of-tombstone/background.jpg",
+    "episodeCount": 16
+  },
+  "Lum and Abner": {
+    "id": "lum-and-abner",
+    "image": "artwork/shows/lum-and-abner/cover.jpg",
+    "thumbnail": "artwork/shows/lum-and-abner/thumb.webp",
+    "background": "artwork/shows/lum-and-abner/background.jpg",
+    "episodeCount": 890
+  },
+  "Lux Radio Theatre": {
+    "id": "lux-radio-theatre",
+    "image": "artwork/shows/lux-radio-theatre/cover.jpg",
+    "thumbnail": "artwork/shows/lux-radio-theatre/thumb.webp",
+    "background": "artwork/shows/lux-radio-theatre/background.jpg",
+    "episodeCount": 328
+  },
+  "Matthew Slade, Private Investigator": {
+    "id": "matthew-slade-private-investigator",
+    "image": "artwork/shows/matthew-slade-private-investigator/cover.jpg",
+    "thumbnail": "artwork/shows/matthew-slade-private-investigator/thumb.webp",
+    "background": "artwork/shows/matthew-slade-private-investigator/background.jpg",
+    "episodeCount": 8
+  },
+  "Mike Hammer": {
+    "id": "mike-hammer",
+    "image": "artwork/shows/mike-hammer/cover.jpg",
+    "thumbnail": "artwork/shows/mike-hammer/thumb.webp",
+    "background": "artwork/shows/mike-hammer/background.jpg",
+    "episodeCount": 8
+  },
+  "Molle Mystery Theatre": {
+    "id": "molle-mystery-theatre",
+    "image": "artwork/shows/molle-mystery-theatre/cover.jpg",
+    "thumbnail": "artwork/shows/molle-mystery-theatre/thumb.webp",
+    "background": "artwork/shows/molle-mystery-theatre/background.jpg",
+    "episodeCount": 71
+  },
+  "Mr. District Attorney": {
+    "id": "mr-district-attorney",
+    "image": "artwork/shows/mr-district-attorney/cover.jpg",
+    "thumbnail": "artwork/shows/mr-district-attorney/thumb.webp",
+    "background": "artwork/shows/mr-district-attorney/background.jpg",
+    "episodeCount": 84
+  },
+  "Mr. Keen, Tracer of Lost Persons": {
+    "id": "mr-keen-tracer-of-lost-persons",
+    "image": "artwork/shows/mr-keen-tracer-of-lost-persons/cover.jpg",
+    "thumbnail": "artwork/shows/mr-keen-tracer-of-lost-persons/thumb.webp",
+    "background": "artwork/shows/mr-keen-tracer-of-lost-persons/background.jpg",
+    "episodeCount": 68
+  },
+  "Mr. Malone": {
+    "id": "mr-malone",
+    "image": "artwork/shows/mr-malone/cover.jpg",
+    "thumbnail": "artwork/shows/mr-malone/thumb.webp",
+    "background": "artwork/shows/mr-malone/background.jpg",
+    "episodeCount": 13
+  },
+  "Murder Clinic": {
+    "id": "murder-clinic",
+    "image": "artwork/shows/murder-clinic/cover.jpg",
+    "thumbnail": "artwork/shows/murder-clinic/thumb.webp",
+    "background": "artwork/shows/murder-clinic/background.jpg",
+    "episodeCount": 4
+  },
+  "Mysterious Circumstances (BBC)": {
+    "id": "mysterious-circumstances-bbc",
+    "image": "artwork/shows/mysterious-circumstances-bbc/cover.jpg",
+    "thumbnail": "artwork/shows/mysterious-circumstances-bbc/thumb.webp",
+    "background": "artwork/shows/mysterious-circumstances-bbc/background.jpg",
+    "episodeCount": 20
+  },
+  "Mystery House": {
+    "id": "mystery-house",
+    "image": "artwork/shows/mystery-house/cover.jpg",
+    "thumbnail": "artwork/shows/mystery-house/thumb.webp",
+    "background": "artwork/shows/mystery-house/background.jpg",
+    "episodeCount": 32
+  },
+  "Mystery Is My Hobby": {
+    "id": "mystery-is-my-hobby",
+    "image": "artwork/shows/mystery-is-my-hobby/cover.jpg",
+    "thumbnail": "artwork/shows/mystery-is-my-hobby/thumb.webp",
+    "background": "artwork/shows/mystery-is-my-hobby/background.jpg",
+    "episodeCount": 75
+  },
+  "NBC University Theater": {
+    "id": "nbc-university-theater",
+    "image": "artwork/shows/nbc-university-theater/cover.jpg",
+    "thumbnail": "artwork/shows/nbc-university-theater/thumb.webp",
+    "background": "artwork/shows/nbc-university-theater/background.jpg",
+    "episodeCount": 93
+  },
+  "Nick Carter, Master Detective": {
+    "id": "nick-carter-master-detective",
+    "image": "artwork/shows/nick-carter-master-detective/cover.jpg",
+    "thumbnail": "artwork/shows/nick-carter-master-detective/thumb.webp",
+    "background": "artwork/shows/nick-carter-master-detective/background.jpg",
+    "episodeCount": 125
+  },
+  "Obsession": {
+    "id": "obsession",
+    "image": "artwork/shows/obsession/cover.jpg",
+    "thumbnail": "artwork/shows/obsession/thumb.webp",
+    "background": "artwork/shows/obsession/background.jpg",
+    "episodeCount": 31
+  },
+  "Old Time Radio Shows Collection": {
+    "id": "old-time-radio-shows-collection",
+    "image": "artwork/shows/old-time-radio-shows-collection/cover.jpg",
+    "thumbnail": "artwork/shows/old-time-radio-shows-collection/thumb.webp",
+    "background": "artwork/shows/old-time-radio-shows-collection/background.jpg",
+    "episodeCount": 1032
+  },
+  "Pat Novak, for Hire": {
+    "id": "pat-novak-for-hire",
+    "image": "artwork/shows/pat-novak-for-hire/cover.jpg",
+    "thumbnail": "artwork/shows/pat-novak-for-hire/thumb.webp",
+    "background": "artwork/shows/pat-novak-for-hire/background.jpg",
+    "episodeCount": 26
+  },
+  "Philip Marlowe": {
+    "id": "philip-marlowe",
+    "image": "artwork/shows/philip-marlowe/cover.jpg",
+    "thumbnail": "artwork/shows/philip-marlowe/thumb.webp",
+    "background": "artwork/shows/philip-marlowe/background.jpg",
+    "episodeCount": 136
+  },
+  "Philo Vance": {
+    "id": "philo-vance",
+    "image": "artwork/shows/philo-vance/cover.jpg",
+    "thumbnail": "artwork/shows/philo-vance/thumb.webp",
+    "background": "artwork/shows/philo-vance/background.jpg",
+    "episodeCount": 95
+  },
+  "Ranger Bill": {
+    "id": "ranger-bill",
+    "image": "artwork/shows/ranger-bill/cover.jpg",
+    "thumbnail": "artwork/shows/ranger-bill/thumb.webp",
+    "background": "artwork/shows/ranger-bill/background.jpg",
+    "episodeCount": 218
+  },
+  "Red Ryder": {
+    "id": "red-ryder",
+    "image": "artwork/shows/red-ryder/cover.jpg",
+    "thumbnail": "artwork/shows/red-ryder/thumb.webp",
+    "background": "artwork/shows/red-ryder/background.jpg",
+    "episodeCount": 65
+  },
+  "Richard Diamond, Private Detective": {
+    "id": "richard-diamond-private-detective",
+    "image": "artwork/shows/richard-diamond-private-detective/cover.jpg",
+    "thumbnail": "artwork/shows/richard-diamond-private-detective/thumb.webp",
+    "background": "artwork/shows/richard-diamond-private-detective/background.jpg",
+    "episodeCount": 106
+  },
+  "Rocky Jordan": {
+    "id": "rocky-jordan",
+    "image": "artwork/shows/rocky-jordan/cover.jpg",
+    "thumbnail": "artwork/shows/rocky-jordan/thumb.webp",
+    "background": "artwork/shows/rocky-jordan/background.jpg",
+    "episodeCount": 97
+  },
+  "Rogues Gallery": {
+    "id": "rogues-gallery",
+    "image": "artwork/shows/rogues-gallery/cover.jpg",
+    "thumbnail": "artwork/shows/rogues-gallery/thumb.webp",
+    "background": "artwork/shows/rogues-gallery/background.jpg",
+    "episodeCount": 24
+  },
+  "Roy Rogers": {
+    "id": "roy-rogers",
+    "image": "artwork/shows/roy-rogers/cover.jpg",
+    "thumbnail": "artwork/shows/roy-rogers/thumb.webp",
+    "background": "artwork/shows/roy-rogers/background.jpg",
+    "episodeCount": 96
+  },
+  "Screen Guild Theater": {
+    "id": "screen-guild-theater",
+    "image": "artwork/shows/screen-guild-theater/cover.jpg",
+    "thumbnail": "artwork/shows/screen-guild-theater/thumb.webp",
+    "background": "artwork/shows/screen-guild-theater/background.jpg",
+    "episodeCount": 364
+  },
+  "Sealtest Variety Theater": {
+    "id": "sealtest-variety-theater",
+    "image": "artwork/shows/sealtest-variety-theater/cover.jpg",
+    "thumbnail": "artwork/shows/sealtest-variety-theater/thumb.webp",
+    "background": "artwork/shows/sealtest-variety-theater/background.jpg",
+    "episodeCount": 24
+  },
+  "Secrets of Scotland Yard": {
+    "id": "secrets-of-scotland-yard",
+    "image": "artwork/shows/secrets-of-scotland-yard/cover.jpg",
+    "thumbnail": "artwork/shows/secrets-of-scotland-yard/thumb.webp",
+    "background": "artwork/shows/secrets-of-scotland-yard/background.jpg",
+    "episodeCount": 57
+  },
+  "Stand By for Crime": {
+    "id": "stand-by-for-crime",
+    "image": "artwork/shows/stand-by-for-crime/cover.jpg",
+    "thumbnail": "artwork/shows/stand-by-for-crime/thumb.webp",
+    "background": "artwork/shows/stand-by-for-crime/background.jpg",
+    "episodeCount": 26
+  },
+  "Strange Wills": {
+    "id": "strange-wills",
+    "image": "artwork/shows/strange-wills/cover.jpg",
+    "thumbnail": "artwork/shows/strange-wills/thumb.webp",
+    "background": "artwork/shows/strange-wills/background.jpg",
+    "episodeCount": 34
+  },
+  "Stroke of Fate": {
+    "id": "stroke-of-fate",
+    "image": "artwork/shows/stroke-of-fate/cover.jpg",
+    "thumbnail": "artwork/shows/stroke-of-fate/thumb.webp",
+    "background": "artwork/shows/stroke-of-fate/background.jpg",
+    "episodeCount": 13
+  },
+  "Suspense": {
+    "id": "suspense",
+    "image": "artwork/shows/suspense/cover.jpg",
+    "thumbnail": "artwork/shows/suspense/thumb.webp",
+    "background": "artwork/shows/suspense/background.jpg",
+    "episodeCount": 103
+  },
+  "Tales of the Texas Rangers": {
+    "id": "tales-of-the-texas-rangers",
+    "image": "artwork/shows/tales-of-the-texas-rangers/cover.jpg",
+    "thumbnail": "artwork/shows/tales-of-the-texas-rangers/thumb.webp",
+    "background": "artwork/shows/tales-of-the-texas-rangers/background.jpg",
+    "episodeCount": 94
+  },
+  "The Adventures of Frank Race": {
+    "id": "the-adventures-of-frank-race",
+    "image": "artwork/shows/the-adventures-of-frank-race/cover.jpg",
+    "thumbnail": "artwork/shows/the-adventures-of-frank-race/thumb.webp",
+    "background": "artwork/shows/the-adventures-of-frank-race/background.jpg",
+    "episodeCount": 43
+  },
+  "The Adventures of Sam Spade": {
+    "id": "the-adventures-of-sam-spade",
+    "image": "artwork/shows/the-adventures-of-sam-spade/cover.jpg",
+    "thumbnail": "artwork/shows/the-adventures-of-sam-spade/thumb.webp",
+    "background": "artwork/shows/the-adventures-of-sam-spade/background.jpg",
+    "episodeCount": 56
+  },
+  "The Adventures of the Abbotts": {
+    "id": "the-adventures-of-the-abbotts",
+    "image": "artwork/shows/the-adventures-of-the-abbotts/cover.jpg",
+    "thumbnail": "artwork/shows/the-adventures-of-the-abbotts/thumb.webp",
+    "background": "artwork/shows/the-adventures-of-the-abbotts/background.jpg",
+    "episodeCount": 8
+  },
+  "The Black Museum": {
+    "id": "the-black-museum",
+    "image": "artwork/shows/the-black-museum/cover.jpg",
+    "thumbnail": "artwork/shows/the-black-museum/thumb.webp",
+    "background": "artwork/shows/the-black-museum/background.jpg",
+    "episodeCount": 32
+  },
+  "The Chase": {
+    "id": "the-chase",
+    "image": "artwork/shows/the-chase/cover.jpg",
+    "thumbnail": "artwork/shows/the-chase/thumb.webp",
+    "background": "artwork/shows/the-chase/background.jpg",
+    "episodeCount": 51
+  },
+  "The Damon Runyon Theatre": {
+    "id": "the-damon-runyon-theatre",
+    "image": "artwork/shows/the-damon-runyon-theatre/cover.jpg",
+    "thumbnail": "artwork/shows/the-damon-runyon-theatre/thumb.webp",
+    "background": "artwork/shows/the-damon-runyon-theatre/background.jpg",
+    "episodeCount": 52
+  },
+  "The Falcon": {
+    "id": "the-falcon",
+    "image": "artwork/shows/the-falcon/cover.jpg",
+    "thumbnail": "artwork/shows/the-falcon/thumb.webp",
+    "background": "artwork/shows/the-falcon/background.jpg",
+    "episodeCount": 102
+  },
+  "The Great Gildersleeve": {
+    "id": "the-great-gildersleeve",
+    "image": "artwork/shows/the-great-gildersleeve/cover.jpg",
+    "thumbnail": "artwork/shows/the-great-gildersleeve/thumb.webp",
+    "background": "artwork/shows/the-great-gildersleeve/background.jpg",
+    "episodeCount": 543
+  },
+  "The Halls of Ivy": {
+    "id": "the-halls-of-ivy",
+    "image": "artwork/shows/the-halls-of-ivy/cover.jpg",
+    "thumbnail": "artwork/shows/the-halls-of-ivy/thumb.webp",
+    "background": "artwork/shows/the-halls-of-ivy/background.jpg",
+    "episodeCount": 106
+  },
+  "The Hitchhiker's Guide to the Galaxy": {
+    "id": "the-hitchhiker-s-guide-to-the-galaxy",
+    "image": "artwork/shows/the-hitchhiker-s-guide-to-the-galaxy/cover.jpg",
+    "thumbnail": "artwork/shows/the-hitchhiker-s-guide-to-the-galaxy/thumb.webp",
+    "background": "artwork/shows/the-hitchhiker-s-guide-to-the-galaxy/background.jpg",
+    "episodeCount": 32
+  },
+  "The Lone Ranger": {
+    "id": "the-lone-ranger",
+    "image": "artwork/shows/the-lone-ranger/cover.jpg",
+    "thumbnail": "artwork/shows/the-lone-ranger/thumb.webp",
+    "background": "artwork/shows/the-lone-ranger/background.jpg",
+    "episodeCount": 2363
+  },
+  "The Mysterious Traveler": {
+    "id": "the-mysterious-traveler",
+    "image": "artwork/shows/the-mysterious-traveler/cover.jpg",
+    "thumbnail": "artwork/shows/the-mysterious-traveler/thumb.webp",
+    "background": "artwork/shows/the-mysterious-traveler/background.jpg",
+    "episodeCount": 70
+  },
+  "The New Adventures of Nero Wolfe": {
+    "id": "the-new-adventures-of-nero-wolfe",
+    "image": "artwork/shows/the-new-adventures-of-nero-wolfe/cover.jpg",
+    "thumbnail": "artwork/shows/the-new-adventures-of-nero-wolfe/thumb.webp",
+    "background": "artwork/shows/the-new-adventures-of-nero-wolfe/background.jpg",
+    "episodeCount": 25
+  },
+  "The Saint": {
+    "id": "the-saint",
+    "image": "artwork/shows/the-saint/cover.jpg",
+    "thumbnail": "artwork/shows/the-saint/thumb.webp",
+    "background": "artwork/shows/the-saint/background.jpg",
+    "episodeCount": 91
+  },
+  "The Sealed Book": {
+    "id": "the-sealed-book",
+    "image": "artwork/shows/the-sealed-book/cover.jpg",
+    "thumbnail": "artwork/shows/the-sealed-book/thumb.webp",
+    "background": "artwork/shows/the-sealed-book/background.jpg",
+    "episodeCount": 28
+  },
+  "The Shadow": {
+    "id": "the-shadow",
+    "image": "artwork/shows/the-shadow/cover.jpg",
+    "thumbnail": "artwork/shows/the-shadow/thumb.webp",
+    "background": "artwork/shows/the-shadow/background.jpg",
+    "episodeCount": 239
+  },
+  "The Stories of Sherlock Holmes": {
+    "id": "the-stories-of-sherlock-holmes",
+    "image": "artwork/shows/the-stories-of-sherlock-holmes/cover.jpg",
+    "thumbnail": "artwork/shows/the-stories-of-sherlock-holmes/thumb.webp",
+    "background": "artwork/shows/the-stories-of-sherlock-holmes/background.jpg",
+    "episodeCount": 18
+  },
+  "The Twilight Zone Radio Dramas": {
+    "id": "the-twilight-zone-radio-dramas",
+    "image": "artwork/shows/the-twilight-zone-radio-dramas/cover.jpg",
+    "thumbnail": "artwork/shows/the-twilight-zone-radio-dramas/thumb.webp",
+    "background": "artwork/shows/the-twilight-zone-radio-dramas/background.jpg",
+    "episodeCount": 176
+  },
+  "The Weird Circle": {
+    "id": "the-weird-circle",
+    "image": "artwork/shows/the-weird-circle/cover.jpg",
+    "thumbnail": "artwork/shows/the-weird-circle/thumb.webp",
+    "background": "artwork/shows/the-weird-circle/background.jpg",
+    "episodeCount": 78
+  },
+  "The Whistler": {
+    "id": "the-whistler",
+    "image": "artwork/shows/the-whistler/cover.jpg",
+    "thumbnail": "artwork/shows/the-whistler/thumb.webp",
+    "background": "artwork/shows/the-whistler/background.jpg",
+    "episodeCount": 503
+  },
+  "This Is Your FBI": {
+    "id": "this-is-your-fbi",
+    "image": "artwork/shows/this-is-your-fbi/cover.jpg",
+    "thumbnail": "artwork/shows/this-is-your-fbi/thumb.webp",
+    "background": "artwork/shows/this-is-your-fbi/background.jpg",
+    "episodeCount": 362
+  },
+  "Top Secret": {
+    "id": "top-secret",
+    "image": "artwork/shows/top-secret/cover.jpg",
+    "thumbnail": "artwork/shows/top-secret/thumb.webp",
+    "background": "artwork/shows/top-secret/background.jpg",
+    "episodeCount": 19
+  },
+  "True Detective Mysteries": {
+    "id": "true-detective-mysteries",
+    "image": "artwork/shows/true-detective-mysteries/cover.jpg",
+    "thumbnail": "artwork/shows/true-detective-mysteries/thumb.webp",
+    "background": "artwork/shows/true-detective-mysteries/background.jpg",
+    "episodeCount": 20
+  },
+  "Under Arrest": {
+    "id": "under-arrest",
+    "image": "artwork/shows/under-arrest/cover.jpg",
+    "thumbnail": "artwork/shows/under-arrest/thumb.webp",
+    "background": "artwork/shows/under-arrest/background.jpg",
+    "episodeCount": 1
+  },
+  "Vanishing Point (CBC)": {
+    "id": "vanishing-point-cbc",
+    "image": "artwork/shows/vanishing-point-cbc/cover.jpg",
+    "thumbnail": "artwork/shows/vanishing-point-cbc/thumb.webp",
+    "background": "artwork/shows/vanishing-point-cbc/background.jpg",
+    "episodeCount": 24
+  },
+  "Voices from the Grave (BBC Radio)": {
+    "id": "voices-from-the-grave-bbc-radio",
+    "image": "artwork/shows/voices-from-the-grave-bbc-radio/cover.jpg",
+    "thumbnail": "artwork/shows/voices-from-the-grave-bbc-radio/thumb.webp",
+    "background": "artwork/shows/voices-from-the-grave-bbc-radio/background.jpg",
+    "episodeCount": 4
+  },
+  "Whitehall 1212": {
+    "id": "whitehall-1212",
+    "image": "artwork/shows/whitehall-1212/cover.jpg",
+    "thumbnail": "artwork/shows/whitehall-1212/thumb.webp",
+    "background": "artwork/shows/whitehall-1212/background.jpg",
+    "episodeCount": 46
+  },
+  "Wild Bill Hickok": {
+    "id": "wild-bill-hickok",
+    "image": "artwork/shows/wild-bill-hickok/cover.jpg",
+    "thumbnail": "artwork/shows/wild-bill-hickok/thumb.webp",
+    "background": "artwork/shows/wild-bill-hickok/background.jpg",
+    "episodeCount": 266
+  },
+  "X Minus One": {
+    "id": "x-minus-one",
+    "image": "artwork/shows/x-minus-one/cover.jpg",
+    "thumbnail": "artwork/shows/x-minus-one/thumb.webp",
+    "background": "artwork/shows/x-minus-one/background.jpg",
+    "episodeCount": 122
+  },
+  "Yours Truly, Johnny Dollar": {
+    "id": "yours-truly-johnny-dollar",
+    "image": "artwork/shows/yours-truly-johnny-dollar/cover.jpg",
+    "thumbnail": "artwork/shows/yours-truly-johnny-dollar/thumb.webp",
+    "background": "artwork/shows/yours-truly-johnny-dollar/background.jpg",
+    "episodeCount": 721
+  },
+  "Zero Hour": {
+    "id": "zero-hour",
+    "image": "artwork/shows/zero-hour/cover.jpg",
+    "thumbnail": "artwork/shows/zero-hour/thumb.webp",
+    "background": "artwork/shows/zero-hour/background.jpg",
+    "episodeCount": 89
+  }
+}

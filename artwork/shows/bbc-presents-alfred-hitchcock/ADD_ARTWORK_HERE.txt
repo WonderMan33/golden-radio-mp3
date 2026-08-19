@@ -1,0 +1,11 @@
+Golden Radio Hour artwork folder
+Show: BBC Presents Alfred Hitchcock
+Catalog ID: bbc-presents-alfred-hitchcock
+Episodes in current Pass 180 catalog: 19
+
+Add artwork here using these names:
+  cover.jpg        - primary square artwork (recommended 1200x1200)
+  thumb.webp       - optional smaller thumbnail
+  background.jpg   - optional wide/background artwork
+
+Do not rename this folder unless artwork.json is updated too.
