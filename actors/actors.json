@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "2026-08-19",
+  "defaultSort": "featuredRank",
+  "profiles": [
+    {
+      "id": "william-conrad",
+      "name": "William Conrad",
+      "sortName": "Conrad, William",
+      "featured": true,
+      "featuredRank": 1,
+      "categories": ["Series Leads", "Western Legends"],
+      "credits": [
+        {"program": "Gunsmoke", "character": "Matt Dillon", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "bob-bailey",
+      "name": "Bob Bailey",
+      "sortName": "Bailey, Bob",
+      "featured": true,
+      "featuredRank": 2,
+      "categories": ["Series Leads", "Detective Legends", "Johnny Dollar"],
+      "credits": [
+        {"program": "Yours Truly, Johnny Dollar", "character": "Johnny Dollar", "creditType": "lead", "associationMode": "actor_exact", "matchValue": "Bob Bailey"}
+      ]
+    },
+    {
+      "id": "orson-welles",
+      "name": "Orson Welles",
+      "sortName": "Welles, Orson",
+      "featured": true,
+      "featuredRank": 3,
+      "categories": ["Series Leads", "Narrators", "Mystery Legends"],
+      "credits": [
+        {"program": "The Black Museum", "character": "Host and narrator", "creditType": "host_narrator", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "dick-powell",
+      "name": "Dick Powell",
+      "sortName": "Powell, Dick",
+      "featured": true,
+      "featuredRank": 4,
+      "categories": ["Series Leads", "Detective Legends", "Johnny Dollar"],
+      "credits": [
+        {"program": "Richard Diamond, Private Detective", "character": "Richard Diamond", "creditType": "lead", "associationMode": "program_catalog"},
+        {"program": "Yours Truly, Johnny Dollar", "character": "Johnny Dollar", "creditType": "lead", "associationMode": "actor_exact", "matchValue": "Dick Powell"}
+      ]
+    },
+    {
+      "id": "gerald-mohr",
+      "name": "Gerald Mohr",
+      "sortName": "Mohr, Gerald",
+      "featured": true,
+      "featuredRank": 5,
+      "categories": ["Series Leads", "Detective Legends", "Johnny Dollar"],
+      "credits": [
+        {"program": "Philip Marlowe", "character": "Philip Marlowe", "creditType": "lead", "associationMode": "program_catalog"},
+        {"program": "Yours Truly, Johnny Dollar", "character": "Johnny Dollar", "creditType": "lead", "associationMode": "actor_exact", "matchValue": "Gerald Mohr"}
+      ]
+    },
+    {
+      "id": "howard-duff",
+      "name": "Howard Duff",
+      "sortName": "Duff, Howard",
+      "featured": true,
+      "featuredRank": 6,
+      "categories": ["Series Leads", "Detective Legends"],
+      "credits": [
+        {"program": "The Adventures of Sam Spade", "character": "Sam Spade", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "vincent-price",
+      "name": "Vincent Price",
+      "sortName": "Price, Vincent",
+      "featured": true,
+      "featuredRank": 7,
+      "categories": ["Series Leads", "Mystery Legends"],
+      "credits": [
+        {"program": "The Saint", "character": "Simon Templar", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "agnes-moorehead",
+      "name": "Agnes Moorehead",
+      "sortName": "Moorehead, Agnes",
+      "featured": true,
+      "featuredRank": 8,
+      "categories": ["Featured Players", "Mystery Legends"],
+      "credits": [
+        {"program": "Suspense", "character": "Featured performer", "creditType": "featured_guest", "associationMode": "program_catalog"},
+        {"program": "CBS Radio Mystery Theater", "character": "Guest performer", "creditType": "guest", "associationMode": "guest_cast_exact", "matchValue": "Agnes Moorehead"}
+      ]
+    },
+    {
+      "id": "bret-morrison",
+      "name": "Bret Morrison",
+      "sortName": "Morrison, Bret",
+      "featured": true,
+      "featuredRank": 9,
+      "categories": ["Series Leads", "Mystery Legends"],
+      "credits": [
+        {"program": "The Shadow", "character": "Lamont Cranston / The Shadow", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "john-dehner",
+      "name": "John Dehner",
+      "sortName": "Dehner, John",
+      "featured": true,
+      "featuredRank": 10,
+      "categories": ["Series Leads", "Western Legends"],
+      "credits": [
+        {"program": "Frontier Gentleman", "character": "J.B. Kendall", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "jack-webb",
+      "name": "Jack Webb",
+      "sortName": "Webb, Jack",
+      "featured": true,
+      "featuredRank": 11,
+      "categories": ["Series Leads", "Detective Legends"],
+      "credits": [
+        {"program": "Pat Novak, for Hire", "character": "Pat Novak", "creditType": "lead", "associationMode": "program_catalog"},
+        {"program": "Jeff Regan, Investigator", "character": "Jeff Regan", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "alan-ladd",
+      "name": "Alan Ladd",
+      "sortName": "Ladd, Alan",
+      "featured": true,
+      "featuredRank": 12,
+      "categories": ["Series Leads", "Detective Legends"],
+      "credits": [
+        {"program": "Box 13", "character": "Dan Holiday", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "ronald-colman",
+      "name": "Ronald Colman",
+      "sortName": "Colman, Ronald",
+      "featured": true,
+      "featuredRank": 13,
+      "categories": ["Series Leads", "Comedy and Drama"],
+      "credits": [
+        {"program": "The Halls of Ivy", "character": "William Todhunter Hall", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "hal-peary",
+      "name": "Hal Peary",
+      "sortName": "Peary, Hal",
+      "featured": true,
+      "featuredRank": 14,
+      "categories": ["Series Leads", "Comedy Legends"],
+      "credits": [
+        {"program": "The Great Gildersleeve", "character": "Throckmorton P. Gildersleeve", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "robert-young",
+      "name": "Robert Young",
+      "sortName": "Young, Robert",
+      "featured": true,
+      "featuredRank": 15,
+      "categories": ["Series Leads", "Comedy and Drama"],
+      "credits": [
+        {"program": "Father Knows Best", "character": "Jim Anderson", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "jim-jordan",
+      "name": "Jim Jordan",
+      "sortName": "Jordan, Jim",
+      "featured": true,
+      "featuredRank": 16,
+      "categories": ["Series Leads", "Comedy Legends"],
+      "credits": [
+        {"program": "Fibber McGee and Molly", "character": "Fibber McGee", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "marian-jordan",
+      "name": "Marian Jordan",
+      "sortName": "Jordan, Marian",
+      "featured": true,
+      "featuredRank": 17,
+      "categories": ["Series Leads", "Comedy Legends"],
+      "credits": [
+        {"program": "Fibber McGee and Molly", "character": "Molly McGee", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "ed-gardner",
+      "name": "Ed Gardner",
+      "sortName": "Gardner, Ed",
+      "featured": true,
+      "featuredRank": 18,
+      "categories": ["Series Leads", "Comedy Legends"],
+      "credits": [
+        {"program": "Duffy's Tavern", "character": "Archie", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "brian-donlevy",
+      "name": "Brian Donlevy",
+      "sortName": "Donlevy, Brian",
+      "featured": true,
+      "featuredRank": 19,
+      "categories": ["Series Leads", "Adventure Legends"],
+      "credits": [
+        {"program": "Dangerous Assignment", "character": "Steve Mitchell", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    },
+    {
+      "id": "william-gargan",
+      "name": "William Gargan",
+      "sortName": "Gargan, William",
+      "featured": true,
+      "featuredRank": 20,
+      "categories": ["Series Leads", "Detective Legends"],
+      "credits": [
+        {"program": "Barrie Craig", "character": "Barrie Craig", "creditType": "lead", "associationMode": "program_catalog"}
+      ]
+    }
+  ]
+}
