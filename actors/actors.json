@@ -6,6 +6,7 @@
     {
       "id": "william-conrad",
       "name": "William Conrad",
+      "image": "actors/images/william-conrad.jpg",
       "sortName": "Conrad, William",
       "featured": true,
       "featuredRank": 1,
@@ -17,6 +18,7 @@
     {
       "id": "bob-bailey",
       "name": "Bob Bailey",
+      "image": "actors/images/bob-bailey.jpg",
       "sortName": "Bailey, Bob",
       "featured": true,
       "featuredRank": 2,
@@ -28,6 +30,7 @@
     {
       "id": "orson-welles",
       "name": "Orson Welles",
+      "image": "actors/images/orson-welles.jpg",
       "sortName": "Welles, Orson",
       "featured": true,
       "featuredRank": 3,
@@ -39,6 +42,7 @@
     {
       "id": "dick-powell",
       "name": "Dick Powell",
+      "image": "actors/images/dick-powell.jpg",
       "sortName": "Powell, Dick",
       "featured": true,
       "featuredRank": 4,
@@ -51,6 +55,7 @@
     {
       "id": "gerald-mohr",
       "name": "Gerald Mohr",
+      "image": "actors/images/gerald-mohr.jpg",
       "sortName": "Mohr, Gerald",
       "featured": true,
       "featuredRank": 5,
@@ -63,6 +68,7 @@
     {
       "id": "howard-duff",
       "name": "Howard Duff",
+      "image": "actors/images/howard-duff.jpg",
       "sortName": "Duff, Howard",
       "featured": true,
       "featuredRank": 6,
@@ -74,6 +80,7 @@
     {
       "id": "vincent-price",
       "name": "Vincent Price",
+      "image": "actors/images/vincent-price.jpg",
       "sortName": "Price, Vincent",
       "featured": true,
       "featuredRank": 7,
@@ -85,6 +92,7 @@
     {
       "id": "agnes-moorehead",
       "name": "Agnes Moorehead",
+      "image": "actors/images/agnes-moorehead.jpg",
       "sortName": "Moorehead, Agnes",
       "featured": true,
       "featuredRank": 8,
@@ -97,6 +105,7 @@
     {
       "id": "bret-morrison",
       "name": "Bret Morrison",
+      "image": "actors/images/bret-morrison.jpg",
       "sortName": "Morrison, Bret",
       "featured": true,
       "featuredRank": 9,
@@ -108,6 +117,7 @@
     {
       "id": "john-dehner",
       "name": "John Dehner",
+      "image": "actors/images/john-dehner.jpg",
       "sortName": "Dehner, John",
       "featured": true,
       "featuredRank": 10,
@@ -119,6 +129,7 @@
     {
       "id": "jack-webb",
       "name": "Jack Webb",
+      "image": "actors/images/jack-webb.jpg",
       "sortName": "Webb, Jack",
       "featured": true,
       "featuredRank": 11,
@@ -131,6 +142,7 @@
     {
       "id": "alan-ladd",
       "name": "Alan Ladd",
+      "image": "actors/images/alan-ladd.jpg",
       "sortName": "Ladd, Alan",
       "featured": true,
       "featuredRank": 12,
@@ -142,6 +154,7 @@
     {
       "id": "ronald-colman",
       "name": "Ronald Colman",
+      "image": "actors/images/ronald-colman.jpg",
       "sortName": "Colman, Ronald",
       "featured": true,
       "featuredRank": 13,
@@ -153,6 +166,7 @@
     {
       "id": "hal-peary",
       "name": "Hal Peary",
+      "image": "actors/images/hal-peary.jpg",
       "sortName": "Peary, Hal",
       "featured": true,
       "featuredRank": 14,
@@ -164,6 +178,7 @@
     {
       "id": "robert-young",
       "name": "Robert Young",
+      "image": "actors/images/robert-young.jpg",
       "sortName": "Young, Robert",
       "featured": true,
       "featuredRank": 15,
@@ -175,6 +190,7 @@
     {
       "id": "jim-jordan",
       "name": "Jim Jordan",
+      "image": "actors/images/jim-jordan.jpg",
       "sortName": "Jordan, Jim",
       "featured": true,
       "featuredRank": 16,
@@ -186,6 +202,7 @@
     {
       "id": "marian-jordan",
       "name": "Marian Jordan",
+      "image": "actors/images/marian-jordan.jpg",
       "sortName": "Jordan, Marian",
       "featured": true,
       "featuredRank": 17,
@@ -197,6 +214,7 @@
     {
       "id": "ed-gardner",
       "name": "Ed Gardner",
+      "image": "actors/images/ed-gardner.jpg",
       "sortName": "Gardner, Ed",
       "featured": true,
       "featuredRank": 18,
@@ -208,6 +226,7 @@
     {
       "id": "brian-donlevy",
       "name": "Brian Donlevy",
+      "image": "actors/images/brian-donlevy.jpg",
       "sortName": "Donlevy, Brian",
       "featured": true,
       "featuredRank": 19,
@@ -219,6 +238,7 @@
     {
       "id": "william-gargan",
       "name": "William Gargan",
+      "image": "actors/images/william-gargan.jpg",
       "sortName": "Gargan, William",
       "featured": true,
       "featuredRank": 20,
