@@ -590,7 +590,7 @@
     {
       "id": "chester-lauck",
       "name": "Chester Lauck",
-      "image": "",
+      "image": "actors/images/chester-lauck.jpg",
       "birthDate": "February 9, 1902",
       "deathDate": "February 21, 1980",
       "birthplace": "Alleene",
@@ -614,7 +614,7 @@
     {
       "id": "norris-goff",
       "name": "Norris Goff",
-      "image": "",
+      "image": "actors/images/norris-goff.jpg",
       "birthDate": "May 30, 1906",
       "deathDate": "June 7, 1978",
       "birthplace": "Cove",
@@ -638,7 +638,7 @@
     {
       "id": "bob-elliott",
       "name": "Bob Elliott",
-      "image": "",
+      "image": "actors/images/bob-elliott.jpg",
       "birthDate": "March 26, 1923",
       "deathDate": "February 2, 2016",
       "birthplace": "Boston",
@@ -662,7 +662,7 @@
     {
       "id": "ray-goulding",
       "name": "Ray Goulding",
-      "image": "",
+      "image": "actors/images/ray-goulding.jpg",
       "birthDate": "March 20, 1922",
       "deathDate": "March 24, 1990",
       "birthplace": "Lowell",
@@ -686,7 +686,7 @@
     {
       "id": "lon-clark",
       "name": "Lon Clark",
-      "image": "",
+      "image": "actors/images/lon-clark.jpg",
       "birthDate": "January 12, 1912",
       "deathDate": "October 7, 1998",
       "birthplace": "",
@@ -710,7 +710,7 @@
     {
       "id": "richard-kollmar",
       "name": "Richard Kollmar",
-      "image": "",
+      "image": "actors/images/richard-kollmar.jpg",
       "birthDate": "December 31, 1910",
       "deathDate": "January 7, 1971",
       "birthplace": "Ridgewood",
@@ -734,7 +734,7 @@
     {
       "id": "stacy-harris",
       "name": "Stacy Harris",
-      "image": "",
+      "image": "actors/images/stacy-harris.jpg",
       "birthDate": "July 26, 1918",
       "deathDate": "March 13, 1973",
       "birthplace": "Seattle",
@@ -758,7 +758,7 @@
     {
       "id": "larry-thor",
       "name": "Larry Thor",
-      "image": "",
+      "image": "actors/images/larry-thor.jpg",
       "birthDate": "August 27, 1916",
       "deathDate": "March 16, 1976",
       "birthplace": "Canada",
@@ -806,7 +806,7 @@
     {
       "id": "paul-mcgrath",
       "name": "Paul McGrath",
-      "image": "",
+      "image": "actors/images/paul-mcgrath.jpg",
       "birthDate": "April 11, 1904",
       "deathDate": "April 13, 1978",
       "birthplace": "Chicago",
@@ -830,7 +830,7 @@
     {
       "id": "herbert-marshall",
       "name": "Herbert Marshall",
-      "image": "",
+      "image": "actors/images/herbert-marshall.jpg",
       "birthDate": "May 23, 1890",
       "deathDate": "January 22, 1966",
       "birthplace": "London",
@@ -854,7 +854,7 @@
     {
       "id": "joel-mccrea",
       "name": "Joel McCrea",
-      "image": "",
+      "image": "actors/images/joel-mccrea.jpg",
       "birthDate": "November 5, 1905",
       "deathDate": "October 20, 1990",
       "birthplace": "California",
@@ -878,7 +878,7 @@
     {
       "id": "roy-rogers",
       "name": "Roy Rogers",
-      "image": "",
+      "image": "actors/images/roy-rogers.jpg",
       "birthDate": "November 5, 1911",
       "deathDate": "July 6, 1998",
       "birthplace": "Cincinnati",
@@ -950,7 +950,7 @@
     {
       "id": "jay-jostyn",
       "name": "Jay Jostyn",
-      "image": "",
+      "image": "actors/images/jay-jostyn.jpg",
       "birthDate": "December 13, 1905",
       "deathDate": "July 24, 1977",
       "birthplace": "Milwaukee",
@@ -998,7 +998,7 @@
     {
       "id": "don-maclaughlin",
       "name": "Don MacLaughlin",
-      "image": "",
+      "image": "actors/images/don-maclaughlin.jpg",
       "birthDate": "November 24, 1906",
       "deathDate": "May 28, 1986",
       "birthplace": "Webster",
@@ -1070,7 +1070,7 @@
     {
       "id": "reed-hadley",
       "name": "Reed Hadley",
-      "image": "",
+      "image": "actors/images/reed-hadley.jpg",
       "birthDate": "June 25, 1911",
       "deathDate": "December 11, 1974",
       "birthplace": "Petrolia",
@@ -1118,7 +1118,7 @@
     {
       "id": "jeff-chandler",
       "name": "Jeff Chandler",
-      "image": "",
+      "image": "actors/images/jeff-chandler.jpg",
       "birthDate": "December 15, 1918",
       "deathDate": "June 17, 1961",
       "birthplace": "Brooklyn",
@@ -1166,7 +1166,7 @@
     {
       "id": "paul-dubov",
       "name": "Paul Dubov",
-      "image": "",
+      "image": "actors/images/paul-dubov.jpg",
       "birthDate": "October 10, 1918",
       "deathDate": "September 20, 1979",
       "birthplace": "Illinois",
@@ -1190,7 +1190,7 @@
     {
       "id": "raymond-burr",
       "name": "Raymond Burr",
-      "image": "",
+      "image": "actors/images/raymond-burr.jpg",
       "birthDate": "May 21, 1917",
       "deathDate": "September 12, 1993",
       "birthplace": "New Westminster",
@@ -1214,7 +1214,7 @@
     {
       "id": "sydney-greenstreet",
       "name": "Sydney Greenstreet",
-      "image": "",
+      "image": "actors/images/sydney-greenstreet.jpg",
       "birthDate": "December 27, 1879",
       "deathDate": "January 18, 1954",
       "birthplace": "Sandwich",
@@ -1238,7 +1238,7 @@
     {
       "id": "norman-rose",
       "name": "Norman Rose",
-      "image": "",
+      "image": "actors/images/norman-rose.jpg",
       "birthDate": "June 23, 1917",
       "deathDate": "November 12, 2004",
       "birthplace": "Philadelphia",
@@ -1268,7 +1268,7 @@
     {
       "id": "dane-clark",
       "name": "Dane Clark",
-      "image": "",
+      "image": "actors/images/dane-clark.jpg",
       "birthDate": "February 26, 1912",
       "deathDate": "September 11, 1998",
       "birthplace": "Brooklyn",
@@ -1316,7 +1316,7 @@
     {
       "id": "karl-weber",
       "name": "Karl Weber",
-      "image": "",
+      "image": "actors/images/karl-weber.jpg",
       "birthDate": "March 17, 1916",
       "deathDate": "July 30, 1990",
       "birthplace": "Iowa",
@@ -1340,7 +1340,7 @@
     {
       "id": "frank-lovejoy",
       "name": "Frank Lovejoy",
-      "image": "",
+      "image": "actors/images/frank-lovejoy.jpg",
       "birthDate": "March 28, 1914",
       "deathDate": "October 2, 1962",
       "birthplace": "The Bronx",
@@ -1364,7 +1364,7 @@
     {
       "id": "lurene-tuttle",
       "name": "Lurene Tuttle",
-      "image": "",
+      "image": "actors/images/lurene-tuttle.jpg",
       "birthDate": "August 29, 1907",
       "deathDate": "May 28, 1986",
       "birthplace": "Pleasant Lake",
@@ -1412,7 +1412,7 @@
     {
       "id": "parley-baer",
       "name": "Parley Baer",
-      "image": "",
+      "image": "actors/images/parley-baer.jpg",
       "birthDate": "August 5, 1914",
       "deathDate": "November 22, 2002",
       "birthplace": "Salt Lake City",
@@ -1436,7 +1436,7 @@
     {
       "id": "howard-mcnear",
       "name": "Howard McNear",
-      "image": "",
+      "image": "actors/images/howard-mcnear.jpg",
       "birthDate": "January 27, 1905",
       "deathDate": "January 3, 1969",
       "birthplace": "Los Angeles",
@@ -1460,7 +1460,7 @@
     {
       "id": "willard-waterman",
       "name": "Willard Waterman",
-      "image": "",
+      "image": "actors/images/willard-waterman.jpg",
       "birthDate": "August 29, 1914",
       "deathDate": "February 2, 1995",
       "birthplace": "Madison",
@@ -1484,7 +1484,7 @@
     {
       "id": "bill-thompson",
       "name": "Bill Thompson",
-      "image": "",
+      "image": "actors/images/bill-thompson.jpg",
       "birthDate": "July 8, 1913",
       "deathDate": "July 15, 1971",
       "birthplace": "Terre Haute",
@@ -1508,7 +1508,7 @@
     {
       "id": "gale-gordon",
       "name": "Gale Gordon",
-      "image": "",
+      "image": "actors/images/gale-gordon.jpg",
       "birthDate": "February 20, 1906",
       "deathDate": "June 30, 1995",
       "birthplace": "New York City",
@@ -1556,7 +1556,7 @@
     {
       "id": "benita-hume",
       "name": "Benita Hume",
-      "image": "",
+      "image": "actors/images/benita-hume.jpg",
       "birthDate": "October 14, 1906",
       "deathDate": "November 1, 1967",
       "birthplace": "London",
@@ -1580,7 +1580,7 @@
     {
       "id": "virginia-gregg",
       "name": "Virginia Gregg",
-      "image": "",
+      "image": "actors/images/virginia-gregg.jpg",
       "birthDate": "March 6, 1916",
       "deathDate": "September 15, 1986",
       "birthplace": "Harrisburg",
@@ -1604,7 +1604,7 @@
     {
       "id": "charles-russell",
       "name": "Charles Russell",
-      "image": "",
+      "image": "actors/images/charles-russell.jpg",
       "birthDate": "March 31, 1918",
       "deathDate": "January 18, 1985",
       "birthplace": "New York City",
@@ -1629,7 +1629,7 @@
     {
       "id": "edmond-obrien",
       "name": "Edmond O'Brien",
-      "image": "",
+      "image": "actors/images/edmond-obrien.jpg",
       "birthDate": "September 10, 1915",
       "deathDate": "May 9, 1985",
       "birthplace": "New York City",
@@ -1654,7 +1654,7 @@
     {
       "id": "john-lund",
       "name": "John Lund",
-      "image": "",
+      "image": "actors/images/john-lund.jpg",
       "birthDate": "February 6, 1911",
       "deathDate": "May 10, 1992",
       "birthplace": "Rochester",
@@ -1679,7 +1679,7 @@
     {
       "id": "mandel-kramer",
       "name": "Mandel Kramer",
-      "image": "",
+      "image": "actors/images/mandel-kramer.jpg",
       "birthDate": "March 12, 1916",
       "deathDate": "January 29, 1989",
       "birthplace": "",
@@ -1704,7 +1704,7 @@
     {
       "id": "bob-readick",
       "name": "Bob Readick",
-      "image": "",
+      "image": "actors/images/bob-readick.jpg",
       "birthDate": "November 28, 1925",
       "deathDate": "May 27, 1985",
       "birthplace": "New York City",
