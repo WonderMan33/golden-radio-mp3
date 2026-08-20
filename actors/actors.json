@@ -13,7 +13,7 @@
       "biography": "William Conrad was one of the defining voices of American radio drama. Born John William Cann Jr., he began as a California radio announcer, writer and actor before serving with the United States Army Air Forces during World War II. His deep, authoritative voice made him exceptionally versatile, and he later estimated that he had performed thousands of radio roles. Conrad's signature achievement was originating Marshal Matt Dillon on the CBS radio version of Gunsmoke from 1952 to 1961. His restrained, psychologically grounded performance helped give the series a realism unusual for radio westerns. He was also heard in Escape, The Man Called X, The Voyage of the Scarlet Queen and many anthology programs. Conrad later became a successful film and television producer, director, narrator and star, notably leading Cannon and Jake and the Fatman. He was inducted into the National Radio Hall of Fame in 1997.",
       "sortName": "Conrad, William",
       "featured": true,
-      "featuredRank": 1,
+      "featuredRank": 10,
       "categories": [
         "Series Leads",
         "Western Legends"
@@ -36,8 +36,8 @@
       "birthplace": "Toledo, Ohio, United States",
       "biography": "Robert Bainter Bailey came from a theatrical family and began performing as a child. Although he appeared in films, radio became the medium in which his controlled, natural delivery made the strongest impression. Bailey first became closely identified with detective drama as George Valentine in Let George Do It, a role he played for most of that program's run. In 1955 he took over Yours Truly, Johnny Dollar and became the actor most strongly associated with the freelance insurance investigator. Bailey was especially effective during the celebrated five-part serial period, giving Johnny Dollar toughness, humor and emotional depth without turning him into a caricature. His performances helped transform the program from a conventional detective series into a more character-driven drama. Bailey continued in the role until 1960 and remains, for many old-time-radio listeners, the definitive Johnny Dollar.",
       "sortName": "Bailey, Bob",
-      "featured": true,
-      "featuredRank": 2,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Detective Legends",
@@ -63,7 +63,7 @@
       "biography": "Orson Welles was a director, actor, writer and producer whose experiments reshaped radio, theatre and film. After acclaimed work with the Federal Theatre Project, Welles and producer John Houseman founded the Mercury Theatre in 1937. CBS brought the company to radio as The Mercury Theatre on the Air, where Welles adapted major literary works with cinematic pacing, expressive sound and unusually ambitious performances. The October 30, 1938 presentation of The War of the Worlds became the most famous dramatic broadcast in American radio history, although later scholarship has challenged claims of nationwide panic. Welles also played Lamont Cranston in The Shadow and led The Campbell Playhouse, Ceiling Unlimited and other series. He carried radio's techniques of narration, sound and dramatic structure into Citizen Kane and his later filmmaking. His radio work remains central to understanding how broadcasting developed as a serious dramatic art.",
       "sortName": "Welles, Orson",
       "featured": true,
-      "featuredRank": 3,
+      "featuredRank": 1,
       "categories": [
         "Series Leads",
         "Narrators",
@@ -88,7 +88,7 @@
       "biography": "Dick Powell achieved one of Hollywood's most successful changes of image. Initially famous as a cheerful singer in Warner Bros. musicals, he reinvented himself during the 1940s as a convincing hardboiled lead, beginning with Murder, My Sweet, in which he became the first actor to play Philip Marlowe in a feature film. Radio made full use of both his charm and his tougher dramatic style. Powell starred as the witty, piano-playing detective Richard Diamond from 1949 to 1953 and briefly portrayed Johnny Dollar in the program's 1948 audition recording. He also appeared frequently in dramatic anthologies and film adaptations. Powell later became an influential producer, director and studio executive, helping establish Four Star Television and hosting successful television anthologies. His Richard Diamond performance remains distinctive because it balances hardboiled danger with relaxed comedy and romance, demonstrating the range that defined Powell's career.",
       "sortName": "Powell, Dick",
       "featured": true,
-      "featuredRank": 4,
+      "featuredRank": 9,
       "categories": [
         "Series Leads",
         "Detective Legends",
@@ -119,8 +119,8 @@
       "birthplace": "New York City, New York, United States",
       "biography": "Gerald Mohr possessed one of radio's most recognizable baritone voices. A native New Yorker, he entered broadcasting as a reporter and developed into a prolific actor whose career included hundreds of radio performances as well as extensive film and television work. His defining role was Raymond Chandler's private detective Philip Marlowe in The Adventures of Philip Marlowe from 1948 to 1951. Mohr gave Marlowe a combination of intelligence, fatigue, toughness and dry humor that suited Chandler's world without merely imitating a movie gangster. He also starred as Michael Lanyard in The Lone Wolf, played Archie Goodwin in The New Adventures of Nero Wolfe, and appeared in The Whistler, Frontier Town and numerous dramatic anthologies. Contemporary radio audiences and publications recognized his versatility, while later listeners have continued to regard his Marlowe as one of the strongest detective characterizations produced during network radio's golden age.",
       "sortName": "Mohr, Gerald",
-      "featured": true,
-      "featuredRank": 5,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Detective Legends",
@@ -152,7 +152,7 @@
       "biography": "Howard Duff was born in Charleston, Washington, an area later incorporated into Bremerton, and grew up in Seattle. He worked in regional theatre before serving with the Armed Forces Radio Service during World War II. Duff's great radio role was Dashiell Hammett's private detective Sam Spade in The Adventures of Sam Spade from 1946 to 1950. His performance was sardonic, fast-moving and playful, capturing Spade's intelligence and moral ambiguity while fitting the program's lighter chemistry with secretary Effie Perrine. Duff's radio prominence led to a long screen career beginning with Brute Force and The Naked City, followed by decades of film and television acting and occasional directing. Political accusations during the Red Scare disrupted his radio career, but he continued working successfully on screen. His Sam Spade remains one of the essential performances in American radio detective drama.",
       "sortName": "Duff, Howard",
       "featured": true,
-      "featuredRank": 6,
+      "featuredRank": 14,
       "categories": [
         "Series Leads",
         "Detective Legends"
@@ -176,7 +176,7 @@
       "biography": "Vincent Price brought elegance, intelligence and a sly sense of humor to stage, film, television and radio. Educated in art history before pursuing acting, he worked with Orson Welles's Mercury Theatre and built a screen career long before becoming a horror-film icon. On radio, Price is most closely associated with Simon Templar in The Saint. From 1947 into 1951, his polished voice and playful delivery made Templar sophisticated without weakening the character's appetite for danger. Price also appeared in Suspense, Escape, Lux Radio Theatre and many other dramatic programs, where his precise diction could suggest romance, menace or irony. His later films, including House of Wax and the Edgar Allan Poe cycle directed by Roger Corman, made him internationally recognizable. Beyond acting, he was a serious art collector, lecturer and author. His radio performances reveal the range behind the famous screen persona.",
       "sortName": "Price, Vincent",
       "featured": true,
-      "featuredRank": 7,
+      "featuredRank": 2,
       "categories": [
         "Series Leads",
         "Mystery Legends"
@@ -200,7 +200,7 @@
       "biography": "Agnes Moorehead was among the most accomplished dramatic performers in American radio. After studying biology, public speaking and acting, she built a demanding broadcasting career that required rapid changes of age, accent and personality. Moorehead joined Orson Welles's Mercury Theatre, played Margo Lane opposite Welles in The Shadow and followed the Mercury company into films including Citizen Kane and The Magnificent Ambersons. Radio listeners knew her especially as the “First Lady of Suspense.” Her performance in Lucille Fletcher's Sorry, Wrong Number, first heard on Suspense in 1943 and repeated several times, became a landmark of vocal acting and was selected for the National Recording Registry. Moorehead accumulated major film awards and later became widely known as Endora on Bewitched, but she continued valuing radio throughout her career. Her final broadcasts came in the opening year of CBS Radio Mystery Theater in 1974.",
       "sortName": "Moorehead, Agnes",
       "featured": true,
-      "featuredRank": 8,
+      "featuredRank": 4,
       "categories": [
         "Featured Players",
         "Mystery Legends"
@@ -230,8 +230,8 @@
       "birthplace": "Chicago, Illinois, United States",
       "biography": "Bret Morrison was a Chicago-born radio actor and singer best remembered as the longest-serving performer to portray Lamont Cranston, the secret identity of The Shadow. He entered broadcasting while young and worked steadily in Chicago and New York radio before assuming the famous role in 1943. Morrison played Cranston and The Shadow during separate runs extending into 1954, giving the character a controlled, urbane surface and a commanding supernatural presence. His interpretation followed earlier versions by Orson Welles and Bill Johnstone but became the voice heard through much of the program's later network life. Morrison also appeared in many other dramas, soap operas and anthology programs and maintained a parallel career as a cabaret singer. Because recordings from different periods of The Shadow remain widely circulated, his performance has become one of the voices most strongly associated with the character's enduring old-time-radio identity.",
       "sortName": "Morrison, Bret",
-      "featured": true,
-      "featuredRank": 9,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Mystery Legends"
@@ -255,7 +255,7 @@
       "biography": "John Dehner was one of network radio's most versatile character actors and one of its finest western leads. Before acting became his profession, he worked in animation at Walt Disney Studios and in broadcasting as an announcer and news editor. His station's coverage of the 1945 United Nations conference contributed to a Peabody Award. Dehner became a constant presence in radio drama, appearing in Gunsmoke, Escape, Suspense and scores of other programs as villains, officials, gunfighters and sophisticated authority figures. In 1958 he starred as J. B. Kendall, an English correspondent traveling the American West, in Frontier Gentleman. Later that year he became Paladin in the radio adaptation of Have Gun—Will Travel, which ran through 1960. Dehner's intelligence, precision and dry restraint distinguished both roles. He also sustained a busy film and television career, often playing polished antagonists and complex supporting characters.",
       "sortName": "Dehner, John",
       "featured": true,
-      "featuredRank": 10,
+      "featuredRank": 15,
       "categories": [
         "Series Leads",
         "Western Legends"
@@ -279,7 +279,7 @@
       "biography": "Jack Webb began in West Coast radio and became one of broadcasting's most influential actor-producers. His early dramatic work included the strikingly hardboiled Pat Novak, for Hire, Johnny Madero, Pier 23 and Jeff Regan, Investigator. Webb's clipped delivery and appreciation for jazz gave those programs a sound unlike conventional mystery series. In 1949 he created Dragnet, drawing on police procedures and case records to present crime drama with documentary-style narration, restrained acting and detailed sound effects. Webb played Sergeant Joe Friday on radio, television and film and supervised nearly every aspect of the franchise. He later created Mark VII Limited and produced additional series centered on public service professions. Although Dragnet's style was often imitated and parodied, its influence on radio and television police drama is substantial. Webb demonstrated how careful sound, repetition and procedural detail could generate suspense without relying on exaggerated melodrama.",
       "sortName": "Webb, Jack",
       "featured": true,
-      "featuredRank": 11,
+      "featuredRank": 6,
       "categories": [
         "Series Leads",
         "Detective Legends"
@@ -309,7 +309,7 @@
       "biography": "Alan Ladd became a major Hollywood star through films noir and westerns, but radio played an important part in developing his distinctive voice and screen image. Before his breakthrough in This Gun for Hire, Ladd worked heavily in Los Angeles broadcasting, sometimes performing on numerous programs in a single week. As a film star he returned regularly to radio anthologies and adaptations. His principal series was Box 13, produced by his own Mayfair Productions and syndicated beginning in 1948. Ladd played Dan Holiday, a former newspaper reporter turned mystery writer who advertised for dangerous adventures as story material. The series combined detective fiction, travel and suspense while giving Ladd greater creative control than a network guest appearance. His later film Shane became one of the landmark westerns. Box 13 preserves Ladd in a sustained radio role and shows how Hollywood performers used independent production and syndication to reach national audiences.",
       "sortName": "Ladd, Alan",
       "featured": true,
-      "featuredRank": 12,
+      "featuredRank": 5,
       "categories": [
         "Series Leads",
         "Detective Legends"
@@ -332,8 +332,8 @@
       "birthplace": "Richmond, Surrey, England",
       "biography": "Ronald Colman's resonant, carefully controlled voice helped him move successfully from silent pictures into sound films and made him a natural radio performer. Born in England, he served with the London Scottish Regiment during World War I before establishing himself on stage and in films. Colman became a leading Hollywood star in works including Lost Horizon, The Prisoner of Zenda, Random Harvest and A Double Life, for which he won the Academy Award for Best Actor. On radio he was an admired dramatic guest and also displayed an unexpected gift for comedy with his wife, Benita Hume, during recurring appearances as Jack Benny's sophisticated neighbors. That success led to The Halls of Ivy, broadcast from 1950 to 1952, with Colman playing college president William Todhunter Hall opposite Hume. The warm, literate series made Colman's elegant voice central to one of radio's most distinctive domestic comedies.",
       "sortName": "Colman, Ronald",
-      "featured": true,
-      "featuredRank": 13,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Comedy and Drama"
@@ -356,8 +356,8 @@
       "birthplace": "San Leandro, California, United States",
       "biography": "Harold “Hal” Peary was an actor, comedian and singer whose best-known character became one of broadcasting's earliest successful spin-offs. Born Harrold José Pereira de Faria to Portuguese parents, he performed as a singer on Bay Area radio before moving into Chicago broadcasting. In 1938 he introduced the pompous but ultimately warmhearted Throckmorton P. Gildersleeve on Fibber McGee and Molly. The character became so popular that The Great Gildersleeve launched as a separate series in 1941, with Peary starring as Summerfield's water commissioner and guardian to niece Marjorie and nephew Leroy. His booming voice, musical ability and famous embarrassed laugh made Gildersleeve immediately recognizable. Peary left the role in 1950 during a network contract dispute and starred in The Harold Peary Show. He later worked as a disc jockey and performed extensively in animation, television and commercials.",
       "sortName": "Peary, Hal",
-      "featured": true,
-      "featuredRank": 14,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Comedy Legends"
@@ -381,7 +381,7 @@
       "biography": "Robert Young was already an experienced film leading man when he began playing insurance salesman Jim Anderson in the radio comedy Father Knows Best in 1949. Born in Chicago and trained at the Pasadena Playhouse, Young had worked in silent-film bit parts before a long contract career at MGM. His relaxed authority and ability to suggest concern beneath mild exasperation made Jim Anderson believable as both comic father and family counselor. The radio program ran until 1954 and then moved to television, where Young continued the role and became identified with an idealized version of American fatherhood. He later achieved another television success as the compassionate physician in Marcus Welby, M.D. and won multiple Emmy Awards. Away from his reassuring screen characters, Young publicly discussed his struggles with depression and alcoholism and supported mental-health advocacy. His radio work established the character that shaped the best-known phase of his career.",
       "sortName": "Young, Robert",
       "featured": true,
-      "featuredRank": 15,
+      "featuredRank": 11,
       "categories": [
         "Series Leads",
         "Comedy and Drama"
@@ -404,8 +404,8 @@
       "birthplace": "Near Peoria, Illinois, United States",
       "biography": "Jim Jordan and his wife Marian developed one of radio's most durable comedy partnerships. The Peoria-area performers married in 1918, toured in vaudeville and worked through years of uncertain engagements before finding success in Chicago radio. Their programs evolved into Fibber McGee and Molly, which began nationally in 1935. As Fibber, Jim played an enthusiastic storyteller and schemer whose confidence almost always exceeded his knowledge. The fictional home at 79 Wistful Vista became the center of a richly populated comic community, and the crashing hall closet became one of broadcasting's best-known sound gags. Jordan's performance depended on timing and chemistry with Marian rather than simple punch lines. The series continued in different forms through 1959. After Marian's death, Jim largely retired, later voicing the albatross Orville in Disney's The Rescuers. Jim and Marian Jordan were inducted into the National Radio Hall of Fame in 1989.",
       "sortName": "Jordan, Jim",
-      "featured": true,
-      "featuredRank": 16,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Comedy Legends"
@@ -428,8 +428,8 @@
       "birthplace": "Peoria, Illinois, United States",
       "biography": "Marian Driscoll Jordan was the calm center of Fibber McGee and Molly and an essential architect of its comedy. She met Jim Jordan through church activities in Peoria, married him in 1918 and joined him in vaudeville and early radio work. Before their signature series, the Jordans created numerous voices and characters for Chicago programs including Smackout. As Molly McGee, Marian answered Fibber's exaggerations with affection, patience and perfectly measured skepticism. Her quiet reactions, warm laugh and recurring “'Tain't funny, McGee” were as important to the program's rhythm as its elaborate jokes and sound effects. Health problems periodically interrupted her work, but she returned and remained identified with Molly throughout the series' long run in network and later short-form broadcasting. Marian and Jim's partnership helped establish the domestic situation comedy years before television adopted the form. They were inducted together into the National Radio Hall of Fame in 1989.",
       "sortName": "Jordan, Marian",
-      "featured": true,
-      "featuredRank": 17,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Comedy Legends"
@@ -452,8 +452,8 @@
       "birthplace": "Astoria, Queens, New York City, United States",
       "biography": "Ed Gardner was the creator, principal writer and star of Duffy's Tavern, one of radio's great character comedies. Born Edward Poggenberg in Astoria, Queens, Gardner worked behind the microphone as a writer, producer and director before developing Archie for a 1941 program. Unable to find another actor who matched the voice he imagined, Gardner played the role himself. Archie was the fast-talking, malaprop-prone manager of a New York tavern whose owner, Duffy, was always addressed by telephone but never heard. Gardner's nasal delivery, fractured vocabulary and precise timing made Archie both ridiculous and strangely resourceful. Duffy's Tavern moved among CBS, the Blue Network and NBC and attracted a remarkable range of celebrity guests while maintaining its working-class ensemble. Gardner also adapted the show for film and pursued other acting and production work. The series remains a model of radio comedy built around voice, language and a vividly imagined location.",
       "sortName": "Gardner, Ed",
-      "featured": true,
-      "featuredRank": 18,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Comedy Legends"
@@ -476,8 +476,8 @@
       "birthplace": "Cleveland, Ohio, United States",
       "biography": "Brian Donlevy built a long film career playing forceful soldiers, officials, criminals and other hard-edged men. He received an Academy Award nomination for Beau Geste and gave memorable performances in The Great McGinty, Wake Island and numerous crime and adventure pictures. Radio listeners knew him best as government agent Steve Mitchell in Dangerous Assignment. Beginning on NBC in 1949, each story sent Mitchell overseas after a briefing from an unnamed commissioner, placing him inside espionage, political violence or international crime. Donlevy's blunt, confident delivery gave the series the pace of a postwar thriller while supporting its globe-trotting premise. He carried the role into a syndicated television adaptation, making Dangerous Assignment an early example of a property built across radio and television around the same star. Donlevy's screen reputation for toughness fit Steve Mitchell naturally, but the radio series also allowed him to convey intelligence, caution and professional discipline.",
       "sortName": "Donlevy, Brian",
-      "featured": true,
-      "featuredRank": 19,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Adventure Legends"
@@ -500,8 +500,8 @@
       "birthplace": "Brooklyn, New York, United States",
       "biography": "William Gargan was a film, radio and television actor whose easy authority made him particularly effective as detectives and working professionals. Born in Brooklyn, he worked in sales and private investigation before establishing himself on stage and screen. He earned an Academy Award nomination for They Knew What They Wanted and became widely known as the title detective in Martin Kane, Private Eye on radio and television. From 1951 to 1955 he starred as Barrie Craig, a New York private investigator whose cases emphasized observation, persistence and humane judgment as much as gunplay. Gargan's conversational delivery gave Craig the credibility of an experienced professional rather than an exaggerated hardboiled hero. Throat cancer ended his acting career and required the removal of his larynx, after which he became an advocate and lecturer for the American Cancer Society. The Screen Actors Guild honored him with its Life Achievement Award in 1967.",
       "sortName": "Gargan, William",
-      "featured": true,
-      "featuredRank": 20,
+      "featured": false,
+      "featuredRank": 9999,
       "categories": [
         "Series Leads",
         "Detective Legends"
@@ -860,8 +860,8 @@
       "birthplace": "California",
       "biography": "Joel McCrea starred as Ranger Jace Pearson in Tales of the Texas Rangers. Already celebrated for western films, he gave the radio series a quiet authenticity and professional steadiness.",
       "sortName": "McCrea, Joel",
-      "featured": false,
-      "featuredRank": 9999,
+      "featured": true,
+      "featuredRank": 7,
       "categories": [
         "Series Leads",
         "Western Legends"
@@ -884,8 +884,8 @@
       "birthplace": "Cincinnati",
       "biography": "Roy Rogers was one of America's defining singing-cowboy stars across film, records, radio and television. His radio adventures combined western action, music and an accessible code of fair play.",
       "sortName": "Rogers, Roy",
-      "featured": false,
-      "featuredRank": 9999,
+      "featured": true,
+      "featuredRank": 8,
       "categories": [
         "Series Leads",
         "Western Legends"
@@ -1124,8 +1124,8 @@
       "birthplace": "Brooklyn",
       "biography": "Before becoming a major film star, Jeff Chandler built a substantial radio career. He originated frontier attorney Chad Remington in Frontier Town, bringing the western adventure series a strong dramatic lead.",
       "sortName": "Chandler, Jeff",
-      "featured": false,
-      "featuredRank": 9999,
+      "featured": true,
+      "featuredRank": 12,
       "categories": [
         "Series Leads",
         "Western Legends"
@@ -1196,8 +1196,8 @@
       "birthplace": "New Westminster",
       "biography": "Raymond Burr starred as Captain Lee Quince in Fort Laramie, portraying a professional cavalry officer burdened by command on the frontier. The role displayed the vocal authority that later defined much of his screen career.",
       "sortName": "Burr, Raymond",
-      "featured": false,
-      "featuredRank": 9999,
+      "featured": true,
+      "featuredRank": 3,
       "categories": [
         "Series Leads",
         "Western Legends"
@@ -1220,8 +1220,8 @@
       "birthplace": "Sandwich",
       "biography": "Sydney Greenstreet gave Nero Wolfe a rich mixture of intellect, impatience and theatrical grandeur. His distinctive voice made The New Adventures of Nero Wolfe one of radio's most memorable interpretations of the detective.",
       "sortName": "Greenstreet, Sydney",
-      "featured": false,
-      "featuredRank": 9999,
+      "featured": true,
+      "featuredRank": 13,
       "categories": [
         "Series Leads",
         "Detective Legends"
