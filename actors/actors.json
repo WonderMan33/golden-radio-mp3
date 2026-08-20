@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026-08-20",
+  "catalogVersion": "2026-08-20-pass-02",
   "defaultSort": "featuredRank",
   "profiles": [
     {
@@ -14,9 +14,17 @@
       "sortName": "Conrad, William",
       "featured": true,
       "featuredRank": 1,
-      "categories": ["Series Leads", "Western Legends"],
+      "categories": [
+        "Series Leads",
+        "Western Legends"
+      ],
       "credits": [
-        {"program": "Gunsmoke", "character": "Matt Dillon", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Gunsmoke",
+          "character": "Matt Dillon",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -30,9 +38,19 @@
       "sortName": "Bailey, Bob",
       "featured": true,
       "featuredRank": 2,
-      "categories": ["Series Leads", "Detective Legends", "Johnny Dollar"],
+      "categories": [
+        "Series Leads",
+        "Detective Legends",
+        "Johnny Dollar"
+      ],
       "credits": [
-        {"program": "Yours Truly, Johnny Dollar", "character": "Johnny Dollar", "creditType": "lead", "associationMode": "actor_exact", "matchValue": "Bob Bailey"}
+        {
+          "program": "Yours Truly, Johnny Dollar",
+          "character": "Johnny Dollar",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Bob Bailey"
+        }
       ]
     },
     {
@@ -46,9 +64,18 @@
       "sortName": "Welles, Orson",
       "featured": true,
       "featuredRank": 3,
-      "categories": ["Series Leads", "Narrators", "Mystery Legends"],
+      "categories": [
+        "Series Leads",
+        "Narrators",
+        "Mystery Legends"
+      ],
       "credits": [
-        {"program": "The Black Museum", "character": "Host and narrator", "creditType": "host_narrator", "associationMode": "program_catalog"}
+        {
+          "program": "The Black Museum",
+          "character": "Host and narrator",
+          "creditType": "host_narrator",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -62,10 +89,25 @@
       "sortName": "Powell, Dick",
       "featured": true,
       "featuredRank": 4,
-      "categories": ["Series Leads", "Detective Legends", "Johnny Dollar"],
+      "categories": [
+        "Series Leads",
+        "Detective Legends",
+        "Johnny Dollar"
+      ],
       "credits": [
-        {"program": "Richard Diamond, Private Detective", "character": "Richard Diamond", "creditType": "lead", "associationMode": "program_catalog"},
-        {"program": "Yours Truly, Johnny Dollar", "character": "Johnny Dollar", "creditType": "lead", "associationMode": "actor_exact", "matchValue": "Dick Powell"}
+        {
+          "program": "Richard Diamond, Private Detective",
+          "character": "Richard Diamond",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        },
+        {
+          "program": "Yours Truly, Johnny Dollar",
+          "character": "Johnny Dollar",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Dick Powell"
+        }
       ]
     },
     {
@@ -79,10 +121,25 @@
       "sortName": "Mohr, Gerald",
       "featured": true,
       "featuredRank": 5,
-      "categories": ["Series Leads", "Detective Legends", "Johnny Dollar"],
+      "categories": [
+        "Series Leads",
+        "Detective Legends",
+        "Johnny Dollar"
+      ],
       "credits": [
-        {"program": "Philip Marlowe", "character": "Philip Marlowe", "creditType": "lead", "associationMode": "program_catalog"},
-        {"program": "Yours Truly, Johnny Dollar", "character": "Johnny Dollar", "creditType": "lead", "associationMode": "actor_exact", "matchValue": "Gerald Mohr"}
+        {
+          "program": "Philip Marlowe",
+          "character": "Philip Marlowe",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        },
+        {
+          "program": "Yours Truly, Johnny Dollar",
+          "character": "Johnny Dollar",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Gerald Mohr"
+        }
       ]
     },
     {
@@ -96,9 +153,17 @@
       "sortName": "Duff, Howard",
       "featured": true,
       "featuredRank": 6,
-      "categories": ["Series Leads", "Detective Legends"],
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
       "credits": [
-        {"program": "The Adventures of Sam Spade", "character": "Sam Spade", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "The Adventures of Sam Spade",
+          "character": "Sam Spade",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -112,9 +177,17 @@
       "sortName": "Price, Vincent",
       "featured": true,
       "featuredRank": 7,
-      "categories": ["Series Leads", "Mystery Legends"],
+      "categories": [
+        "Series Leads",
+        "Mystery Legends"
+      ],
       "credits": [
-        {"program": "The Saint", "character": "Simon Templar", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "The Saint",
+          "character": "Simon Templar",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -128,10 +201,24 @@
       "sortName": "Moorehead, Agnes",
       "featured": true,
       "featuredRank": 8,
-      "categories": ["Featured Players", "Mystery Legends"],
+      "categories": [
+        "Featured Players",
+        "Mystery Legends"
+      ],
       "credits": [
-        {"program": "Suspense", "character": "Featured performer", "creditType": "featured_guest", "associationMode": "program_catalog"},
-        {"program": "CBS Radio Mystery Theater", "character": "Guest performer", "creditType": "guest", "associationMode": "guest_cast_exact", "matchValue": "Agnes Moorehead"}
+        {
+          "program": "Suspense",
+          "character": "Featured performer",
+          "creditType": "featured_guest",
+          "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Mystery Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Agnes Moorehead"
+        }
       ]
     },
     {
@@ -145,9 +232,17 @@
       "sortName": "Morrison, Bret",
       "featured": true,
       "featuredRank": 9,
-      "categories": ["Series Leads", "Mystery Legends"],
+      "categories": [
+        "Series Leads",
+        "Mystery Legends"
+      ],
       "credits": [
-        {"program": "The Shadow", "character": "Lamont Cranston / The Shadow", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "The Shadow",
+          "character": "Lamont Cranston / The Shadow",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -161,9 +256,17 @@
       "sortName": "Dehner, John",
       "featured": true,
       "featuredRank": 10,
-      "categories": ["Series Leads", "Western Legends"],
+      "categories": [
+        "Series Leads",
+        "Western Legends"
+      ],
       "credits": [
-        {"program": "Frontier Gentleman", "character": "J.B. Kendall", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Frontier Gentleman",
+          "character": "J.B. Kendall",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -177,10 +280,23 @@
       "sortName": "Webb, Jack",
       "featured": true,
       "featuredRank": 11,
-      "categories": ["Series Leads", "Detective Legends"],
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
       "credits": [
-        {"program": "Pat Novak, for Hire", "character": "Pat Novak", "creditType": "lead", "associationMode": "program_catalog"},
-        {"program": "Jeff Regan, Investigator", "character": "Jeff Regan", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Pat Novak, for Hire",
+          "character": "Pat Novak",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        },
+        {
+          "program": "Jeff Regan, Investigator",
+          "character": "Jeff Regan",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -194,9 +310,17 @@
       "sortName": "Ladd, Alan",
       "featured": true,
       "featuredRank": 12,
-      "categories": ["Series Leads", "Detective Legends"],
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
       "credits": [
-        {"program": "Box 13", "character": "Dan Holiday", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Box 13",
+          "character": "Dan Holiday",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -210,9 +334,17 @@
       "sortName": "Colman, Ronald",
       "featured": true,
       "featuredRank": 13,
-      "categories": ["Series Leads", "Comedy and Drama"],
+      "categories": [
+        "Series Leads",
+        "Comedy and Drama"
+      ],
       "credits": [
-        {"program": "The Halls of Ivy", "character": "William Todhunter Hall", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "The Halls of Ivy",
+          "character": "William Todhunter Hall",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -226,9 +358,17 @@
       "sortName": "Peary, Hal",
       "featured": true,
       "featuredRank": 14,
-      "categories": ["Series Leads", "Comedy Legends"],
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
       "credits": [
-        {"program": "The Great Gildersleeve", "character": "Throckmorton P. Gildersleeve", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "The Great Gildersleeve",
+          "character": "Throckmorton P. Gildersleeve",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -242,9 +382,17 @@
       "sortName": "Young, Robert",
       "featured": true,
       "featuredRank": 15,
-      "categories": ["Series Leads", "Comedy and Drama"],
+      "categories": [
+        "Series Leads",
+        "Comedy and Drama"
+      ],
       "credits": [
-        {"program": "Father Knows Best", "character": "Jim Anderson", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Father Knows Best",
+          "character": "Jim Anderson",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -258,9 +406,17 @@
       "sortName": "Jordan, Jim",
       "featured": true,
       "featuredRank": 16,
-      "categories": ["Series Leads", "Comedy Legends"],
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
       "credits": [
-        {"program": "Fibber McGee and Molly", "character": "Fibber McGee", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Fibber McGee and Molly",
+          "character": "Fibber McGee",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -274,9 +430,17 @@
       "sortName": "Jordan, Marian",
       "featured": true,
       "featuredRank": 17,
-      "categories": ["Series Leads", "Comedy Legends"],
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
       "credits": [
-        {"program": "Fibber McGee and Molly", "character": "Molly McGee", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Fibber McGee and Molly",
+          "character": "Molly McGee",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -290,9 +454,17 @@
       "sortName": "Gardner, Ed",
       "featured": true,
       "featuredRank": 18,
-      "categories": ["Series Leads", "Comedy Legends"],
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
       "credits": [
-        {"program": "Duffy's Tavern", "character": "Archie", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Duffy's Tavern",
+          "character": "Archie",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -306,9 +478,17 @@
       "sortName": "Donlevy, Brian",
       "featured": true,
       "featuredRank": 19,
-      "categories": ["Series Leads", "Adventure Legends"],
+      "categories": [
+        "Series Leads",
+        "Adventure Legends"
+      ],
       "credits": [
-        {"program": "Dangerous Assignment", "character": "Steve Mitchell", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Dangerous Assignment",
+          "character": "Steve Mitchell",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
       ]
     },
     {
@@ -322,9 +502,1228 @@
       "sortName": "Gargan, William",
       "featured": true,
       "featuredRank": 20,
-      "categories": ["Series Leads", "Detective Legends"],
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
       "credits": [
-        {"program": "Barrie Craig", "character": "Barrie Craig", "creditType": "lead", "associationMode": "program_catalog"}
+        {
+          "program": "Barrie Craig",
+          "character": "Barrie Craig",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "earle-graser",
+      "name": "Earle Graser",
+      "image": "",
+      "birthDate": "March 3, 1909",
+      "deathDate": "April 8, 1941",
+      "birthplace": "Kitchener, Ontario, Canada",
+      "biography": "Earle Graser established the masked rider's voice during The Lone Ranger's formative national-radio years. His controlled, heroic delivery helped turn the character into one of broadcasting's most recognizable western icons.",
+      "sortName": "Graser, Earle",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "The Lone Ranger",
+          "character": "The Lone Ranger",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "brace-beemer",
+      "name": "Brace Beemer",
+      "image": "",
+      "birthDate": "December 9, 1902",
+      "deathDate": "March 1, 1965",
+      "birthplace": "Mount Carmel, Illinois, United States",
+      "biography": "Brace Beemer succeeded Earle Graser as radio's Lone Ranger and carried the title role through the remainder of the program's original run. His commanding voice became the version of the character most familiar to wartime and postwar listeners.",
+      "sortName": "Beemer, Brace",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "The Lone Ranger",
+          "character": "The Lone Ranger",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "john-todd",
+      "name": "John Todd",
+      "image": "",
+      "birthDate": "August 14, 1876",
+      "deathDate": "July 14, 1957",
+      "birthplace": "Pennsylvania",
+      "biography": "John Todd was the longtime radio voice of Tonto, the Lone Ranger's trusted companion. His performance was central to the series from its early Detroit broadcasts and remained closely identified with the franchise for decades.",
+      "sortName": "Todd, John",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Supporting Players",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "The Lone Ranger",
+          "character": "Tonto",
+          "creditType": "supporting",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "chester-lauck",
+      "name": "Chester Lauck",
+      "image": "",
+      "birthDate": "February 9, 1902",
+      "deathDate": "February 21, 1980",
+      "birthplace": "Alleene",
+      "biography": "Chester Lauck co-created Lum and Abner and played the thoughtful but frequently overmatched Lum Edwards. Working with Norris Goff, he transformed small-town Arkansas observations into one of radio's longest-running rural comedies.",
+      "sortName": "Lauck, Chester",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
+      "credits": [
+        {
+          "program": "Lum and Abner",
+          "character": "Lum Edwards",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "norris-goff",
+      "name": "Norris Goff",
+      "image": "",
+      "birthDate": "May 30, 1906",
+      "deathDate": "June 7, 1978",
+      "birthplace": "Cove",
+      "biography": "Norris Goff co-created Lum and Abner and portrayed the loyal, literal-minded Abner Peabody. His timing and conversational partnership with Chester Lauck gave Pine Ridge its relaxed and distinctive comic rhythm.",
+      "sortName": "Goff, Norris",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
+      "credits": [
+        {
+          "program": "Lum and Abner",
+          "character": "Abner Peabody",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "bob-elliott",
+      "name": "Bob Elliott",
+      "image": "",
+      "birthDate": "March 26, 1923",
+      "deathDate": "February 2, 2016",
+      "birthplace": "Boston",
+      "biography": "Bob Elliott was one half of Bob and Ray, the understated comedy partnership that affectionately dismantled the conventions of broadcasting. Among his best-known creations was earnest field reporter Wally Ballou.",
+      "sortName": "Elliott, Bob",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
+      "credits": [
+        {
+          "program": "Bob and Ray",
+          "character": "Co-host and multiple characters",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "ray-goulding",
+      "name": "Ray Goulding",
+      "image": "",
+      "birthDate": "March 20, 1922",
+      "deathDate": "March 24, 1990",
+      "birthplace": "Lowell",
+      "biography": "Ray Goulding formed the other half of Bob and Ray and supplied many of the duo's pompous experts, announcers and authority figures. His precise delivery made their deliberately low-key satire especially convincing.",
+      "sortName": "Goulding, Ray",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
+      "credits": [
+        {
+          "program": "Bob and Ray",
+          "character": "Co-host and multiple characters",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "lon-clark",
+      "name": "Lon Clark",
+      "image": "",
+      "birthDate": "January 12, 1912",
+      "deathDate": "October 7, 1998",
+      "birthplace": "",
+      "biography": "Lon Clark played Nick Carter for most of the long-running radio detective series. His energetic but grounded performance made Carter an approachable investigator capable of moving between mystery, action and family adventure.",
+      "sortName": "Clark, Lon",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Nick Carter, Master Detective",
+          "character": "Nick Carter",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "richard-kollmar",
+      "name": "Richard Kollmar",
+      "image": "",
+      "birthDate": "December 31, 1910",
+      "deathDate": "January 7, 1971",
+      "birthplace": "Ridgewood",
+      "biography": "Richard Kollmar starred as the reformed safecracker Boston Blackie on radio, giving the character an urbane mix of confidence and humor. He also worked extensively on Broadway and in radio production.",
+      "sortName": "Kollmar, Richard",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Boston Blackie",
+          "character": "Boston Blackie",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "stacy-harris",
+      "name": "Stacy Harris",
+      "image": "",
+      "birthDate": "July 26, 1918",
+      "deathDate": "March 13, 1973",
+      "birthplace": "Seattle",
+      "biography": "Stacy Harris became closely associated with procedural radio drama as Special Agent Jim Taylor on This Is Your FBI. His restrained authority helped sell the program's documentary-style presentation.",
+      "sortName": "Harris, Stacy",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Crime & Espionage"
+      ],
+      "credits": [
+        {
+          "program": "This Is Your FBI",
+          "character": "Special Agent Jim Taylor",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "larry-thor",
+      "name": "Larry Thor",
+      "image": "",
+      "birthDate": "August 27, 1916",
+      "deathDate": "March 16, 1976",
+      "birthplace": "Canada",
+      "biography": "Larry Thor starred as Detective Danny Clover in Broadway Is My Beat. His reflective narration and resonant voice gave the series its mixture of police drama, city poetry and melancholy.",
+      "sortName": "Thor, Larry",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Broadway Is My Beat",
+          "character": "Detective Danny Clover",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "raymond-edward-johnson",
+      "name": "Raymond Edward Johnson",
+      "image": "",
+      "birthDate": "July 24, 1911",
+      "deathDate": "August 15, 2001",
+      "birthplace": "Kenosha",
+      "biography": "Raymond Edward Johnson originated the sardonic host of Inner Sanctum Mysteries. His gleefully ominous introductions and the program's creaking-door signature became enduring sounds of radio horror.",
+      "sortName": "Johnson, Raymond Edward",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Narrators & Hosts",
+        "Mystery & Suspense"
+      ],
+      "credits": [
+        {
+          "program": "Inner Sanctum Mysteries",
+          "character": "Raymond, host and narrator",
+          "creditType": "host",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "paul-mcgrath",
+      "name": "Paul McGrath",
+      "image": "",
+      "birthDate": "April 11, 1904",
+      "deathDate": "April 13, 1978",
+      "birthplace": "Chicago",
+      "biography": "Paul McGrath was a versatile stage and radio actor who later served as host of Inner Sanctum Mysteries. His polished voice preserved the show's macabre wit while giving its later broadcasts a character of their own.",
+      "sortName": "McGrath, Paul",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Narrators & Hosts",
+        "Mystery & Suspense"
+      ],
+      "credits": [
+        {
+          "program": "Inner Sanctum Mysteries",
+          "character": "Host and narrator",
+          "creditType": "host",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "herbert-marshall",
+      "name": "Herbert Marshall",
+      "image": "",
+      "birthDate": "May 23, 1890",
+      "deathDate": "January 22, 1966",
+      "birthplace": "London",
+      "biography": "Herbert Marshall brought urbane calm and international sophistication to secret agent Ken Thurston in A Man Called X. The English stage and screen veteran made the globe-spanning espionage stories feel elegant as well as dangerous.",
+      "sortName": "Marshall, Herbert",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Crime & Espionage"
+      ],
+      "credits": [
+        {
+          "program": "A Man Called X",
+          "character": "Ken Thurston",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "joel-mccrea",
+      "name": "Joel McCrea",
+      "image": "",
+      "birthDate": "November 5, 1905",
+      "deathDate": "October 20, 1990",
+      "birthplace": "California",
+      "biography": "Joel McCrea starred as Ranger Jace Pearson in Tales of the Texas Rangers. Already celebrated for western films, he gave the radio series a quiet authenticity and professional steadiness.",
+      "sortName": "McCrea, Joel",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "Tales of the Texas Rangers",
+          "character": "Ranger Jace Pearson",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "roy-rogers",
+      "name": "Roy Rogers",
+      "image": "",
+      "birthDate": "November 5, 1911",
+      "deathDate": "July 6, 1998",
+      "birthplace": "Cincinnati",
+      "biography": "Roy Rogers was one of America's defining singing-cowboy stars across film, records, radio and television. His radio adventures combined western action, music and an accessible code of fair play.",
+      "sortName": "Rogers, Roy",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "Roy Rogers",
+          "character": "Roy Rogers",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "jack-moyles",
+      "name": "Jack Moyles",
+      "image": "",
+      "birthDate": "June 26, 1913",
+      "deathDate": "January 16, 1973",
+      "birthplace": "",
+      "biography": "Jack Moyles starred as Cairo café owner and reluctant detective Rocky Jordan. His guarded performance gave the exotic adventure series a hardboiled center without losing the character's underlying decency.",
+      "sortName": "Moyles, Jack",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Rocky Jordan",
+          "character": "Rocky Jordan",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "jackson-beck",
+      "name": "Jackson Beck",
+      "image": "",
+      "birthDate": "July 23, 1912",
+      "deathDate": "July 28, 2004",
+      "birthplace": "New York City",
+      "biography": "Jackson Beck was one of network radio's most recognizable announcers and character voices. In Philo Vance he played the sophisticated title detective, balancing polished deduction with the pace of a weekly crime drama.",
+      "sortName": "Beck, Jackson",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Philo Vance",
+          "character": "Philo Vance",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "jay-jostyn",
+      "name": "Jay Jostyn",
+      "image": "",
+      "birthDate": "December 13, 1905",
+      "deathDate": "July 24, 1977",
+      "birthplace": "Milwaukee",
+      "biography": "Jay Jostyn played the crusading title prosecutor in Mr. District Attorney for much of the program's network life. His direct, authoritative style made the anonymous public servant feel credible and determined.",
+      "sortName": "Jostyn, Jay",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Crime & Espionage"
+      ],
+      "credits": [
+        {
+          "program": "Mr. District Attorney",
+          "character": "The District Attorney",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "bernard-lenrow",
+      "name": "Bernard Lenrow",
+      "image": "",
+      "birthDate": "November 24, 1903",
+      "deathDate": "October 9, 1963",
+      "birthplace": "Binghamton, New York, United States",
+      "biography": "Bernard Lenrow portrayed Geoffrey Barnes, the urbane crime connoisseur who guided listeners through Molle Mystery Theatre. His low-key commentary gave the anthology a distinctive analytical voice rather than a conventional announcer.",
+      "sortName": "Lenrow, Bernard",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Narrators & Hosts",
+        "Mystery & Suspense"
+      ],
+      "credits": [
+        {
+          "program": "Molle Mystery Theatre",
+          "character": "Geoffrey Barnes",
+          "creditType": "host",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "don-maclaughlin",
+      "name": "Don MacLaughlin",
+      "image": "",
+      "birthDate": "November 24, 1906",
+      "deathDate": "May 28, 1986",
+      "birthplace": "Webster",
+      "biography": "Don MacLaughlin was best known in radio as counterespionage chief David Harding in Counterspy. His firm delivery anchored stories built around sabotage, organized crime and national security.",
+      "sortName": "MacLaughlin, Don",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Crime & Espionage"
+      ],
+      "credits": [
+        {
+          "program": "Counterspy",
+          "character": "David Harding",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "maurice-tarplin",
+      "name": "Maurice Tarplin",
+      "image": "",
+      "birthDate": "April 1, 1911",
+      "deathDate": "May 12, 1975",
+      "birthplace": "Boston",
+      "biography": "Maurice Tarplin supplied the inviting yet unsettling voice of The Mysterious Traveler. His introductions and closing observations created continuity across the anthology's stories of suspense, fantasy and the supernatural.",
+      "sortName": "Tarplin, Maurice",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Narrators & Hosts",
+        "Mystery & Suspense"
+      ],
+      "credits": [
+        {
+          "program": "The Mysterious Traveler",
+          "character": "The Mysterious Traveler",
+          "creditType": "host",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "bennett-kilpack",
+      "name": "Bennett Kilpack",
+      "image": "",
+      "birthDate": "February 6, 1883",
+      "deathDate": "August 17, 1962",
+      "birthplace": "Long Melford",
+      "biography": "Bennett Kilpack was the actor most closely identified with kindly investigator Mr. Keen. His patient, sympathetic manner helped distinguish the long-running series from more hardboiled detective programs.",
+      "sortName": "Kilpack, Bennett",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Mr. Keen, Tracer of Lost Persons",
+          "character": "Mr. Keen",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "reed-hadley",
+      "name": "Reed Hadley",
+      "image": "",
+      "birthDate": "June 25, 1911",
+      "deathDate": "December 11, 1974",
+      "birthplace": "Petrolia",
+      "biography": "Reed Hadley brought a deep, controlled voice to the title role in Red Ryder. He later became equally familiar as a narrator and screen actor, but radio listeners knew him as a dependable western hero.",
+      "sortName": "Hadley, Reed",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "Red Ryder",
+          "character": "Red Ryder",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "john-brown",
+      "name": "John Brown",
+      "image": "",
+      "birthDate": "April 4, 1904",
+      "deathDate": "May 16, 1957",
+      "birthplace": "Kingston upon Hull",
+      "biography": "John Brown was a prolific radio character actor with an exceptional gift for dialect and comic personality. In The Damon Runyon Theatre he served as Broadway, the narrator who led listeners through Runyon's stylized New York underworld.",
+      "sortName": "Brown, John",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Comedy & Character Players"
+      ],
+      "credits": [
+        {
+          "program": "The Damon Runyon Theatre",
+          "character": "Broadway, narrator",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "jeff-chandler",
+      "name": "Jeff Chandler",
+      "image": "",
+      "birthDate": "December 15, 1918",
+      "deathDate": "June 17, 1961",
+      "birthplace": "Brooklyn",
+      "biography": "Before becoming a major film star, Jeff Chandler built a substantial radio career. He originated frontier attorney Chad Remington in Frontier Town, bringing the western adventure series a strong dramatic lead.",
+      "sortName": "Chandler, Jeff",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "Frontier Town",
+          "character": "Chad Remington",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "tom-collins",
+      "name": "Tom Collins",
+      "image": "",
+      "birthDate": "June 7, 1913",
+      "deathDate": "June 17, 1973",
+      "birthplace": "Chicago, Illinois, United States",
+      "biography": "Tom Collins played former OSS agent and international investigator Frank Race in the first twenty-two adventures of the syndicated series. He was also a versatile radio lead and character actor, notably starring as Chandu the Magician.",
+      "sortName": "Collins, Tom",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Adventure & Espionage"
+      ],
+      "credits": [
+        {
+          "program": "The Adventures of Frank Race",
+          "character": "Frank Race",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "paul-dubov",
+      "name": "Paul Dubov",
+      "image": "",
+      "birthDate": "October 10, 1918",
+      "deathDate": "September 20, 1979",
+      "birthplace": "Illinois",
+      "biography": "Paul Dubov succeeded Tom Collins as Frank Race for the latter portion of the adventure series. A highly active radio and screen character actor, he later developed a significant second career as a television writer.",
+      "sortName": "Dubov, Paul",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Adventure & Espionage"
+      ],
+      "credits": [
+        {
+          "program": "The Adventures of Frank Race",
+          "character": "Frank Race",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "raymond-burr",
+      "name": "Raymond Burr",
+      "image": "",
+      "birthDate": "May 21, 1917",
+      "deathDate": "September 12, 1993",
+      "birthplace": "New Westminster",
+      "biography": "Raymond Burr starred as Captain Lee Quince in Fort Laramie, portraying a professional cavalry officer burdened by command on the frontier. The role displayed the vocal authority that later defined much of his screen career.",
+      "sortName": "Burr, Raymond",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "Fort Laramie",
+          "character": "Captain Lee Quince",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "sydney-greenstreet",
+      "name": "Sydney Greenstreet",
+      "image": "",
+      "birthDate": "December 27, 1879",
+      "deathDate": "January 18, 1954",
+      "birthplace": "Sandwich",
+      "biography": "Sydney Greenstreet gave Nero Wolfe a rich mixture of intellect, impatience and theatrical grandeur. His distinctive voice made The New Adventures of Nero Wolfe one of radio's most memorable interpretations of the detective.",
+      "sortName": "Greenstreet, Sydney",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "The New Adventures of Nero Wolfe",
+          "character": "Nero Wolfe",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "norman-rose",
+      "name": "Norman Rose",
+      "image": "",
+      "birthDate": "June 23, 1917",
+      "deathDate": "November 12, 2004",
+      "birthplace": "Philadelphia",
+      "biography": "Norman Rose was a celebrated announcer and narrator whose resonant baritone became especially associated with science fiction radio. His work helped establish the serious, imaginative tone of Dimension X and related anthology broadcasting.",
+      "sortName": "Rose, Norman",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Narrators & Hosts",
+        "Science Fiction"
+      ],
+      "credits": [
+        {
+          "program": "Dimension X",
+          "character": "Announcer and narrator",
+          "creditType": "host",
+          "associationMode": "program_catalog"
+        },
+        {
+          "program": "X Minus One",
+          "character": "Announcer and narrator",
+          "creditType": "host",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "dane-clark",
+      "name": "Dane Clark",
+      "image": "",
+      "birthDate": "February 26, 1912",
+      "deathDate": "September 11, 1998",
+      "birthplace": "Brooklyn",
+      "biography": "Dane Clark starred as private investigator Peter Chambers in the radio adaptation of Henry Kane's detective stories. His brisk, streetwise delivery suited the program's compact New York mysteries.",
+      "sortName": "Clark, Dane",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Crime and Peter Chambers",
+          "character": "Peter Chambers",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "natalie-masters",
+      "name": "Natalie Masters",
+      "image": "",
+      "birthDate": "November 23, 1915",
+      "deathDate": "February 9, 1986",
+      "birthplace": "United States",
+      "biography": "Natalie Masters played San Francisco private investigator Candy Matson with confidence, humor and independence. Her performance made the short-lived series one of old-time radio's strongest female-led detective programs.",
+      "sortName": "Masters, Natalie",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Candy Matson",
+          "character": "Candy Matson",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "karl-weber",
+      "name": "Karl Weber",
+      "image": "",
+      "birthDate": "March 17, 1916",
+      "deathDate": "July 30, 1990",
+      "birthplace": "Iowa",
+      "biography": "Karl Weber starred as the thoughtful title investigator in Inspector Thorne. His measured performance emphasized observation and deduction within the program's compact mystery stories.",
+      "sortName": "Weber, Karl",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Inspector Thorne",
+          "character": "Inspector Thorne",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "frank-lovejoy",
+      "name": "Frank Lovejoy",
+      "image": "",
+      "birthDate": "March 28, 1914",
+      "deathDate": "October 2, 1962",
+      "birthplace": "The Bronx",
+      "biography": "Frank Lovejoy was a major dramatic voice of postwar radio, equally effective as an ordinary man under pressure or a determined investigator. He played attorney-detective John J. Malone before achieving his best-known radio lead in Night Beat.",
+      "sortName": "Lovejoy, Frank",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Mr. Malone",
+          "character": "John J. Malone",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "lurene-tuttle",
+      "name": "Lurene Tuttle",
+      "image": "",
+      "birthDate": "August 29, 1907",
+      "deathDate": "May 28, 1986",
+      "birthplace": "Pleasant Lake",
+      "biography": "Lurene Tuttle was one of network radio's busiest and most versatile performers. As Sam Spade's devoted secretary Effie Perrine, she created a warm comic counterpoint to the detective's hardboiled cases.",
+      "sortName": "Tuttle, Lurene",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Supporting Players",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "The Adventures of Sam Spade",
+          "character": "Effie Perrine",
+          "creditType": "supporting",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "georgia-ellis",
+      "name": "Georgia Ellis",
+      "image": "",
+      "birthDate": "March 12, 1917",
+      "deathDate": "March 30, 1988",
+      "birthplace": "Ventura",
+      "biography": "Georgia Ellis originated Kitty Russell on the radio version of Gunsmoke. Her nuanced work made Kitty an independent adult presence and an essential part of Dodge City's emotional life.",
+      "sortName": "Ellis, Georgia",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Supporting Players",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "Gunsmoke",
+          "character": "Kitty Russell",
+          "creditType": "supporting",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "parley-baer",
+      "name": "Parley Baer",
+      "image": "",
+      "birthDate": "August 5, 1914",
+      "deathDate": "November 22, 2002",
+      "birthplace": "Salt Lake City",
+      "biography": "Parley Baer played Marshal Dillon's loyal assistant Chester Proudfoot on radio's Gunsmoke. His humor, concern and plainspoken judgment made Chester far more than a conventional sidekick.",
+      "sortName": "Baer, Parley",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Supporting Players",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "Gunsmoke",
+          "character": "Chester Proudfoot",
+          "creditType": "supporting",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "howard-mcnear",
+      "name": "Howard McNear",
+      "image": "",
+      "birthDate": "January 27, 1905",
+      "deathDate": "January 3, 1969",
+      "birthplace": "Los Angeles",
+      "biography": "Howard McNear originated the irritable but compassionate Doc Adams on radio's Gunsmoke. His dry timing and worn frontier manner helped complete the series' unusually believable ensemble.",
+      "sortName": "McNear, Howard",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Supporting Players",
+        "Western Legends"
+      ],
+      "credits": [
+        {
+          "program": "Gunsmoke",
+          "character": "Doc Adams",
+          "creditType": "supporting",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "willard-waterman",
+      "name": "Willard Waterman",
+      "image": "",
+      "birthDate": "August 29, 1914",
+      "deathDate": "February 2, 1995",
+      "birthplace": "Madison",
+      "biography": "Willard Waterman took over the role of Throckmorton P. Gildersleeve after Harold Peary left the series. He sustained the character's bluster, vanity and underlying affection through the program's later radio years.",
+      "sortName": "Waterman, Willard",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
+      "credits": [
+        {
+          "program": "The Great Gildersleeve",
+          "character": "Throckmorton P. Gildersleeve",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "bill-thompson",
+      "name": "Bill Thompson",
+      "image": "",
+      "birthDate": "July 8, 1913",
+      "deathDate": "July 15, 1971",
+      "birthplace": "Terre Haute",
+      "biography": "Bill Thompson was a brilliant radio and animation voice actor capable of creating sharply different characters. On Fibber McGee and Molly his gallery included Wallace Wimple, the Old-Timer and several other recurring favorites.",
+      "sortName": "Thompson, Bill",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Supporting Players",
+        "Comedy Legends"
+      ],
+      "credits": [
+        {
+          "program": "Fibber McGee and Molly",
+          "character": "Wallace Wimple, the Old-Timer and other roles",
+          "creditType": "supporting",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "gale-gordon",
+      "name": "Gale Gordon",
+      "image": "",
+      "birthDate": "February 20, 1906",
+      "deathDate": "June 30, 1995",
+      "birthplace": "New York City",
+      "biography": "Long before his celebrated television work, Gale Gordon was one of radio comedy's premier exasperated authority figures. As Mayor LaTrivia on Fibber McGee and Molly, his encounters with Fibber reliably dissolved into verbal chaos.",
+      "sortName": "Gordon, Gale",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Supporting Players",
+        "Comedy Legends"
+      ],
+      "credits": [
+        {
+          "program": "Fibber McGee and Molly",
+          "character": "Mayor LaTrivia",
+          "creditType": "supporting",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "eddie-green",
+      "name": "Eddie Green",
+      "image": "",
+      "birthDate": "August 16, 1891",
+      "deathDate": "September 19, 1950",
+      "birthplace": "Baltimore",
+      "biography": "Eddie Green was a pioneering Black comedian, writer, filmmaker and radio performer. As Eddie the waiter on Duffy's Tavern, his relaxed timing and practical intelligence made him an essential counterweight to Archie's schemes.",
+      "sortName": "Green, Eddie",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Supporting Players",
+        "Comedy Legends"
+      ],
+      "credits": [
+        {
+          "program": "Duffy's Tavern",
+          "character": "Eddie, the waiter",
+          "creditType": "supporting",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "benita-hume",
+      "name": "Benita Hume",
+      "image": "",
+      "birthDate": "October 14, 1906",
+      "deathDate": "November 1, 1967",
+      "birthplace": "London",
+      "biography": "Benita Hume co-starred with her husband Ronald Colman as Victoria Hall in The Halls of Ivy. Her warmth, intelligence and playful rapport with Colman gave the campus comedy much of its emotional balance.",
+      "sortName": "Hume, Benita",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Comedy Legends"
+      ],
+      "credits": [
+        {
+          "program": "The Halls of Ivy",
+          "character": "Victoria Hall",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "virginia-gregg",
+      "name": "Virginia Gregg",
+      "image": "",
+      "birthDate": "March 6, 1916",
+      "deathDate": "September 15, 1986",
+      "birthplace": "Harrisburg",
+      "biography": "Virginia Gregg was among the most dependable dramatic actresses in American radio, moving easily among crime, western and suspense programs. As Helen Asher in Richard Diamond, Private Detective, she brought wit and emotional grounding to the detective's private life.",
+      "sortName": "Gregg, Virginia",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Supporting Players",
+        "Detective Legends"
+      ],
+      "credits": [
+        {
+          "program": "Richard Diamond, Private Detective",
+          "character": "Helen Asher",
+          "creditType": "supporting",
+          "associationMode": "program_catalog"
+        }
+      ]
+    },
+    {
+      "id": "charles-russell",
+      "name": "Charles Russell",
+      "image": "",
+      "birthDate": "March 31, 1918",
+      "deathDate": "January 18, 1985",
+      "birthplace": "New York City",
+      "biography": "Charles Russell became the first regular actor to play Johnny Dollar when the series began in 1949. His interpretation established the freelance insurance investigator before later stars reshaped the role.",
+      "sortName": "Russell, Charles",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Johnny Dollar Leads"
+      ],
+      "credits": [
+        {
+          "program": "Yours Truly, Johnny Dollar",
+          "character": "Johnny Dollar",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Charles Russell"
+        }
+      ]
+    },
+    {
+      "id": "edmond-obrien",
+      "name": "Edmond O'Brien",
+      "image": "",
+      "birthDate": "September 10, 1915",
+      "deathDate": "May 9, 1985",
+      "birthplace": "New York City",
+      "biography": "Edmond O'Brien brought the stature of a major film and radio actor to Johnny Dollar from 1950 to 1952. His version emphasized a tough, capable investigator within the program's weekly half-hour format.",
+      "sortName": "O'Brien, Edmond",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Johnny Dollar Leads"
+      ],
+      "credits": [
+        {
+          "program": "Yours Truly, Johnny Dollar",
+          "character": "Johnny Dollar",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Edmond O'Brien"
+        }
+      ]
+    },
+    {
+      "id": "john-lund",
+      "name": "John Lund",
+      "image": "",
+      "birthDate": "February 6, 1911",
+      "deathDate": "May 10, 1992",
+      "birthplace": "Rochester",
+      "biography": "John Lund played Johnny Dollar during the final stretch of the program's original weekly run. His polished performance bridged the early series and the later serialized revival.",
+      "sortName": "Lund, John",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Johnny Dollar Leads"
+      ],
+      "credits": [
+        {
+          "program": "Yours Truly, Johnny Dollar",
+          "character": "Johnny Dollar",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "John Lund"
+        }
+      ]
+    },
+    {
+      "id": "mandel-kramer",
+      "name": "Mandel Kramer",
+      "image": "",
+      "birthDate": "March 12, 1916",
+      "deathDate": "January 29, 1989",
+      "birthplace": "",
+      "biography": "Mandel Kramer was the final regular Johnny Dollar, starring from 1961 until the series ended in 1962. His work closed both the program and an era of continuing network radio drama.",
+      "sortName": "Kramer, Mandel",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Johnny Dollar Leads"
+      ],
+      "credits": [
+        {
+          "program": "Yours Truly, Johnny Dollar",
+          "character": "Johnny Dollar",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Mandel Kramer"
+        }
+      ]
+    },
+    {
+      "id": "bob-readick",
+      "name": "Bob Readick",
+      "image": "",
+      "birthDate": "November 28, 1925",
+      "deathDate": "May 27, 1985",
+      "birthplace": "New York City",
+      "biography": "Bob Readick took over as Johnny Dollar in late 1960 during the show's return to New York production. His run represents the transition between Bob Bailey's long tenure and Mandel Kramer's final era.",
+      "sortName": "Readick, Bob",
+      "featured": false,
+      "featuredRank": 9999,
+      "categories": [
+        "Series Leads",
+        "Johnny Dollar Leads"
+      ],
+      "credits": [
+        {
+          "program": "Yours Truly, Johnny Dollar",
+          "character": "Johnny Dollar",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Bob Readick"
+        }
       ]
     }
   ]
