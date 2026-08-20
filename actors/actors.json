@@ -542,7 +542,7 @@
     {
       "id": "brace-beemer",
       "name": "Brace Beemer",
-      "image": "",
+      "image": "actors/images/brace-beemer.jpg",
       "birthDate": "December 9, 1902",
       "deathDate": "March 1, 1965",
       "birthplace": "Mount Carmel, Illinois, United States",
@@ -566,7 +566,7 @@
     {
       "id": "john-todd",
       "name": "John Todd",
-      "image": "",
+      "image": "actors/images/john-todd.jpg",
       "birthDate": "August 14, 1876",
       "deathDate": "July 14, 1957",
       "birthplace": "Pennsylvania",
