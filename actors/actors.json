@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026-08-22-program-mapping-pass-02",
+  "catalogVersion": "2026-08-22-program-mapping-pass-09",
   "defaultSort": "featuredRank",
   "profiles": [
     {
@@ -24,6 +24,20 @@
           "character": "Matt Dillon",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "William Conrad"
+        },
+        {
+          "program": "Philip Marlowe",
+          "character": "Philip Marlowe (substitute)",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "William Conrad"
         }
       ]
     },
@@ -82,6 +96,41 @@
           "character": "Host and narrator",
           "creditType": "host_narrator",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Duffy's Tavern",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Orson Welles"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Orson Welles"
+        },
+        {
+          "program": "Columbia Workshop",
+          "character": "Featured performer",
+          "creditType": "featured",
+          "associationMode": "actor_exact",
+          "matchValue": "Orson Welles"
+        },
+        {
+          "program": "Screen Guild Theater",
+          "character": "Featured performer",
+          "creditType": "featured",
+          "associationMode": "actor_exact",
+          "matchValue": "Orson Welles"
+        },
+        {
+          "program": "The Shadow",
+          "character": "Lamont Cranston / The Shadow",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Orson Welles"
         }
       ]
     },
@@ -114,6 +163,20 @@
           "creditType": "lead",
           "associationMode": "actor_exact",
           "matchValue": "Dick Powell"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Dick Powell"
+        },
+        {
+          "program": "Philip Marlowe",
+          "character": "Philip Marlowe in radio adaptations",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Dick Powell"
         }
       ]
     },
@@ -138,13 +201,28 @@
           "program": "Philip Marlowe",
           "character": "Philip Marlowe",
           "creditType": "lead",
-          "associationMode": "program_catalog"
+          "associationMode": "actor_exact",
+          "matchValue": "Gerald Mohr"
         },
         {
           "program": "Yours Truly, Johnny Dollar",
           "character": "Johnny Dollar",
           "creditType": "lead",
           "associationMode": "actor_exact",
+          "matchValue": "Gerald Mohr"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Gerald Mohr"
+        },
+        {
+          "program": "The New Adventures of Nero Wolfe",
+          "character": "Archie Goodwin",
+          "creditType": "supporting",
+          "associationMode": "guest_cast_exact",
           "matchValue": "Gerald Mohr"
         }
       ]
@@ -194,6 +272,34 @@
           "character": "Simon Templar",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Duffy's Tavern",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Vincent Price"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Vincent Price"
+        },
+        {
+          "program": "CBS Radio Workshop",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Vincent Price"
+        },
+        {
+          "program": "Yours Truly, Johnny Dollar",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Vincent Price"
         }
       ]
     },
@@ -225,6 +331,13 @@
           "creditType": "guest",
           "associationMode": "guest_cast_exact",
           "matchValue": "Agnes Moorehead"
+        },
+        {
+          "program": "The Shadow",
+          "character": "Margo Lane",
+          "creditType": "supporting",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Agnes Moorehead"
         }
       ]
     },
@@ -248,7 +361,8 @@
           "program": "The Shadow",
           "character": "Lamont Cranston / The Shadow",
           "creditType": "lead",
-          "associationMode": "program_catalog"
+          "associationMode": "actor_exact",
+          "matchValue": "Bret Morrison"
         },
         {
           "program": "CBS Radio Mystery Theater",
@@ -286,6 +400,13 @@
           "character": "Paladin",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Workshop",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "John Dehner"
         }
       ]
     },
@@ -340,6 +461,20 @@
           "character": "Dan Holiday",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Alan Ladd"
+        },
+        {
+          "program": "Duffy's Tavern",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Alan Ladd"
         }
       ]
     },
@@ -364,6 +499,13 @@
           "character": "William Todhunter Hall",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Ronald Colman"
         }
       ]
     },
@@ -412,6 +554,13 @@
           "character": "Jim Anderson",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Robert Young"
         }
       ]
     },
@@ -484,6 +633,13 @@
           "character": "Archie",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Sealtest Variety Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Ed Gardner"
         }
       ]
     },
@@ -508,6 +664,20 @@
           "character": "Steve Mitchell",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Brian Donlevy"
+        },
+        {
+          "program": "Sealtest Variety Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Brian Donlevy"
         }
       ]
     },
@@ -555,7 +725,8 @@
           "program": "The Lone Ranger",
           "character": "The Lone Ranger",
           "creditType": "lead",
-          "associationMode": "program_catalog"
+          "associationMode": "actor_exact",
+          "matchValue": "Earle Graser"
         }
       ]
     },
@@ -579,7 +750,8 @@
           "program": "The Lone Ranger",
           "character": "The Lone Ranger",
           "creditType": "lead",
-          "associationMode": "program_catalog"
+          "associationMode": "actor_exact",
+          "matchValue": "Brace Beemer"
         }
       ]
     },
@@ -603,7 +775,8 @@
           "program": "The Lone Ranger",
           "character": "Tonto",
           "creditType": "supporting",
-          "associationMode": "program_catalog"
+          "associationMode": "guest_cast_exact",
+          "matchValue": "John Todd"
         }
       ]
     },
@@ -882,6 +1055,13 @@
           "character": "Ken Thurston",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Herbert Marshall"
         }
       ]
     },
@@ -1129,6 +1309,13 @@
           "character": "Red Ryder",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Frontier Town",
+          "character": "Chad Remington (episodes 24–47)",
+          "creditType": "lead",
+          "associationMode": "actor_exact",
+          "matchValue": "Reed Hadley"
         }
       ]
     },
@@ -1174,9 +1361,24 @@
       "credits": [
         {
           "program": "Frontier Town",
-          "character": "Chad Remington",
+          "character": "Chad Remington (episodes 1–23)",
           "creditType": "lead",
-          "associationMode": "program_catalog"
+          "associationMode": "actor_exact",
+          "matchValue": "Jeff Chandler"
+        },
+        {
+          "program": "Duffy's Tavern",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Jeff Chandler"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Jeff Chandler"
         }
       ]
     },
@@ -1249,6 +1451,13 @@
           "character": "Captain Lee Quince",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Workshop",
+          "character": "Featured performer",
+          "creditType": "featured",
+          "associationMode": "actor_exact",
+          "matchValue": "Raymond Burr"
         }
       ]
     },
@@ -1273,6 +1482,13 @@
           "character": "Nero Wolfe",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Duffy's Tavern",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Sydney Greenstreet"
         }
       ]
     },
@@ -1406,6 +1622,13 @@
           "character": "John J. Malone",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Frank Lovejoy"
         }
       ]
     },
@@ -1430,6 +1653,13 @@
           "character": "Effie Perrine",
           "creditType": "supporting",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Workshop",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Lurene Tuttle"
         }
       ]
     },
@@ -1703,6 +1933,13 @@
           "creditType": "lead",
           "associationMode": "actor_exact",
           "matchValue": "Edmond O'Brien"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Edmond O'Brien"
         }
       ]
     },
@@ -1727,6 +1964,13 @@
           "character": "Johnny Dollar",
           "creditType": "lead",
           "associationMode": "actor_exact",
+          "matchValue": "John Lund"
+        },
+        {
+          "program": "Lux Radio Theatre",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
           "matchValue": "John Lund"
         }
       ]
