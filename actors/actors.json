@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026-08-22-program-mapping-pass-01",
+  "catalogVersion": "2026-08-22-program-mapping-pass-02",
   "defaultSort": "featuredRank",
   "profiles": [
     {
@@ -249,6 +249,13 @@
           "character": "Lamont Cranston / The Shadow",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Mystery Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Bret Morrison"
         }
       ]
     },
@@ -271,6 +278,12 @@
         {
           "program": "Frontier Gentleman",
           "character": "J.B. Kendall",
+          "creditType": "lead",
+          "associationMode": "program_catalog"
+        },
+        {
+          "program": "Have Gun, Will Travel",
+          "character": "Paladin",
           "creditType": "lead",
           "associationMode": "program_catalog"
         }
@@ -711,6 +724,13 @@
           "character": "Nick Carter",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Mystery Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Lon Clark"
         }
       ]
     },
@@ -831,6 +851,13 @@
           "character": "Host and narrator",
           "creditType": "host",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Mystery Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Paul McGrath"
         }
       ]
     },
@@ -951,6 +978,13 @@
           "character": "Philo Vance",
           "creditType": "lead",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Mystery Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Jackson Beck"
         }
       ]
     },
@@ -1269,6 +1303,13 @@
           "character": "Announcer and narrator",
           "creditType": "host",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Mystery Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Norman Rose"
         }
       ]
     },
@@ -1605,6 +1646,13 @@
           "character": "Helen Asher",
           "creditType": "supporting",
           "associationMode": "program_catalog"
+        },
+        {
+          "program": "CBS Radio Mystery Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Virginia Gregg"
         }
       ]
     },
@@ -1705,6 +1753,13 @@
           "creditType": "lead",
           "associationMode": "actor_exact",
           "matchValue": "Mandel Kramer"
+        },
+        {
+          "program": "CBS Radio Mystery Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
+          "matchValue": "Mandel Kramer"
         }
       ]
     },
@@ -1729,6 +1784,13 @@
           "character": "Johnny Dollar",
           "creditType": "lead",
           "associationMode": "actor_exact",
+          "matchValue": "Bob Readick"
+        },
+        {
+          "program": "CBS Radio Mystery Theater",
+          "character": "Guest performer",
+          "creditType": "guest",
+          "associationMode": "guest_cast_exact",
           "matchValue": "Bob Readick"
         }
       ]
