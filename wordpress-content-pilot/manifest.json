@@ -1,0 +1,55 @@
+[
+  {
+    "type": "show",
+    "status": "draft",
+    "title": "CBS Radio Mystery Theater",
+    "slug": "old-time-radio-shows/cbs-radio-mystery-theater",
+    "file": "cbs-radio-mystery-theater.html",
+    "sourceCount": 1429
+  },
+  {
+    "type": "episode",
+    "status": "draft",
+    "title": "A Ring of Roses",
+    "slug": "old-time-radio-shows/cbs-radio-mystery-theater/a-ring-of-roses-1974-01-18",
+    "file": "episodes/a-ring-of-roses-1974-01-18.html",
+    "episodeNumber": 13,
+    "broadcastDate": "1974-01-18"
+  },
+  {
+    "type": "episode",
+    "status": "draft",
+    "title": "The Girl Who Found Things",
+    "slug": "old-time-radio-shows/cbs-radio-mystery-theater/the-girl-who-found-things-1974-01-19",
+    "file": "episodes/the-girl-who-found-things-1974-01-19.html",
+    "episodeNumber": 14,
+    "broadcastDate": "1974-01-19"
+  },
+  {
+    "type": "episode",
+    "status": "draft",
+    "title": "The Chinaman Button",
+    "slug": "old-time-radio-shows/cbs-radio-mystery-theater/the-chinaman-button-1974-01-20",
+    "file": "episodes/the-chinaman-button-1974-01-20.html",
+    "episodeNumber": 15,
+    "broadcastDate": "1974-01-20"
+  },
+  {
+    "type": "episode",
+    "status": "draft",
+    "title": "Dead for a Dollar",
+    "slug": "old-time-radio-shows/cbs-radio-mystery-theater/dead-for-a-dollar-1974-01-21",
+    "file": "episodes/dead-for-a-dollar-1974-01-21.html",
+    "episodeNumber": 16,
+    "broadcastDate": "1974-01-21"
+  },
+  {
+    "type": "episode",
+    "status": "draft",
+    "title": "A Very Old Man",
+    "slug": "old-time-radio-shows/cbs-radio-mystery-theater/a-very-old-man-1974-01-22",
+    "file": "episodes/a-very-old-man-1974-01-22.html",
+    "episodeNumber": 17,
+    "broadcastDate": "1974-01-22"
+  }
+]
