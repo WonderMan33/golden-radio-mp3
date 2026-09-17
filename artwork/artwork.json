@@ -810,5 +810,327 @@
     "thumbnail": "artwork/shows/zero-hour/thumb.webp",
     "background": "artwork/shows/zero-hour/background.jpg",
     "episodeCount": 89
+  },
+  "A Date with Judy": {
+    "id": "a-date-with-judy",
+    "image": "artwork/shows/a-date-with-judy/cover.jpg",
+    "thumbnail": "artwork/shows/a-date-with-judy/thumb.webp",
+    "background": "artwork/shows/a-date-with-judy/background.jpg",
+    "episodeCount": 13
+  },
+  "American History Radio Collection": {
+    "id": "american-history-radio-collection",
+    "image": "artwork/shows/american-history-radio-collection/cover.jpg",
+    "thumbnail": "artwork/shows/american-history-radio-collection/thumb.webp",
+    "background": "artwork/shows/american-history-radio-collection/background.jpg",
+    "episodeCount": 551
+  },
+  "Blondie": {
+    "id": "blondie",
+    "image": "artwork/shows/blondie/cover.jpg",
+    "thumbnail": "artwork/shows/blondie/thumb.webp",
+    "background": "artwork/shows/blondie/background.jpg",
+    "episodeCount": 42
+  },
+  "Bright Star": {
+    "id": "bright-star",
+    "image": "artwork/shows/bright-star/cover.jpg",
+    "thumbnail": "artwork/shows/bright-star/thumb.webp",
+    "background": "artwork/shows/bright-star/background.jpg",
+    "episodeCount": 36
+  },
+  "Calling All Cars": {
+    "id": "calling-all-cars",
+    "image": "artwork/shows/calling-all-cars/cover.jpg",
+    "thumbnail": "artwork/shows/calling-all-cars/thumb.webp",
+    "background": "artwork/shows/calling-all-cars/background.jpg",
+    "episodeCount": 296
+  },
+  "Challenge of the Yukon": {
+    "id": "challenge-of-the-yukon",
+    "image": "artwork/shows/challenge-of-the-yukon/cover.jpg",
+    "thumbnail": "artwork/shows/challenge-of-the-yukon/thumb.webp",
+    "background": "artwork/shows/challenge-of-the-yukon/background.jpg",
+    "episodeCount": 627
+  },
+  "Chet Chetter's Tales from the Morgue": {
+    "id": "chet-chetters-tales-from-the-morgue",
+    "image": "artwork/shows/chet-chetters-tales-from-the-morgue/cover.jpg",
+    "thumbnail": "artwork/shows/chet-chetters-tales-from-the-morgue/thumb.webp",
+    "background": "artwork/shows/chet-chetters-tales-from-the-morgue/background.jpg",
+    "episodeCount": 21
+  },
+  "Crime Classics": {
+    "id": "crime-classics",
+    "image": "artwork/shows/crime-classics/cover.jpg",
+    "thumbnail": "artwork/shows/crime-classics/thumb.webp",
+    "background": "artwork/shows/crime-classics/background.jpg",
+    "episodeCount": 66
+  },
+  "Dr. Kildare": {
+    "id": "dr-kildare",
+    "image": "artwork/shows/dr-kildare/cover.jpg",
+    "thumbnail": "artwork/shows/dr-kildare/thumb.webp",
+    "background": "artwork/shows/dr-kildare/background.jpg",
+    "episodeCount": 60
+  },
+  "Dragnet": {
+    "id": "dragnet",
+    "image": "artwork/shows/dragnet/cover.jpg",
+    "thumbnail": "artwork/shows/dragnet/thumb.webp",
+    "background": "artwork/shows/dragnet/background.jpg",
+    "episodeCount": 293
+  },
+  "Escape": {
+    "id": "escape",
+    "image": "artwork/shows/escape/cover.jpg",
+    "thumbnail": "artwork/shows/escape/thumb.webp",
+    "background": "artwork/shows/escape/background.jpg",
+    "episodeCount": 250
+  },
+  "FDR Fireside Chats": {
+    "id": "fdr-fireside-chats",
+    "image": "artwork/shows/fdr-fireside-chats/cover.jpg",
+    "thumbnail": "artwork/shows/fdr-fireside-chats/thumb.webp",
+    "background": "artwork/shows/fdr-fireside-chats/background.jpg",
+    "episodeCount": 31
+  },
+  "Gang Busters": {
+    "id": "gang-busters",
+    "image": "artwork/shows/gang-busters/cover.jpg",
+    "thumbnail": "artwork/shows/gang-busters/thumb.webp",
+    "background": "artwork/shows/gang-busters/background.jpg",
+    "episodeCount": 88
+  },
+  "Mama Bloom's Brood": {
+    "id": "mama-blooms-brood",
+    "image": "artwork/shows/mama-blooms-brood/cover.jpg",
+    "thumbnail": "artwork/shows/mama-blooms-brood/thumb.webp",
+    "background": "artwork/shows/mama-blooms-brood/background.jpg",
+    "episodeCount": 76
+  },
+  "Matinee Theater": {
+    "id": "matinee-theater",
+    "image": "artwork/shows/matinee-theater/cover.jpg",
+    "thumbnail": "artwork/shows/matinee-theater/thumb.webp",
+    "background": "artwork/shows/matinee-theater/background.jpg",
+    "episodeCount": 25
+  },
+  "Melody Ranch": {
+    "id": "melody-ranch",
+    "image": "artwork/shows/melody-ranch/cover.jpg",
+    "thumbnail": "artwork/shows/melody-ranch/thumb.webp",
+    "background": "artwork/shows/melody-ranch/background.jpg",
+    "episodeCount": 63
+  },
+  "Old Gold Comedy Theater": {
+    "id": "old-gold-comedy-theater",
+    "image": "artwork/shows/old-gold-comedy-theater/cover.jpg",
+    "thumbnail": "artwork/shows/old-gold-comedy-theater/thumb.webp",
+    "background": "artwork/shows/old-gold-comedy-theater/background.jpg",
+    "episodeCount": 30
+  },
+  "Old Radio Advertisements": {
+    "id": "old-radio-advertisements",
+    "image": "artwork/shows/old-radio-advertisements/cover.jpg",
+    "thumbnail": "artwork/shows/old-radio-advertisements/thumb.webp",
+    "background": "artwork/shows/old-radio-advertisements/background.jpg",
+    "episodeCount": 427
+  },
+  "Popeye the Sailor": {
+    "id": "popeye-the-sailor",
+    "image": "artwork/shows/popeye-the-sailor/cover.jpg",
+    "thumbnail": "artwork/shows/popeye-the-sailor/thumb.webp",
+    "background": "artwork/shows/popeye-the-sailor/background.jpg",
+    "episodeCount": 12
+  },
+  "Ray Bradbury BBC Radio": {
+    "id": "ray-bradbury-bbc-radio",
+    "image": "artwork/shows/ray-bradbury-bbc-radio/cover.jpg",
+    "thumbnail": "artwork/shows/ray-bradbury-bbc-radio/thumb.webp",
+    "background": "artwork/shows/ray-bradbury-bbc-radio/background.jpg",
+    "episodeCount": 21
+  },
+  "Rocky Fortune": {
+    "id": "rocky-fortune",
+    "image": "artwork/shows/rocky-fortune/cover.jpg",
+    "thumbnail": "artwork/shows/rocky-fortune/thumb.webp",
+    "background": "artwork/shows/rocky-fortune/background.jpg",
+    "episodeCount": 27
+  },
+  "Sears Radio Theater": {
+    "id": "sears-radio-theater",
+    "image": "artwork/shows/sears-radio-theater/cover.jpg",
+    "thumbnail": "artwork/shows/sears-radio-theater/thumb.webp",
+    "background": "artwork/shows/sears-radio-theater/background.jpg",
+    "episodeCount": 129
+  },
+  "Tarzan": {
+    "id": "tarzan",
+    "image": "artwork/shows/tarzan/cover.jpg",
+    "thumbnail": "artwork/shows/tarzan/thumb.webp",
+    "background": "artwork/shows/tarzan/background.jpg",
+    "episodeCount": 77
+  },
+  "The Abbott and Costello Show": {
+    "id": "the-abbott-and-costello-show",
+    "image": "artwork/shows/the-abbott-and-costello-show/cover.jpg",
+    "thumbnail": "artwork/shows/the-abbott-and-costello-show/thumb.webp",
+    "background": "artwork/shows/the-abbott-and-costello-show/background.jpg",
+    "episodeCount": 63
+  },
+  "The Adventures of Superman": {
+    "id": "the-adventures-of-superman",
+    "image": "artwork/shows/the-adventures-of-superman/cover.jpg",
+    "thumbnail": "artwork/shows/the-adventures-of-superman/thumb.webp",
+    "background": "artwork/shows/the-adventures-of-superman/background.jpg",
+    "episodeCount": 171
+  },
+  "The Adventures of the Thin Man": {
+    "id": "the-adventures-of-the-thin-man",
+    "image": "artwork/shows/the-adventures-of-the-thin-man/cover.jpg",
+    "thumbnail": "artwork/shows/the-adventures-of-the-thin-man/thumb.webp",
+    "background": "artwork/shows/the-adventures-of-the-thin-man/background.jpg",
+    "episodeCount": 11
+  },
+  "The Big Show": {
+    "id": "the-big-show",
+    "image": "artwork/shows/the-big-show/cover.jpg",
+    "thumbnail": "artwork/shows/the-big-show/thumb.webp",
+    "background": "artwork/shows/the-big-show/background.jpg",
+    "episodeCount": 30
+  },
+  "The Blue Beetle": {
+    "id": "the-blue-beetle",
+    "image": "artwork/shows/the-blue-beetle/cover.jpg",
+    "thumbnail": "artwork/shows/the-blue-beetle/thumb.webp",
+    "background": "artwork/shows/the-blue-beetle/background.jpg",
+    "episodeCount": 72
+  },
+  "The Devil and Mr. O": {
+    "id": "the-devil-and-mr-o",
+    "image": "artwork/shows/the-devil-and-mr-o/cover.jpg",
+    "thumbnail": "artwork/shows/the-devil-and-mr-o/thumb.webp",
+    "background": "artwork/shows/the-devil-and-mr-o/background.jpg",
+    "episodeCount": 26
+  },
+  "The Fred Allen Show": {
+    "id": "the-fred-allen-show",
+    "image": "artwork/shows/the-fred-allen-show/cover.jpg",
+    "thumbnail": "artwork/shows/the-fred-allen-show/thumb.webp",
+    "background": "artwork/shows/the-fred-allen-show/background.jpg",
+    "episodeCount": 277
+  },
+  "The Green Hornet": {
+    "id": "the-green-hornet",
+    "image": "artwork/shows/the-green-hornet/cover.jpg",
+    "thumbnail": "artwork/shows/the-green-hornet/thumb.webp",
+    "background": "artwork/shows/the-green-hornet/background.jpg",
+    "episodeCount": 314
+  },
+  "The Jack Benny Program": {
+    "id": "the-jack-benny-program",
+    "image": "artwork/shows/the-jack-benny-program/cover.jpg",
+    "thumbnail": "artwork/shows/the-jack-benny-program/thumb.webp",
+    "background": "artwork/shows/the-jack-benny-program/background.jpg",
+    "episodeCount": 51
+  },
+  "The Lady Detectives (BBC Radio)": {
+    "id": "the-lady-detectives-bbc-radio",
+    "image": "artwork/shows/the-lady-detectives-bbc-radio/cover.jpg",
+    "thumbnail": "artwork/shows/the-lady-detectives-bbc-radio/thumb.webp",
+    "background": "artwork/shows/the-lady-detectives-bbc-radio/background.jpg",
+    "episodeCount": 4
+  },
+  "The Lives of Harry Lime": {
+    "id": "the-lives-of-harry-lime",
+    "image": "artwork/shows/the-lives-of-harry-lime/cover.jpg",
+    "thumbnail": "artwork/shows/the-lives-of-harry-lime/thumb.webp",
+    "background": "artwork/shows/the-lives-of-harry-lime/background.jpg",
+    "episodeCount": 54
+  },
+  "The Lord of the Rings (BBC Radio)": {
+    "id": "the-lord-of-the-rings-bbc-radio",
+    "image": "artwork/shows/the-lord-of-the-rings-bbc-radio/cover.jpg",
+    "thumbnail": "artwork/shows/the-lord-of-the-rings-bbc-radio/thumb.webp",
+    "background": "artwork/shows/the-lord-of-the-rings-bbc-radio/background.jpg",
+    "episodeCount": 13
+  },
+  "The Mel Blanc Show": {
+    "id": "the-mel-blanc-show",
+    "image": "artwork/shows/the-mel-blanc-show/cover.jpg",
+    "thumbnail": "artwork/shows/the-mel-blanc-show/thumb.webp",
+    "background": "artwork/shows/the-mel-blanc-show/background.jpg",
+    "episodeCount": 42
+  },
+  "The Mercury Theatre on the Air": {
+    "id": "the-mercury-theatre-on-the-air",
+    "image": "artwork/shows/the-mercury-theatre-on-the-air/cover.jpg",
+    "thumbnail": "artwork/shows/the-mercury-theatre-on-the-air/thumb.webp",
+    "background": "artwork/shows/the-mercury-theatre-on-the-air/background.jpg",
+    "episodeCount": 130
+  },
+  "The New Adventures of Sherlock Holmes": {
+    "id": "the-new-adventures-of-sherlock-holmes",
+    "image": "artwork/shows/the-new-adventures-of-sherlock-holmes/cover.jpg",
+    "thumbnail": "artwork/shows/the-new-adventures-of-sherlock-holmes/thumb.webp",
+    "background": "artwork/shows/the-new-adventures-of-sherlock-holmes/background.jpg",
+    "episodeCount": 52
+  },
+  "The Phil Harris-Alice Faye Show": {
+    "id": "the-phil-harris-alice-faye-show",
+    "image": "artwork/shows/the-phil-harris-alice-faye-show/cover.jpg",
+    "thumbnail": "artwork/shows/the-phil-harris-alice-faye-show/thumb.webp",
+    "background": "artwork/shows/the-phil-harris-alice-faye-show/background.jpg",
+    "episodeCount": 252
+  },
+  "The Private Files of Rex Saunders": {
+    "id": "the-private-files-of-rex-saunders",
+    "image": "artwork/shows/the-private-files-of-rex-saunders/cover.jpg",
+    "thumbnail": "artwork/shows/the-private-files-of-rex-saunders/thumb.webp",
+    "background": "artwork/shows/the-private-files-of-rex-saunders/background.jpg",
+    "episodeCount": 14
+  },
+  "The Railroad Hour": {
+    "id": "the-railroad-hour",
+    "image": "artwork/shows/the-railroad-hour/cover.jpg",
+    "thumbnail": "artwork/shows/the-railroad-hour/thumb.webp",
+    "background": "artwork/shows/the-railroad-hour/background.jpg",
+    "episodeCount": 246
+  },
+  "The Red Skelton Show": {
+    "id": "the-red-skelton-show",
+    "image": "artwork/shows/the-red-skelton-show/cover.jpg",
+    "thumbnail": "artwork/shows/the-red-skelton-show/thumb.webp",
+    "background": "artwork/shows/the-red-skelton-show/background.jpg",
+    "episodeCount": 266
+  },
+  "The Six Shooter": {
+    "id": "the-six-shooter",
+    "image": "artwork/shows/the-six-shooter/cover.jpg",
+    "thumbnail": "artwork/shows/the-six-shooter/thumb.webp",
+    "background": "artwork/shows/the-six-shooter/background.jpg",
+    "episodeCount": 44
+  },
+  "Theater Five": {
+    "id": "theater-five",
+    "image": "artwork/shows/theater-five/cover.jpg",
+    "thumbnail": "artwork/shows/theater-five/thumb.webp",
+    "background": "artwork/shows/theater-five/background.jpg",
+    "episodeCount": 258
+  },
+  "Theatre Royal": {
+    "id": "theatre-royal",
+    "image": "artwork/shows/theatre-royal/cover.jpg",
+    "thumbnail": "artwork/shows/theatre-royal/thumb.webp",
+    "background": "artwork/shows/theatre-royal/background.jpg",
+    "episodeCount": 45
+  },
+  "Words at War": {
+    "id": "words-at-war",
+    "image": "artwork/shows/words-at-war/cover.jpg",
+    "thumbnail": "artwork/shows/words-at-war/thumb.webp",
+    "background": "artwork/shows/words-at-war/background.jpg",
+    "episodeCount": 90
   }
 }
