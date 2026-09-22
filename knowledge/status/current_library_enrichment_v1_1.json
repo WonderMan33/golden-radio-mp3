@@ -1,0 +1,17 @@
+{
+  "snapshot": "GRH current library enrichment v1.1",
+  "episodes": 25271,
+  "series": 177,
+  "processed": 25271,
+  "completion_percent": 100.0,
+  "enriched": 14693,
+  "processed_no_match": 10464,
+  "rejected_external_match": 114,
+  "unresolved_candidates": 0,
+  "people": 7391,
+  "credits": 127188,
+  "organizations": 1030,
+  "series_connections": 4482,
+  "integrity_check": "ok",
+  "generated_at": "2026-09-22T05:39:49.109149+00:00"
+}
