@@ -1,0 +1,1927 @@
+{
+  "schema": "grh-phase4-enrichment-v1",
+  "phase3_run_id": "grh_deep_v2_c15cad2478e7",
+  "phase3_release_sha256": "E6FCE8CF3368A2BFD1FBCAEEFAE9A0F826B1D7E75182DB6788C88BF3E39306EF",
+  "phase3_snapshot_episode_objects": 25271,
+  "current_episode_rows": 25272,
+  "exported_episode_objects": 25272,
+  "episode_shards": 256,
+  "phase3_enriched_live_shows": 176,
+  "exported_show_objects": 177,
+  "post_snapshot_additions": 1,
+  "episode_lookup": "episodes/{first_two_hex_after_grh_}.json",
+  "show_lookup": "shows/{wordpress_style_slug}.json",
+  "shards": {
+    "00": {
+      "episodes": 83,
+      "bytes": 81123
+    },
+    "01": {
+      "episodes": 91,
+      "bytes": 102331
+    },
+    "02": {
+      "episodes": 98,
+      "bytes": 121370
+    },
+    "03": {
+      "episodes": 123,
+      "bytes": 143449
+    },
+    "04": {
+      "episodes": 102,
+      "bytes": 110540
+    },
+    "05": {
+      "episodes": 94,
+      "bytes": 103006
+    },
+    "06": {
+      "episodes": 94,
+      "bytes": 116144
+    },
+    "07": {
+      "episodes": 121,
+      "bytes": 138562
+    },
+    "08": {
+      "episodes": 102,
+      "bytes": 116540
+    },
+    "09": {
+      "episodes": 106,
+      "bytes": 117921
+    },
+    "0a": {
+      "episodes": 95,
+      "bytes": 108920
+    },
+    "0b": {
+      "episodes": 105,
+      "bytes": 112449
+    },
+    "0c": {
+      "episodes": 104,
+      "bytes": 116825
+    },
+    "0d": {
+      "episodes": 83,
+      "bytes": 97538
+    },
+    "0e": {
+      "episodes": 83,
+      "bytes": 95434
+    },
+    "0f": {
+      "episodes": 109,
+      "bytes": 122940
+    },
+    "10": {
+      "episodes": 98,
+      "bytes": 105802
+    },
+    "11": {
+      "episodes": 90,
+      "bytes": 100859
+    },
+    "12": {
+      "episodes": 118,
+      "bytes": 122513
+    },
+    "13": {
+      "episodes": 106,
+      "bytes": 116845
+    },
+    "14": {
+      "episodes": 107,
+      "bytes": 122563
+    },
+    "15": {
+      "episodes": 112,
+      "bytes": 126965
+    },
+    "16": {
+      "episodes": 91,
+      "bytes": 97800
+    },
+    "17": {
+      "episodes": 103,
+      "bytes": 104639
+    },
+    "18": {
+      "episodes": 120,
+      "bytes": 136334
+    },
+    "19": {
+      "episodes": 80,
+      "bytes": 86073
+    },
+    "1a": {
+      "episodes": 86,
+      "bytes": 90325
+    },
+    "1b": {
+      "episodes": 98,
+      "bytes": 117264
+    },
+    "1c": {
+      "episodes": 95,
+      "bytes": 108900
+    },
+    "1d": {
+      "episodes": 84,
+      "bytes": 95847
+    },
+    "1e": {
+      "episodes": 97,
+      "bytes": 102238
+    },
+    "1f": {
+      "episodes": 76,
+      "bytes": 81382
+    },
+    "20": {
+      "episodes": 115,
+      "bytes": 121252
+    },
+    "21": {
+      "episodes": 96,
+      "bytes": 95507
+    },
+    "22": {
+      "episodes": 103,
+      "bytes": 124098
+    },
+    "23": {
+      "episodes": 97,
+      "bytes": 108583
+    },
+    "24": {
+      "episodes": 96,
+      "bytes": 101803
+    },
+    "25": {
+      "episodes": 85,
+      "bytes": 92752
+    },
+    "26": {
+      "episodes": 103,
+      "bytes": 117066
+    },
+    "27": {
+      "episodes": 108,
+      "bytes": 113200
+    },
+    "28": {
+      "episodes": 95,
+      "bytes": 110090
+    },
+    "29": {
+      "episodes": 97,
+      "bytes": 109527
+    },
+    "2a": {
+      "episodes": 106,
+      "bytes": 124275
+    },
+    "2b": {
+      "episodes": 114,
+      "bytes": 120885
+    },
+    "2c": {
+      "episodes": 87,
+      "bytes": 102017
+    },
+    "2d": {
+      "episodes": 100,
+      "bytes": 116057
+    },
+    "2e": {
+      "episodes": 95,
+      "bytes": 93595
+    },
+    "2f": {
+      "episodes": 99,
+      "bytes": 106912
+    },
+    "30": {
+      "episodes": 92,
+      "bytes": 104319
+    },
+    "31": {
+      "episodes": 108,
+      "bytes": 118159
+    },
+    "32": {
+      "episodes": 101,
+      "bytes": 105435
+    },
+    "33": {
+      "episodes": 84,
+      "bytes": 98305
+    },
+    "34": {
+      "episodes": 112,
+      "bytes": 124955
+    },
+    "35": {
+      "episodes": 119,
+      "bytes": 120627
+    },
+    "36": {
+      "episodes": 100,
+      "bytes": 106699
+    },
+    "37": {
+      "episodes": 108,
+      "bytes": 112814
+    },
+    "38": {
+      "episodes": 89,
+      "bytes": 93505
+    },
+    "39": {
+      "episodes": 97,
+      "bytes": 101402
+    },
+    "3a": {
+      "episodes": 97,
+      "bytes": 102100
+    },
+    "3b": {
+      "episodes": 101,
+      "bytes": 109503
+    },
+    "3c": {
+      "episodes": 92,
+      "bytes": 95685
+    },
+    "3d": {
+      "episodes": 87,
+      "bytes": 101406
+    },
+    "3e": {
+      "episodes": 94,
+      "bytes": 124193
+    },
+    "3f": {
+      "episodes": 100,
+      "bytes": 118384
+    },
+    "40": {
+      "episodes": 100,
+      "bytes": 119785
+    },
+    "41": {
+      "episodes": 97,
+      "bytes": 109757
+    },
+    "42": {
+      "episodes": 107,
+      "bytes": 116646
+    },
+    "43": {
+      "episodes": 91,
+      "bytes": 92837
+    },
+    "44": {
+      "episodes": 118,
+      "bytes": 128836
+    },
+    "45": {
+      "episodes": 85,
+      "bytes": 89430
+    },
+    "46": {
+      "episodes": 90,
+      "bytes": 103491
+    },
+    "47": {
+      "episodes": 98,
+      "bytes": 110092
+    },
+    "48": {
+      "episodes": 96,
+      "bytes": 100020
+    },
+    "49": {
+      "episodes": 88,
+      "bytes": 106381
+    },
+    "4a": {
+      "episodes": 102,
+      "bytes": 106679
+    },
+    "4b": {
+      "episodes": 88,
+      "bytes": 98028
+    },
+    "4c": {
+      "episodes": 99,
+      "bytes": 107373
+    },
+    "4d": {
+      "episodes": 98,
+      "bytes": 109596
+    },
+    "4e": {
+      "episodes": 81,
+      "bytes": 91408
+    },
+    "4f": {
+      "episodes": 106,
+      "bytes": 119031
+    },
+    "50": {
+      "episodes": 108,
+      "bytes": 112688
+    },
+    "51": {
+      "episodes": 86,
+      "bytes": 94473
+    },
+    "52": {
+      "episodes": 113,
+      "bytes": 125778
+    },
+    "53": {
+      "episodes": 84,
+      "bytes": 87728
+    },
+    "54": {
+      "episodes": 101,
+      "bytes": 123090
+    },
+    "55": {
+      "episodes": 96,
+      "bytes": 100722
+    },
+    "56": {
+      "episodes": 100,
+      "bytes": 111138
+    },
+    "57": {
+      "episodes": 107,
+      "bytes": 119372
+    },
+    "58": {
+      "episodes": 95,
+      "bytes": 103638
+    },
+    "59": {
+      "episodes": 85,
+      "bytes": 101225
+    },
+    "5a": {
+      "episodes": 108,
+      "bytes": 107682
+    },
+    "5b": {
+      "episodes": 101,
+      "bytes": 112113
+    },
+    "5c": {
+      "episodes": 96,
+      "bytes": 96774
+    },
+    "5d": {
+      "episodes": 128,
+      "bytes": 151098
+    },
+    "5e": {
+      "episodes": 102,
+      "bytes": 112240
+    },
+    "5f": {
+      "episodes": 85,
+      "bytes": 91983
+    },
+    "60": {
+      "episodes": 98,
+      "bytes": 98679
+    },
+    "61": {
+      "episodes": 97,
+      "bytes": 110918
+    },
+    "62": {
+      "episodes": 101,
+      "bytes": 111296
+    },
+    "63": {
+      "episodes": 97,
+      "bytes": 115669
+    },
+    "64": {
+      "episodes": 97,
+      "bytes": 111982
+    },
+    "65": {
+      "episodes": 106,
+      "bytes": 123708
+    },
+    "66": {
+      "episodes": 101,
+      "bytes": 116612
+    },
+    "67": {
+      "episodes": 86,
+      "bytes": 95867
+    },
+    "68": {
+      "episodes": 94,
+      "bytes": 106451
+    },
+    "69": {
+      "episodes": 110,
+      "bytes": 124249
+    },
+    "6a": {
+      "episodes": 109,
+      "bytes": 120258
+    },
+    "6b": {
+      "episodes": 72,
+      "bytes": 78501
+    },
+    "6c": {
+      "episodes": 87,
+      "bytes": 89280
+    },
+    "6d": {
+      "episodes": 93,
+      "bytes": 106947
+    },
+    "6e": {
+      "episodes": 94,
+      "bytes": 96407
+    },
+    "6f": {
+      "episodes": 91,
+      "bytes": 100992
+    },
+    "70": {
+      "episodes": 112,
+      "bytes": 124559
+    },
+    "71": {
+      "episodes": 98,
+      "bytes": 116285
+    },
+    "72": {
+      "episodes": 123,
+      "bytes": 145167
+    },
+    "73": {
+      "episodes": 109,
+      "bytes": 117157
+    },
+    "74": {
+      "episodes": 105,
+      "bytes": 108781
+    },
+    "75": {
+      "episodes": 100,
+      "bytes": 108757
+    },
+    "76": {
+      "episodes": 88,
+      "bytes": 99555
+    },
+    "77": {
+      "episodes": 109,
+      "bytes": 116930
+    },
+    "78": {
+      "episodes": 93,
+      "bytes": 98378
+    },
+    "79": {
+      "episodes": 102,
+      "bytes": 109346
+    },
+    "7a": {
+      "episodes": 101,
+      "bytes": 123587
+    },
+    "7b": {
+      "episodes": 102,
+      "bytes": 102621
+    },
+    "7c": {
+      "episodes": 88,
+      "bytes": 93301
+    },
+    "7d": {
+      "episodes": 93,
+      "bytes": 103507
+    },
+    "7e": {
+      "episodes": 116,
+      "bytes": 110994
+    },
+    "7f": {
+      "episodes": 106,
+      "bytes": 119867
+    },
+    "80": {
+      "episodes": 93,
+      "bytes": 100406
+    },
+    "81": {
+      "episodes": 96,
+      "bytes": 102925
+    },
+    "82": {
+      "episodes": 92,
+      "bytes": 95632
+    },
+    "83": {
+      "episodes": 111,
+      "bytes": 115343
+    },
+    "84": {
+      "episodes": 97,
+      "bytes": 111863
+    },
+    "85": {
+      "episodes": 97,
+      "bytes": 105222
+    },
+    "86": {
+      "episodes": 88,
+      "bytes": 97557
+    },
+    "87": {
+      "episodes": 99,
+      "bytes": 112454
+    },
+    "88": {
+      "episodes": 74,
+      "bytes": 94521
+    },
+    "89": {
+      "episodes": 103,
+      "bytes": 102872
+    },
+    "8a": {
+      "episodes": 102,
+      "bytes": 105607
+    },
+    "8b": {
+      "episodes": 101,
+      "bytes": 113067
+    },
+    "8c": {
+      "episodes": 111,
+      "bytes": 133066
+    },
+    "8d": {
+      "episodes": 112,
+      "bytes": 130335
+    },
+    "8e": {
+      "episodes": 88,
+      "bytes": 97919
+    },
+    "8f": {
+      "episodes": 109,
+      "bytes": 117465
+    },
+    "90": {
+      "episodes": 91,
+      "bytes": 104555
+    },
+    "91": {
+      "episodes": 94,
+      "bytes": 96873
+    },
+    "92": {
+      "episodes": 102,
+      "bytes": 112895
+    },
+    "93": {
+      "episodes": 90,
+      "bytes": 88736
+    },
+    "94": {
+      "episodes": 113,
+      "bytes": 124579
+    },
+    "95": {
+      "episodes": 98,
+      "bytes": 116574
+    },
+    "96": {
+      "episodes": 95,
+      "bytes": 89513
+    },
+    "97": {
+      "episodes": 115,
+      "bytes": 122119
+    },
+    "98": {
+      "episodes": 98,
+      "bytes": 108462
+    },
+    "99": {
+      "episodes": 94,
+      "bytes": 104395
+    },
+    "9a": {
+      "episodes": 97,
+      "bytes": 110099
+    },
+    "9b": {
+      "episodes": 90,
+      "bytes": 97307
+    },
+    "9c": {
+      "episodes": 83,
+      "bytes": 85754
+    },
+    "9d": {
+      "episodes": 95,
+      "bytes": 117698
+    },
+    "9e": {
+      "episodes": 95,
+      "bytes": 104272
+    },
+    "9f": {
+      "episodes": 108,
+      "bytes": 123631
+    },
+    "a0": {
+      "episodes": 82,
+      "bytes": 95531
+    },
+    "a1": {
+      "episodes": 100,
+      "bytes": 121563
+    },
+    "a2": {
+      "episodes": 104,
+      "bytes": 116838
+    },
+    "a3": {
+      "episodes": 107,
+      "bytes": 118894
+    },
+    "a4": {
+      "episodes": 103,
+      "bytes": 110223
+    },
+    "a5": {
+      "episodes": 92,
+      "bytes": 91829
+    },
+    "a6": {
+      "episodes": 93,
+      "bytes": 93078
+    },
+    "a7": {
+      "episodes": 112,
+      "bytes": 118208
+    },
+    "a8": {
+      "episodes": 110,
+      "bytes": 117009
+    },
+    "a9": {
+      "episodes": 107,
+      "bytes": 122830
+    },
+    "aa": {
+      "episodes": 91,
+      "bytes": 106444
+    },
+    "ab": {
+      "episodes": 111,
+      "bytes": 127027
+    },
+    "ac": {
+      "episodes": 108,
+      "bytes": 127721
+    },
+    "ad": {
+      "episodes": 86,
+      "bytes": 82910
+    },
+    "ae": {
+      "episodes": 91,
+      "bytes": 115561
+    },
+    "af": {
+      "episodes": 96,
+      "bytes": 92768
+    },
+    "b0": {
+      "episodes": 102,
+      "bytes": 107848
+    },
+    "b1": {
+      "episodes": 105,
+      "bytes": 117259
+    },
+    "b2": {
+      "episodes": 104,
+      "bytes": 112998
+    },
+    "b3": {
+      "episodes": 85,
+      "bytes": 92982
+    },
+    "b4": {
+      "episodes": 98,
+      "bytes": 109630
+    },
+    "b5": {
+      "episodes": 96,
+      "bytes": 113757
+    },
+    "b6": {
+      "episodes": 98,
+      "bytes": 118173
+    },
+    "b7": {
+      "episodes": 91,
+      "bytes": 94653
+    },
+    "b8": {
+      "episodes": 92,
+      "bytes": 99396
+    },
+    "b9": {
+      "episodes": 100,
+      "bytes": 112345
+    },
+    "ba": {
+      "episodes": 104,
+      "bytes": 123442
+    },
+    "bb": {
+      "episodes": 109,
+      "bytes": 115174
+    },
+    "bc": {
+      "episodes": 101,
+      "bytes": 106945
+    },
+    "bd": {
+      "episodes": 102,
+      "bytes": 114010
+    },
+    "be": {
+      "episodes": 98,
+      "bytes": 105580
+    },
+    "bf": {
+      "episodes": 91,
+      "bytes": 99195
+    },
+    "c0": {
+      "episodes": 83,
+      "bytes": 91962
+    },
+    "c1": {
+      "episodes": 85,
+      "bytes": 89366
+    },
+    "c2": {
+      "episodes": 91,
+      "bytes": 102125
+    },
+    "c3": {
+      "episodes": 105,
+      "bytes": 111396
+    },
+    "c4": {
+      "episodes": 108,
+      "bytes": 118843
+    },
+    "c5": {
+      "episodes": 90,
+      "bytes": 96966
+    },
+    "c6": {
+      "episodes": 108,
+      "bytes": 116039
+    },
+    "c7": {
+      "episodes": 80,
+      "bytes": 88926
+    },
+    "c8": {
+      "episodes": 87,
+      "bytes": 93336
+    },
+    "c9": {
+      "episodes": 92,
+      "bytes": 110281
+    },
+    "ca": {
+      "episodes": 104,
+      "bytes": 115633
+    },
+    "cb": {
+      "episodes": 106,
+      "bytes": 120657
+    },
+    "cc": {
+      "episodes": 91,
+      "bytes": 107676
+    },
+    "cd": {
+      "episodes": 91,
+      "bytes": 91938
+    },
+    "ce": {
+      "episodes": 116,
+      "bytes": 131711
+    },
+    "cf": {
+      "episodes": 105,
+      "bytes": 109439
+    },
+    "d0": {
+      "episodes": 89,
+      "bytes": 110159
+    },
+    "d1": {
+      "episodes": 90,
+      "bytes": 99416
+    },
+    "d2": {
+      "episodes": 116,
+      "bytes": 133559
+    },
+    "d3": {
+      "episodes": 101,
+      "bytes": 105232
+    },
+    "d4": {
+      "episodes": 101,
+      "bytes": 100018
+    },
+    "d5": {
+      "episodes": 101,
+      "bytes": 106834
+    },
+    "d6": {
+      "episodes": 97,
+      "bytes": 110666
+    },
+    "d7": {
+      "episodes": 92,
+      "bytes": 99335
+    },
+    "d8": {
+      "episodes": 104,
+      "bytes": 113953
+    },
+    "d9": {
+      "episodes": 94,
+      "bytes": 101676
+    },
+    "da": {
+      "episodes": 96,
+      "bytes": 109740
+    },
+    "db": {
+      "episodes": 103,
+      "bytes": 114520
+    },
+    "dc": {
+      "episodes": 89,
+      "bytes": 88984
+    },
+    "dd": {
+      "episodes": 108,
+      "bytes": 110698
+    },
+    "de": {
+      "episodes": 83,
+      "bytes": 81569
+    },
+    "df": {
+      "episodes": 113,
+      "bytes": 128738
+    },
+    "e0": {
+      "episodes": 119,
+      "bytes": 134084
+    },
+    "e1": {
+      "episodes": 103,
+      "bytes": 114662
+    },
+    "e2": {
+      "episodes": 118,
+      "bytes": 134323
+    },
+    "e3": {
+      "episodes": 95,
+      "bytes": 98269
+    },
+    "e4": {
+      "episodes": 98,
+      "bytes": 107989
+    },
+    "e5": {
+      "episodes": 94,
+      "bytes": 104662
+    },
+    "e6": {
+      "episodes": 99,
+      "bytes": 109346
+    },
+    "e7": {
+      "episodes": 100,
+      "bytes": 119720
+    },
+    "e8": {
+      "episodes": 110,
+      "bytes": 123401
+    },
+    "e9": {
+      "episodes": 87,
+      "bytes": 86419
+    },
+    "ea": {
+      "episodes": 114,
+      "bytes": 132164
+    },
+    "eb": {
+      "episodes": 98,
+      "bytes": 94023
+    },
+    "ec": {
+      "episodes": 98,
+      "bytes": 109369
+    },
+    "ed": {
+      "episodes": 96,
+      "bytes": 97583
+    },
+    "ee": {
+      "episodes": 100,
+      "bytes": 111152
+    },
+    "ef": {
+      "episodes": 105,
+      "bytes": 124701
+    },
+    "f0": {
+      "episodes": 86,
+      "bytes": 100341
+    },
+    "f1": {
+      "episodes": 83,
+      "bytes": 88015
+    },
+    "f2": {
+      "episodes": 99,
+      "bytes": 107468
+    },
+    "f3": {
+      "episodes": 96,
+      "bytes": 114991
+    },
+    "f4": {
+      "episodes": 86,
+      "bytes": 85607
+    },
+    "f5": {
+      "episodes": 105,
+      "bytes": 109817
+    },
+    "f6": {
+      "episodes": 114,
+      "bytes": 123078
+    },
+    "f7": {
+      "episodes": 116,
+      "bytes": 125138
+    },
+    "f8": {
+      "episodes": 92,
+      "bytes": 92178
+    },
+    "f9": {
+      "episodes": 108,
+      "bytes": 112273
+    },
+    "fa": {
+      "episodes": 106,
+      "bytes": 115702
+    },
+    "fb": {
+      "episodes": 104,
+      "bytes": 123171
+    },
+    "fc": {
+      "episodes": 103,
+      "bytes": 109876
+    },
+    "fd": {
+      "episodes": 83,
+      "bytes": 93033
+    },
+    "fe": {
+      "episodes": 102,
+      "bytes": 105425
+    },
+    "ff": {
+      "episodes": 88,
+      "bytes": 95555
+    }
+  },
+  "shows": {
+    "2000-plus": {
+      "title": "2000 Plus",
+      "series_id": "series.2000_plus_2f998e90",
+      "phase3_enriched": true
+    },
+    "a-date-with-judy": {
+      "title": "A Date with Judy",
+      "series_id": "series.a_date_with_judy_f964ea73",
+      "phase3_enriched": true
+    },
+    "a-man-called-x": {
+      "title": "A Man Called X",
+      "series_id": "series.a_man_called_x_f7f8d3e3",
+      "phase3_enriched": true
+    },
+    "academy-award-theater": {
+      "title": "Academy Award Theater",
+      "series_id": "series.academy_award_theater_dec82c3f",
+      "phase3_enriched": true
+    },
+    "all-star-western-theatre": {
+      "title": "All Star Western Theatre",
+      "series_id": "series.all_star_western_theatre_f0c844ad",
+      "phase3_enriched": true
+    },
+    "american-history-radio-collection": {
+      "title": "American History Radio Collection",
+      "series_id": "series.american_history_radio_collection_b7c9ffa3",
+      "phase3_enriched": true
+    },
+    "bbc-chillers": {
+      "title": "BBC Chillers",
+      "series_id": "series.bbc_chillers_2e02db8d",
+      "phase3_enriched": true
+    },
+    "bbc-ghosts-from-the-past": {
+      "title": "BBC Ghosts from the Past",
+      "series_id": "series.bbc_ghosts_from_the_past_f6e2b602",
+      "phase3_enriched": true
+    },
+    "bbc-philip-marlowe": {
+      "title": "BBC Philip Marlowe",
+      "series_id": "series.bbc_philip_marlowe_0a3d79ca",
+      "phase3_enriched": true
+    },
+    "bbc-presents-alfred-hitchcock": {
+      "title": "BBC Presents Alfred Hitchcock",
+      "series_id": "series.bbc_presents_alfred_hitchcock_9e545dbe",
+      "phase3_enriched": true
+    },
+    "bbc-sci-fi-radio-plays": {
+      "title": "BBC Sci-Fi Radio Plays",
+      "series_id": "series.bbc_sci_fi_radio_plays_1a0521c3",
+      "phase3_enriched": true
+    },
+    "barrie-craig": {
+      "title": "Barrie Craig",
+      "series_id": "series.barrie_craig_4cbeaed9",
+      "phase3_enriched": true
+    },
+    "beyond-midnight": {
+      "title": "Beyond Midnight",
+      "series_id": "series.beyond_midnight_9ab899bb",
+      "phase3_enriched": true
+    },
+    "blondie": {
+      "title": "Blondie",
+      "series_id": "series.blondie_1ecc943b",
+      "phase3_enriched": true
+    },
+    "bob-and-ray": {
+      "title": "Bob and Ray",
+      "series_id": "series.bob_and_ray_e4bb632c",
+      "phase3_enriched": true
+    },
+    "bold-venture": {
+      "title": "Bold Venture",
+      "series_id": "series.bold_venture_f5d98907",
+      "phase3_enriched": true
+    },
+    "boston-blackie": {
+      "title": "Boston Blackie",
+      "series_id": "series.boston_blackie_503c97fd",
+      "phase3_enriched": true
+    },
+    "box-13": {
+      "title": "Box 13",
+      "series_id": "series.box_13_ae568af1",
+      "phase3_enriched": true
+    },
+    "bright-star": {
+      "title": "Bright Star",
+      "series_id": "series.bright_star_20ab8ea7",
+      "phase3_enriched": true
+    },
+    "broadway-is-my-beat": {
+      "title": "Broadway Is My Beat",
+      "series_id": "series.broadway_is_my_beat_c30fe061",
+      "phase3_enriched": true
+    },
+    "cbc-theatre-10-30": {
+      "title": "CBC Theatre 10:30",
+      "series_id": "series.cbc_theatre_10_30_8ac0c2f0",
+      "phase3_enriched": true
+    },
+    "cbs-complete-broadcast-day-d-day": {
+      "title": "CBS Complete Broadcast Day: D-Day",
+      "series_id": "series.cbs_complete_broadcast_day_d_day_217333e1",
+      "phase3_enriched": true
+    },
+    "cbs-radio-mystery-theater": {
+      "title": "CBS Radio Mystery Theater",
+      "series_id": "series.cbs_radio_mystery_theater_afdc1ef1",
+      "phase3_enriched": true
+    },
+    "cbs-radio-workshop": {
+      "title": "CBS Radio Workshop",
+      "series_id": "series.cbs_radio_workshop_af69d79b",
+      "phase3_enriched": true
+    },
+    "calling-all-cars": {
+      "title": "Calling All Cars",
+      "series_id": "series.calling_all_cars_a5ad0dfb",
+      "phase3_enriched": true
+    },
+    "candy-matson": {
+      "title": "Candy Matson",
+      "series_id": "series.candy_matson_0e47539a",
+      "phase3_enriched": true
+    },
+    "casey-crime-photographer": {
+      "title": "Casey, Crime Photographer",
+      "series_id": "series.casey_crime_photographer_0e4d3f72",
+      "phase3_enriched": true
+    },
+    "challenge-of-the-yukon": {
+      "title": "Challenge of the Yukon",
+      "series_id": "series.challenge_of_the_yukon_a1f0f123",
+      "phase3_enriched": true
+    },
+    "chet-chetters-tales-from-the-morgue": {
+      "title": "Chet Chetter's Tales from the Morgue",
+      "series_id": "series.chet_chetter_s_tales_from_the_morgue_61bc5716",
+      "phase3_enriched": true
+    },
+    "christmas-spirits-bbc": {
+      "title": "Christmas Spirits (BBC)",
+      "series_id": "series.christmas_spirits_bbc_026c7708",
+      "phase3_enriched": true
+    },
+    "cloak-and-dagger": {
+      "title": "Cloak and Dagger",
+      "series_id": "series.cloak_and_dagger_cf33c8b0",
+      "phase3_enriched": true
+    },
+    "columbia-workshop": {
+      "title": "Columbia Workshop",
+      "series_id": "series.columbia_workshop_149ba2d0",
+      "phase3_enriched": true
+    },
+    "command-performance": {
+      "title": "Command Performance",
+      "series_id": "series.command_performance_9a11a51a",
+      "phase3_enriched": false
+    },
+    "counterspy": {
+      "title": "Counterspy",
+      "series_id": "series.counterspy_d24be88d",
+      "phase3_enriched": true
+    },
+    "crime-classics": {
+      "title": "Crime Classics",
+      "series_id": "series.crime_classics_5858142b",
+      "phase3_enriched": true
+    },
+    "crime-and-peter-chambers": {
+      "title": "Crime and Peter Chambers",
+      "series_id": "series.crime_and_peter_chambers_7ef381fb",
+      "phase3_enriched": true
+    },
+    "danger-dr-danfield": {
+      "title": "Danger, Dr. Danfield",
+      "series_id": "series.danger_dr_danfield_2071393b",
+      "phase3_enriched": true
+    },
+    "dangerous-assignment": {
+      "title": "Dangerous Assignment",
+      "series_id": "series.dangerous_assignment_abdd3de3",
+      "phase3_enriched": true
+    },
+    "dangerously-yours": {
+      "title": "Dangerously Yours",
+      "series_id": "series.dangerously_yours_666a5873",
+      "phase3_enriched": true
+    },
+    "dark-fantasy": {
+      "title": "Dark Fantasy",
+      "series_id": "series.dark_fantasy_22b968c2",
+      "phase3_enriched": true
+    },
+    "dimension-x": {
+      "title": "Dimension X",
+      "series_id": "series.dimension_x_8eb6f262",
+      "phase3_enriched": true
+    },
+    "dr-christian": {
+      "title": "Dr. Christian",
+      "series_id": "series.dr_christian_592caf47",
+      "phase3_enriched": true
+    },
+    "dr-kildare": {
+      "title": "Dr. Kildare",
+      "series_id": "series.dr_kildare_5891a8df",
+      "phase3_enriched": true
+    },
+    "dragnet": {
+      "title": "Dragnet",
+      "series_id": "series.dragnet",
+      "phase3_enriched": true
+    },
+    "duffys-tavern": {
+      "title": "Duffy's Tavern",
+      "series_id": "series.duffy_s_tavern_f4a5c000",
+      "phase3_enriched": true
+    },
+    "encore-theater": {
+      "title": "Encore Theater",
+      "series_id": "series.encore_theater_85b1a504",
+      "phase3_enriched": true
+    },
+    "escape": {
+      "title": "Escape",
+      "series_id": "series.escape_b4cfe1f4",
+      "phase3_enriched": true
+    },
+    "fdr-fireside-chats": {
+      "title": "FDR Fireside Chats",
+      "series_id": "series.fdr_fireside_chats_359ca77a",
+      "phase3_enriched": true
+    },
+    "father-knows-best": {
+      "title": "Father Knows Best",
+      "series_id": "series.father_knows_best_92db4e5b",
+      "phase3_enriched": true
+    },
+    "fibber-mcgee-and-molly": {
+      "title": "Fibber McGee and Molly",
+      "series_id": "series.fibber_mcgee_and_molly_31d3e470",
+      "phase3_enriched": true
+    },
+    "fort-laramie": {
+      "title": "Fort Laramie",
+      "series_id": "series.fort_laramie_805eda99",
+      "phase3_enriched": true
+    },
+    "frontier-gentleman": {
+      "title": "Frontier Gentleman",
+      "series_id": "series.frontier_gentleman_6952b550",
+      "phase3_enriched": true
+    },
+    "frontier-town": {
+      "title": "Frontier Town",
+      "series_id": "series.frontier_town_84eaafcd",
+      "phase3_enriched": true
+    },
+    "fu-manchu": {
+      "title": "Fu Manchu",
+      "series_id": "series.fu_manchu_e32fed12",
+      "phase3_enriched": true
+    },
+    "gang-busters": {
+      "title": "Gang Busters",
+      "series_id": "series.gang_busters_8fa8f770",
+      "phase3_enriched": true
+    },
+    "george-orwell-radio-collection": {
+      "title": "George Orwell Radio Collection",
+      "series_id": "series.george_orwell_radio_collection_729ac2e1",
+      "phase3_enriched": true
+    },
+    "gunsmoke": {
+      "title": "Gunsmoke",
+      "series_id": "series.gunsmoke",
+      "phase3_enriched": true
+    },
+    "hall-of-fantasy": {
+      "title": "Hall of Fantasy",
+      "series_id": "series.hall_of_fantasy_dd8b82db",
+      "phase3_enriched": true
+    },
+    "have-gun-will-travel": {
+      "title": "Have Gun, Will Travel",
+      "series_id": "series.have_gun_will_travel_540ea7db",
+      "phase3_enriched": true
+    },
+    "hearthstone-of-the-death-squad": {
+      "title": "Hearthstone of the Death Squad",
+      "series_id": "series.hearthstone_of_the_death_squad_659d03b0",
+      "phase3_enriched": true
+    },
+    "hopalong-cassidy": {
+      "title": "Hopalong Cassidy",
+      "series_id": "series.hopalong_cassidy_38b59c79",
+      "phase3_enriched": true
+    },
+    "i-love-a-mystery": {
+      "title": "I Love a Mystery",
+      "series_id": "series.i_love_a_mystery_aace0e3b",
+      "phase3_enriched": true
+    },
+    "in-the-name-of-the-law": {
+      "title": "In the Name of the Law",
+      "series_id": "series.in_the_name_of_the_law_123a1d35",
+      "phase3_enriched": true
+    },
+    "inner-sanctum-mysteries": {
+      "title": "Inner Sanctum Mysteries",
+      "series_id": "series.inner_sanctum",
+      "phase3_enriched": true
+    },
+    "inspector-thorne": {
+      "title": "Inspector Thorne",
+      "series_id": "series.inspector_thorne_f7457aff",
+      "phase3_enriched": true
+    },
+    "its-a-crime-mr-collins": {
+      "title": "It's a Crime, Mr. Collins",
+      "series_id": "series.it_s_a_crime_mr_collins_a8586e7d",
+      "phase3_enriched": true
+    },
+    "jeff-regan-investigator": {
+      "title": "Jeff Regan, Investigator",
+      "series_id": "series.jeff_regan_investigator_1898daba",
+      "phase3_enriched": true
+    },
+    "john-steele-adventurer": {
+      "title": "John Steele, Adventurer",
+      "series_id": "series.john_steele_adventurer_6d824d82",
+      "phase3_enriched": true
+    },
+    "let-george-do-it": {
+      "title": "Let George Do It",
+      "series_id": "series.let_george_do_it_a401fdef",
+      "phase3_enriched": true
+    },
+    "lights-out": {
+      "title": "Lights Out",
+      "series_id": "series.lights_out_7bbd0834",
+      "phase3_enriched": true
+    },
+    "luke-slaughter-of-tombstone": {
+      "title": "Luke Slaughter of Tombstone",
+      "series_id": "series.luke_slaughter_of_tombstone_5112bf1d",
+      "phase3_enriched": true
+    },
+    "lum-and-abner": {
+      "title": "Lum and Abner",
+      "series_id": "series.lum_and_abner_384e6538",
+      "phase3_enriched": true
+    },
+    "lux-radio-theatre": {
+      "title": "Lux Radio Theatre",
+      "series_id": "series.lux_radio_theatre_52e072cc",
+      "phase3_enriched": true
+    },
+    "mama-blooms-brood": {
+      "title": "Mama Bloom's Brood",
+      "series_id": "series.mama_bloom_s_brood_b80a73d7",
+      "phase3_enriched": true
+    },
+    "matinee-theater": {
+      "title": "Matinee Theater",
+      "series_id": "series.matinee_theater_2171d5ed",
+      "phase3_enriched": true
+    },
+    "matthew-slade-private-investigator": {
+      "title": "Matthew Slade, Private Investigator",
+      "series_id": "series.matthew_slade_private_investigator_f3648b3d",
+      "phase3_enriched": true
+    },
+    "melody-ranch": {
+      "title": "Melody Ranch",
+      "series_id": "series.melody_ranch_efa74e06",
+      "phase3_enriched": true
+    },
+    "michael-shayne": {
+      "title": "Michael Shayne",
+      "series_id": "series.michael_shayne_a9670c48",
+      "phase3_enriched": true
+    },
+    "mike-hammer": {
+      "title": "Mike Hammer",
+      "series_id": "series.mike_hammer_bf364b17",
+      "phase3_enriched": true
+    },
+    "molle-mystery-theatre": {
+      "title": "Molle Mystery Theatre",
+      "series_id": "series.molle_mystery_theatre_7a81fc1e",
+      "phase3_enriched": true
+    },
+    "mr-district-attorney": {
+      "title": "Mr. District Attorney",
+      "series_id": "series.mr_district_attorney_3afeeb7e",
+      "phase3_enriched": true
+    },
+    "mr-keen-tracer-of-lost-persons": {
+      "title": "Mr. Keen, Tracer of Lost Persons",
+      "series_id": "series.mr_keen_tracer_of_lost_persons_d3f4447a",
+      "phase3_enriched": true
+    },
+    "mr-malone": {
+      "title": "Mr. Malone",
+      "series_id": "series.mr_malone_103be878",
+      "phase3_enriched": true
+    },
+    "murder-clinic": {
+      "title": "Murder Clinic",
+      "series_id": "series.murder_clinic_0fc78b3c",
+      "phase3_enriched": true
+    },
+    "my-favorite-husband": {
+      "title": "My Favorite Husband",
+      "series_id": "series.my_favorite_husband_798cbfbd",
+      "phase3_enriched": true
+    },
+    "mysterious-circumstances-bbc": {
+      "title": "Mysterious Circumstances (BBC)",
+      "series_id": "series.mysterious_circumstances_bbc_6f40d424",
+      "phase3_enriched": true
+    },
+    "mystery-house": {
+      "title": "Mystery House",
+      "series_id": "series.mystery_house_b8314c2f",
+      "phase3_enriched": true
+    },
+    "mystery-is-my-hobby": {
+      "title": "Mystery Is My Hobby",
+      "series_id": "series.mystery_is_my_hobby_6ad01bbd",
+      "phase3_enriched": true
+    },
+    "nbc-university-theater": {
+      "title": "NBC University Theater",
+      "series_id": "series.nbc_university_theater_e6d8e6f0",
+      "phase3_enriched": true
+    },
+    "nick-carter-master-detective": {
+      "title": "Nick Carter, Master Detective",
+      "series_id": "series.nick_carter_master_detective_f7e3579c",
+      "phase3_enriched": true
+    },
+    "night-beat": {
+      "title": "Night Beat",
+      "series_id": "series.night_beat_bd4801ee",
+      "phase3_enriched": true
+    },
+    "nightwatch": {
+      "title": "Nightwatch",
+      "series_id": "series.nightwatch_f34bc3f2",
+      "phase3_enriched": true
+    },
+    "obsession": {
+      "title": "Obsession",
+      "series_id": "series.obsession_ffc4d5c8",
+      "phase3_enriched": true
+    },
+    "old-gold-comedy-theater": {
+      "title": "Old Gold Comedy Theater",
+      "series_id": "series.old_gold_comedy_theater_0ddb600b",
+      "phase3_enriched": true
+    },
+    "old-radio-advertisements": {
+      "title": "Old Radio Advertisements",
+      "series_id": "series.old_radio_advertisements_86aeebec",
+      "phase3_enriched": true
+    },
+    "pat-novak-for-hire": {
+      "title": "Pat Novak, for Hire",
+      "series_id": "series.pat_novak_for_hire_908ad0cb",
+      "phase3_enriched": true
+    },
+    "philo-vance": {
+      "title": "Philo Vance",
+      "series_id": "series.philo_vance_17e253be",
+      "phase3_enriched": true
+    },
+    "popeye-the-sailor": {
+      "title": "Popeye the Sailor",
+      "series_id": "series.popeye_the_sailor_10138f60",
+      "phase3_enriched": true
+    },
+    "quiet-please": {
+      "title": "Quiet Please",
+      "series_id": "series.quiet_please_878aad6a",
+      "phase3_enriched": true
+    },
+    "ranger-bill": {
+      "title": "Ranger Bill",
+      "series_id": "series.ranger_bill_21b7cbeb",
+      "phase3_enriched": true
+    },
+    "ray-bradbury-bbc-radio": {
+      "title": "Ray Bradbury BBC Radio",
+      "series_id": "series.ray_bradbury_bbc_radio_40238306",
+      "phase3_enriched": true
+    },
+    "red-ryder": {
+      "title": "Red Ryder",
+      "series_id": "series.red_ryder_26e76085",
+      "phase3_enriched": true
+    },
+    "richard-diamond-private-detective": {
+      "title": "Richard Diamond, Private Detective",
+      "series_id": "series.richard_diamond",
+      "phase3_enriched": true
+    },
+    "rocky-fortune": {
+      "title": "Rocky Fortune",
+      "series_id": "series.rocky_fortune_38bdaa55",
+      "phase3_enriched": true
+    },
+    "rocky-jordan": {
+      "title": "Rocky Jordan",
+      "series_id": "series.rocky_jordan_ad7dd05a",
+      "phase3_enriched": true
+    },
+    "rogues-gallery": {
+      "title": "Rogues Gallery",
+      "series_id": "series.rogues_gallery_604801f6",
+      "phase3_enriched": true
+    },
+    "roy-rogers": {
+      "title": "Roy Rogers",
+      "series_id": "series.roy_rogers_97885f7a",
+      "phase3_enriched": true
+    },
+    "screen-directors-playhouse": {
+      "title": "Screen Directors Playhouse",
+      "series_id": "series.screen_directors_playhouse_fd64b7b3",
+      "phase3_enriched": true
+    },
+    "screen-guild-theater": {
+      "title": "Screen Guild Theater",
+      "series_id": "series.screen_guild_theater_ec925ad4",
+      "phase3_enriched": true
+    },
+    "sealtest-variety-theater": {
+      "title": "Sealtest Variety Theater",
+      "series_id": "series.sealtest_variety_theater_f877e24c",
+      "phase3_enriched": true
+    },
+    "sears-radio-theater": {
+      "title": "Sears Radio Theater",
+      "series_id": "series.sears_radio_theater_3b60be13",
+      "phase3_enriched": true
+    },
+    "secrets-of-scotland-yard": {
+      "title": "Secrets of Scotland Yard",
+      "series_id": "series.secrets_of_scotland_yard_3ca9b255",
+      "phase3_enriched": true
+    },
+    "stand-by-for-crime": {
+      "title": "Stand By for Crime",
+      "series_id": "series.stand_by_for_crime_776a7f39",
+      "phase3_enriched": true
+    },
+    "strange-wills": {
+      "title": "Strange Wills",
+      "series_id": "series.strange_wills_37da6810",
+      "phase3_enriched": true
+    },
+    "stroke-of-fate": {
+      "title": "Stroke of Fate",
+      "series_id": "series.stroke_of_fate_7d97ef41",
+      "phase3_enriched": true
+    },
+    "suspense": {
+      "title": "Suspense",
+      "series_id": "series.suspense",
+      "phase3_enriched": true
+    },
+    "tales-of-the-texas-rangers": {
+      "title": "Tales of the Texas Rangers",
+      "series_id": "series.tales_of_the_texas_rangers_b62dbe6b",
+      "phase3_enriched": true
+    },
+    "tarzan": {
+      "title": "Tarzan",
+      "series_id": "series.tarzan_6b7ea2ce",
+      "phase3_enriched": true
+    },
+    "the-abbott-and-costello-show": {
+      "title": "The Abbott and Costello Show",
+      "series_id": "series.the_abbott_and_costello_show_7ee22248",
+      "phase3_enriched": true
+    },
+    "the-adventures-of-frank-race": {
+      "title": "The Adventures of Frank Race",
+      "series_id": "series.the_adventures_of_frank_race_8b52fcc5",
+      "phase3_enriched": true
+    },
+    "philip-marlowe": {
+      "title": "The Adventures of Philip Marlowe",
+      "series_id": "series.philip_marlowe",
+      "phase3_enriched": true
+    },
+    "the-adventures-of-sam-spade": {
+      "title": "The Adventures of Sam Spade",
+      "series_id": "series.the_adventures_of_sam_spade_c7dd11f0",
+      "phase3_enriched": true
+    },
+    "the-adventures-of-superman": {
+      "title": "The Adventures of Superman",
+      "series_id": "series.the_adventures_of_superman_74bb1cbf",
+      "phase3_enriched": true
+    },
+    "the-adventures-of-the-abbotts": {
+      "title": "The Adventures of the Abbotts",
+      "series_id": "series.the_adventures_of_the_abbotts_79538d2a",
+      "phase3_enriched": true
+    },
+    "the-adventures-of-the-thin-man": {
+      "title": "The Adventures of the Thin Man",
+      "series_id": "series.the_adventures_of_the_thin_man_7fb220de",
+      "phase3_enriched": true
+    },
+    "the-big-show": {
+      "title": "The Big Show",
+      "series_id": "series.the_big_show_708ca556",
+      "phase3_enriched": true
+    },
+    "the-black-museum": {
+      "title": "The Black Museum",
+      "series_id": "series.the_black_museum_9a598add",
+      "phase3_enriched": true
+    },
+    "the-blue-beetle": {
+      "title": "The Blue Beetle",
+      "series_id": "series.the_blue_beetle_6cf0ed67",
+      "phase3_enriched": true
+    },
+    "the-chase": {
+      "title": "The Chase",
+      "series_id": "series.the_chase_2315fa6d",
+      "phase3_enriched": true
+    },
+    "the-cisco-kid": {
+      "title": "The Cisco Kid",
+      "series_id": "series.the_cisco_kid_47667704",
+      "phase3_enriched": true
+    },
+    "the-clock": {
+      "title": "The Clock",
+      "series_id": "series.the_clock_91f2a665",
+      "phase3_enriched": true
+    },
+    "the-damon-runyon-theatre": {
+      "title": "The Damon Runyon Theatre",
+      "series_id": "series.the_damon_runyon_theatre_0652c37d",
+      "phase3_enriched": true
+    },
+    "the-devil-and-mr-o": {
+      "title": "The Devil and Mr. O",
+      "series_id": "series.the_devil_and_mr_o_023deae8",
+      "phase3_enriched": true
+    },
+    "the-falcon": {
+      "title": "The Falcon",
+      "series_id": "series.the_falcon_3af38337",
+      "phase3_enriched": true
+    },
+    "the-fred-allen-show": {
+      "title": "The Fred Allen Show",
+      "series_id": "series.the_fred_allen_show_03b68fe9",
+      "phase3_enriched": true
+    },
+    "the-great-gildersleeve": {
+      "title": "The Great Gildersleeve",
+      "series_id": "series.the_great_gildersleeve_afea5247",
+      "phase3_enriched": true
+    },
+    "the-green-hornet": {
+      "title": "The Green Hornet",
+      "series_id": "series.the_green_hornet_049a79ad",
+      "phase3_enriched": true
+    },
+    "the-halls-of-ivy": {
+      "title": "The Halls of Ivy",
+      "series_id": "series.the_halls_of_ivy_66fbe733",
+      "phase3_enriched": true
+    },
+    "the-hitchhikers-guide-to-the-galaxy": {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "series_id": "series.the_hitchhiker_s_guide_to_the_galaxy_36100c08",
+      "phase3_enriched": true
+    },
+    "the-jack-benny-program": {
+      "title": "The Jack Benny Program",
+      "series_id": "series.the_jack_benny_program_4169dff9",
+      "phase3_enriched": true
+    },
+    "the-lady-detectives-bbc-radio": {
+      "title": "The Lady Detectives (BBC Radio)",
+      "series_id": "series.the_lady_detectives_bbc_radio_2e66a5a9",
+      "phase3_enriched": true
+    },
+    "the-line-up": {
+      "title": "The Line Up",
+      "series_id": "series.the_line_up_085e76f6",
+      "phase3_enriched": true
+    },
+    "the-lives-of-harry-lime": {
+      "title": "The Lives of Harry Lime",
+      "series_id": "series.the_lives_of_harry_lime_5e095ef2",
+      "phase3_enriched": true
+    },
+    "the-lone-ranger": {
+      "title": "The Lone Ranger",
+      "series_id": "series.the_lone_ranger_d31401b0",
+      "phase3_enriched": true
+    },
+    "the-lord-of-the-rings-bbc-radio": {
+      "title": "The Lord of the Rings (BBC Radio)",
+      "series_id": "series.the_lord_of_the_rings_bbc_radio_38f5cc3d",
+      "phase3_enriched": true
+    },
+    "the-mel-blanc-show": {
+      "title": "The Mel Blanc Show",
+      "series_id": "series.the_mel_blanc_show_a4a8b5f6",
+      "phase3_enriched": true
+    },
+    "the-mercury-theatre-on-the-air": {
+      "title": "The Mercury Theatre on the Air",
+      "series_id": "series.the_mercury_theatre_on_the_air_b0a8a190",
+      "phase3_enriched": true
+    },
+    "the-mysterious-traveler": {
+      "title": "The Mysterious Traveler",
+      "series_id": "series.the_mysterious_traveler_76519708",
+      "phase3_enriched": true
+    },
+    "the-new-adventures-of-nero-wolfe": {
+      "title": "The New Adventures of Nero Wolfe",
+      "series_id": "series.nero_wolfe",
+      "phase3_enriched": true
+    },
+    "the-new-adventures-of-sherlock-holmes": {
+      "title": "The New Adventures of Sherlock Holmes",
+      "series_id": "series.sherlock_holmes",
+      "phase3_enriched": true
+    },
+    "the-phil-harris-alice-faye-show": {
+      "title": "The Phil Harris-Alice Faye Show",
+      "series_id": "series.the_phil_harris_alice_faye_show_304a01cd",
+      "phase3_enriched": true
+    },
+    "the-private-files-of-rex-saunders": {
+      "title": "The Private Files of Rex Saunders",
+      "series_id": "series.the_private_files_of_rex_saunders_4be7bedb",
+      "phase3_enriched": true
+    },
+    "the-railroad-hour": {
+      "title": "The Railroad Hour",
+      "series_id": "series.the_railroad_hour_a0808d08",
+      "phase3_enriched": true
+    },
+    "the-red-skelton-show": {
+      "title": "The Red Skelton Show",
+      "series_id": "series.the_red_skelton_show_9f7b74a3",
+      "phase3_enriched": true
+    },
+    "the-saint": {
+      "title": "The Saint",
+      "series_id": "series.saint",
+      "phase3_enriched": true
+    },
+    "the-sealed-book": {
+      "title": "The Sealed Book",
+      "series_id": "series.the_sealed_book_4debb143",
+      "phase3_enriched": true
+    },
+    "the-shadow": {
+      "title": "The Shadow",
+      "series_id": "series.the_shadow_191bf3e1",
+      "phase3_enriched": true
+    },
+    "the-six-shooter": {
+      "title": "The Six Shooter",
+      "series_id": "series.the_six_shooter_3deb3492",
+      "phase3_enriched": true
+    },
+    "the-stories-of-sherlock-holmes": {
+      "title": "The Stories of Sherlock Holmes",
+      "series_id": "series.the_stories_of_sherlock_holmes_1dfa0af3",
+      "phase3_enriched": true
+    },
+    "the-twilight-zone-radio-dramas": {
+      "title": "The Twilight Zone Radio Dramas",
+      "series_id": "series.the_twilight_zone_radio_dramas_662d2666",
+      "phase3_enriched": true
+    },
+    "the-weird-circle": {
+      "title": "The Weird Circle",
+      "series_id": "series.the_weird_circle_c219db6b",
+      "phase3_enriched": true
+    },
+    "the-whistler": {
+      "title": "The Whistler",
+      "series_id": "series.whistler",
+      "phase3_enriched": true
+    },
+    "theater-five": {
+      "title": "Theater Five",
+      "series_id": "series.theater_five_5d3fc6e5",
+      "phase3_enriched": true
+    },
+    "theatre-royal": {
+      "title": "Theatre Royal",
+      "series_id": "series.theatre_royal_fc31da5a",
+      "phase3_enriched": true
+    },
+    "this-is-your-fbi": {
+      "title": "This Is Your FBI",
+      "series_id": "series.this_is_your_fbi_13a300b4",
+      "phase3_enriched": true
+    },
+    "top-secret": {
+      "title": "Top Secret",
+      "series_id": "series.top_secret_c8771415",
+      "phase3_enriched": true
+    },
+    "true-detective-mysteries": {
+      "title": "True Detective Mysteries",
+      "series_id": "series.true_detective_mysteries_1f1d43e7",
+      "phase3_enriched": true
+    },
+    "under-arrest": {
+      "title": "Under Arrest",
+      "series_id": "series.under_arrest_2aac89e1",
+      "phase3_enriched": true
+    },
+    "vanishing-point-cbc": {
+      "title": "Vanishing Point (CBC)",
+      "series_id": "series.vanishing_point_cbc_df885022",
+      "phase3_enriched": true
+    },
+    "voices-from-the-grave-bbc-radio": {
+      "title": "Voices from the Grave (BBC Radio)",
+      "series_id": "series.voices_from_the_grave_bbc_radio_ad8978a3",
+      "phase3_enriched": true
+    },
+    "voyage-of-the-scarlet-queen": {
+      "title": "Voyage of the Scarlet Queen",
+      "series_id": "series.voyage_of_the_scarlet_queen_20766677",
+      "phase3_enriched": true
+    },
+    "whitehall-1212": {
+      "title": "Whitehall 1212",
+      "series_id": "series.whitehall_1212_6cd41d9d",
+      "phase3_enriched": true
+    },
+    "wild-bill-hickok": {
+      "title": "Wild Bill Hickok",
+      "series_id": "series.wild_bill_hickok_e22cf8b6",
+      "phase3_enriched": true
+    },
+    "words-at-war": {
+      "title": "Words at War",
+      "series_id": "series.words_at_war_b0310e44",
+      "phase3_enriched": true
+    },
+    "x-minus-one": {
+      "title": "X Minus One",
+      "series_id": "series.x_minus_one",
+      "phase3_enriched": true
+    },
+    "yours-truly-johnny-dollar": {
+      "title": "Yours Truly, Johnny Dollar",
+      "series_id": "series.ytjd",
+      "phase3_enriched": true
+    },
+    "zero-hour": {
+      "title": "Zero Hour",
+      "series_id": "series.zero_hour_182f8b1f",
+      "phase3_enriched": true
+    }
+  }
+}
