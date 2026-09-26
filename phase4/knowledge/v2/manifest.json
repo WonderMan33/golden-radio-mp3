@@ -46,7 +46,25 @@
     "links.json": {
       "count": 21113,
       "bytes": 8213341
+    },
+    "wp_actor_bridge.json": {
+      "count": 71,
+      "bytes": 20801
+    },
+    "actor_candidates.json": {
+      "count": 1245,
+      "bytes": 1226138
     }
   },
-  "notes": "Derived knowledge/search layer only. Does not alter public page rendering."
+  "notes": "Derived knowledge/search layer only. Does not alter public page rendering.",
+  "wordpress_actor_bridge": {
+    "published_profiles": 71,
+    "matched": 71,
+    "ambiguous": 0,
+    "unmatched": 0
+  },
+  "actor_candidates": {
+    "minimum_episode_credits": 10,
+    "count": 1245
+  }
 }
