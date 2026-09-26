@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "built_at": "2026-09-25T19:11:33-07:00",
+  "episode_docs": 25272,
+  "terms": 21919,
+  "shards": 256,
+  "max_postings_per_term": 500,
+  "fields": {
+    "episode_title": 10.0,
+    "series_title": 7.0,
+    "aliases": 6.0,
+    "people": 6.0,
+    "characters": 6.0,
+    "works": 6.0,
+    "concepts": 4.0,
+    "organizations": 4.0,
+    "relationships": 2.5,
+    "history": 2.0,
+    "classifications": 1.0
+  },
+  "lookup": "md5(term)[0:2]",
+  "ranking": "posting order is descending offline relevance; combine by matched-term count then reciprocal rank"
+}

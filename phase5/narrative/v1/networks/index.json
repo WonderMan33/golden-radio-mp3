@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "abc-radio-network",
+    "title": "ABC Radio Network",
+    "word_count": 170,
+    "show_count": 23,
+    "linked_episode_count": 1311,
+    "person_count": 12
+  },
+  {
+    "slug": "blue-network",
+    "title": "Blue Network",
+    "word_count": 171,
+    "show_count": 12,
+    "linked_episode_count": 610,
+    "person_count": 12
+  },
+  {
+    "slug": "cbs-pacific-network",
+    "title": "CBS Pacific Network",
+    "word_count": 149,
+    "show_count": 5,
+    "linked_episode_count": 781,
+    "person_count": 12
+  },
+  {
+    "slug": "cbs-radio-network",
+    "title": "CBS Radio Network",
+    "word_count": 168,
+    "show_count": 49,
+    "linked_episode_count": 4479,
+    "person_count": 12
+  },
+  {
+    "slug": "don-lee-network",
+    "title": "Don Lee Network",
+    "word_count": 158,
+    "show_count": 7,
+    "linked_episode_count": 547,
+    "person_count": 12
+  },
+  {
+    "slug": "michigan-radio-network",
+    "title": "Michigan Radio Network",
+    "word_count": 117,
+    "show_count": 1,
+    "linked_episode_count": 181,
+    "person_count": 12
+  },
+  {
+    "slug": "mutual-broadcasting-system",
+    "title": "Mutual Broadcasting System",
+    "word_count": 173,
+    "show_count": 36,
+    "linked_episode_count": 1474,
+    "person_count": 12
+  },
+  {
+    "slug": "nbc-radio-network",
+    "title": "NBC Radio Network",
+    "word_count": 173,
+    "show_count": 62,
+    "linked_episode_count": 3367,
+    "person_count": 12
+  }
+]
