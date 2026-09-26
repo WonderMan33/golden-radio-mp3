@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "built_at": "2026-09-25T18:33:24-07:00",
+  "built_at": "2026-09-25T19:49:28-07:00",
   "source_run": "grh_deep_v2_c15cad2478e7",
   "counts": {
     "episode": 25272,
@@ -9,31 +9,31 @@
     "series": 177
   },
   "quality_tiers": {
-    "rich": 21146,
-    "standard": 3313,
-    "supported": 707,
-    "thin": 362
+    "rich": 20197,
+    "standard": 4262,
+    "supported": 706,
+    "thin": 363
   },
   "word_counts": {
     "episode": {
-      "min": 35,
-      "avg": 125.8,
-      "max": 334
+      "min": 24,
+      "avg": 104.3,
+      "max": 319
     },
     "network": {
-      "min": 117,
-      "avg": 159.9,
-      "max": 173
+      "min": 121,
+      "avg": 135.2,
+      "max": 146
     },
     "person": {
-      "min": 17,
-      "avg": 113.3,
-      "max": 187
+      "min": 15,
+      "avg": 60.8,
+      "max": 81
     },
     "series": {
-      "min": 55,
-      "avg": 271.1,
-      "max": 447
+      "min": 53,
+      "avg": 209.5,
+      "max": 299
     }
   },
   "episode_shards": 256,
