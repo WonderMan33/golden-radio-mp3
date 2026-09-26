@@ -1,0 +1,52 @@
+{
+  "version": "2.0.0",
+  "built_at": "2026-09-25T18:01:46-07:00",
+  "source_run": "grh_deep_v2_c15cad2478e7",
+  "counts": {
+    "character": 406,
+    "concept": 1352,
+    "historical_event": 644,
+    "organization": 1087,
+    "person": 8008,
+    "series": 178,
+    "work": 1970
+  },
+  "ready": 13640,
+  "review": 5,
+  "links": 21113,
+  "files": {
+    "characters.json": {
+      "count": 406,
+      "bytes": 215280
+    },
+    "concepts.json": {
+      "count": 1352,
+      "bytes": 608052
+    },
+    "historical_events.json": {
+      "count": 644,
+      "bytes": 380353
+    },
+    "organizations.json": {
+      "count": 1087,
+      "bytes": 657663
+    },
+    "persons.json": {
+      "count": 8008,
+      "bytes": 6464120
+    },
+    "series.json": {
+      "count": 178,
+      "bytes": 2016192
+    },
+    "works.json": {
+      "count": 1970,
+      "bytes": 1379558
+    },
+    "links.json": {
+      "count": 21113,
+      "bytes": 8213341
+    }
+  },
+  "notes": "Derived knowledge/search layer only. Does not alter public page rendering."
+}
