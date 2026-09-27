@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "category": "Vocal Groups & Choirs",
+  "count": 9,
+  "profiles": [
+    {
+      "id": "person.64501a847583844d",
+      "name": "The Crew Chiefs",
+      "category": "Vocal Groups & Choirs",
+      "excerpt": "Born from Glenn Miller's Army Air Forces band, the Crew Chiefs carried military-era close harmony into postwar radio variety and the Dorothy Lamour program.",
+      "bio_html": "<p>The Crew Chiefs were created inside the musical world of Glenn Miller's Army Air Forces band during World War II. Their name borrowed the title of the enlisted specialists responsible for keeping aircraft ready to fly, and the quartet became a recurring vocal feature on Miller's <em>I Sustain the Wings</em> broadcasts and military recordings. Members over time included singers such as Bill Conway, Murray Kane, Gene Steck, Steve Steck and Artie Malvin.</p><p>The group survived the war and moved into civilian broadcasting, working with Tex Beneke and Ray McKinley and becoming part of Dorothy Lamour's radio variety programs. On <em>Sealtest Variety Theater</em>, their close-harmony numbers helped balance Lamour's songs, celebrity sketches and Henry Russell's orchestra. They represent one of the clearest examples of wartime service entertainment feeding directly into postwar network variety radio.</p><p>Golden Radio Hour currently verifies 23 preserved <em>Sealtest Variety Theater</em> appearances by the Crew Chiefs. Their profile is therefore treated as a group history rather than a fictional single-performer biography.</p>",
+      "sources": ["https://www.worldradiohistory.com/BOOKSHELF-ARH/Biography/Glenn-Miller-%26-His-Orchestra-Simon-1974--221117.pdf","https://www.radioclassics.com/happy-birthday-dorothy-lamour/"]
+    },
+    {
+      "id": "person.3570317a8b373bb4",
+      "name": "The Four Knights",
+      "category": "Vocal Groups & Choirs",
+      "excerpt": "The Four Knights carried Black gospel-quartet discipline into national pop radio, moving from Charlotte stations to Arthur Godfrey and a regular place on Red Skelton's show.",
+      "bio_html": "<p>The Four Knights began in Charlotte, North Carolina, in 1943 as the Southland Jubilee Singers. Gene Alford, John Wallace, Oscar Broadway and Clarence Dixon came from the Black gospel-quartet tradition, but their sound was unusually smooth and flexible enough to move between sacred material, popular ballads and radio variety.</p><p>They made their professional radio debut locally, advanced to WBT's <em>Carolina Hayride</em>, recorded transcription discs for radio use and moved to New York, where they appeared with Arthur Godfrey. From 1948 they became regulars on Red Skelton's radio program, gaining national exposure before their 1950s Capitol recordings brought major pop success. Their 1954 recording of &ldquo;I Get So Lonely&rdquo; became their biggest commercial hit.</p><p>Golden Radio Hour currently verifies 47 preserved <em>Red Skelton Show</em> appearances by the Four Knights. Their radio work is important not only as a step toward a recording career, but as an example of a Black vocal group crossing from jubilee singing into mainstream network entertainment while retaining a distinctive quartet sound.</p>",
+      "sources": ["https://vocalgroup.org/inductees/the-four-knights/","https://www.allmusic.com/artist/the-four-knights-mn0000741184"]
+    },
+    {
+      "id": "person.e456c0ceff9ef029",
+      "name": "The Merry Macs",
+      "category": "Vocal Groups & Choirs",
+      "excerpt": "The Merry Macs helped modernize American close harmony, taking an experimental four-part family sound from Minneapolis radio into Fred Allen, hit records and Hollywood films.",
+      "bio_html": "<p>The Merry Macs grew from the McMichael brothers' family harmony singing in Minneapolis during the 1920s. Ted, Judd and Joe McMichael developed a close four-part approach that was unusual for popular vocal groups of the period, then added a female melody singer and adopted the name Merry Macs. Local radio led to touring, recordings and an NBC contract.</p><p>By the late 1930s the group had become a national radio fixture. They appeared on major network programs and became regulars on Fred Allen's <em>Town Hall Tonight</em>, while also recording for Decca and moving into film. Their tight harmonic style helped point popular vocal music away from older barbershop conventions toward the smoother close-harmony sound that later groups would develop further.</p><p>Golden Radio Hour currently verifies 15 preserved <em>Fred Allen Show</em> appearances by the Merry Macs. Those broadcasts preserve the group in the medium that first gave its unusual harmony style national reach.</p>",
+      "sources": ["https://vocalgroup.org/inductees/the-merry-macs/","https://www.worldradiohistory.com/BOOKSHELF-ARH/Radio-Programming/Billboard-American-Singing-Groups-1940-1990-Warner-1992--221117.pdf"]
+    },
+    {
+      "id": "person.582c5a2ae69de2d9",
+      "name": "The Mello-Men",
+      "category": "Vocal Groups & Choirs",
+      "excerpt": "The Mello-Men were a Hollywood studio quartet built for versatility, moving from radio and commercials to Disney films, records and some of the most familiar anonymous chorus work of the postwar era.",
+      "bio_html": "<p>The Mello-Men, more commonly known as the Mellomen, were formed in 1948 by former Sportsmen singers Thurl Ravenscroft and Max Smith with Bob Hamlin and Bill Lee. They deliberately built a studio quartet that could handle very different assignments, from close harmony and novelty songs to commercials and dramatic vocal effects. Their unusual balance of two deep voices and two higher voices helped give the group a recognizable but adaptable sound.</p><p>Radio was one part of a much larger studio career. The quartet sang commercials, supported recording artists and appeared in programs including <em>Roy Rogers</em>, while also becoming closely associated with Walt Disney productions. They sang in films such as <em>Alice in Wonderland</em> and <em>Lady and the Tramp</em>, and Ravenscroft later became famous independently as the voice of Tony the Tiger and the singer of &ldquo;You're a Mean One, Mr. Grinch.&rdquo;</p><p>Golden Radio Hour currently verifies 12 <em>Roy Rogers</em> appearances and one <em>CBS Radio Workshop</em> appearance under the source label &ldquo;The Mello-Men.&rdquo; GRH preserves that spelling as a source variant while treating the canonical group as the Mellomen.</p>",
+      "sources": ["https://d23.com/walt-disney-legend/thurl-ravenscroft/","https://www.worldradiohistory.com/Archive-Radio-Life/50s/52/Radio-TV-Life-1952-04-11.pdf","https://radiogoldin.library.umkc.edu/ProgramMoreinfo/19115"]
+    },
+    {
+      "id": "person.9db8ba95ace81560",
+      "name": "The King's Men",
+      "category": "Vocal Groups & Choirs",
+      "excerpt": "The King's Men were the long-running vocal quartet of Fibber McGee and Molly, using Ken Darby's arrangements to make songs, novelty numbers and wartime material part of the comedy's weekly rhythm.",
+      "bio_html": "<p>The King's Men formed around arranger Ken Darby with Bud Linn, Jon Dodson and Rad Robinson, developing from an earlier group known as the Ramblers. They worked in Hollywood and New York, sang with Paul Whiteman and appeared on network programs before joining <em>Fibber McGee and Molly</em> in 1940.</p><p>For more than a decade the quartet occupied a regular musical slot on one of American radio's most popular comedies. Darby's arrangements let them move between ballads, novelty material and wartime songs without sounding like an interruption to the program. Their music became part of the show's familiar structure alongside Jim and Marian Jordan, Billy Mills's orchestra and Harlow Wilcox's integrated commercials. In 1949 they even fronted a summer replacement series of their own.</p><p>Golden Radio Hour currently verifies 223 preserved <em>Fibber McGee and Molly</em> appearances by the King's Men. That large run makes them one of the most substantial vocal-group bodies in the GRH archive.</p>",
+      "sources": ["https://www.worldradiohistory.com/Archive-All-BC/Archive-Radio-Life/40s/47/Radio-Life-1947-03-09.pdf","https://www.otrr.org/FILES/Synopsis_txt/F_Series/Fibber_McGee_and_Molly_FAQ.htm","https://radiogoldin.library.umkc.edu/ProgramMoreinfo/22825"]
+    },
+    {
+      "id": "person.2ba9c62eb4fa4ed3",
+      "name": "The De Marco Sisters",
+      "category": "Vocal Groups & Choirs",
+      "excerpt": "The five DeMarco Sisters turned family close harmony into one of the defining musical signatures of Fred Allen's postwar radio show before carrying that success into records, film and television.",
+      "bio_html": "<p>The DeMarco Sisters grew from a family singing act into a national radio group. The older sisters began performing in the 1930s, and after the family moved from Rome, New York, to Brooklyn, their father pushed for radio auditions. By the time all five sisters were performing together, the group had developed a polished close-harmony sound suited to network variety programs.</p><p>Their defining radio break came with Fred Allen. From the mid-1940s through 1949 they were regular musical performers on his NBC program, and their sung &ldquo;Mr. Allen&rdquo; opening became part of the show's identity. Unlike a guest act appearing once for a song, the sisters were integrated into the weekly company. They later continued in recordings, film and television.</p><p>Golden Radio Hour currently verifies 65 preserved <em>Fred Allen Show</em> appearances by the DeMarco Sisters. GRH standardizes the category as a group history while preserving the source spelling &ldquo;The De Marco Sisters&rdquo; in the underlying archive identity.</p>",
+      "sources": ["https://www.paleycenter.org/collection/item?item=R85%3A0307","https://www.paleycenter.org/collection/item?item=R79%3A0169","https://www.singers.com/group/DeMarco-Sisters/"]
+    },
+    {
+      "id": "person.0abf1966c6bb3c93",
+      "name": "The Sportsmen",
+      "category": "Vocal Groups & Choirs",
+      "excerpt": "The Sportsmen turned the commercial break into comedy on Jack Benny, using close-harmony song parodies to sell Lucky Strike while becoming recurring characters in the joke themselves.",
+      "bio_html": "<p>The Sportsmen began in 1938 when Bill Days and Max Smith left the Paul Taylor Choristers and formed a new quartet. Membership changed over time, but the group's lasting radio identity came from the ability to combine polished close harmony with comic precision. That made them especially useful once sponsors began asking musical acts to do more than simply sing a featured number.</p><p>On <em>The Jack Benny Program</em>, the Sportsmen became central to a new kind of singing commercial. They would begin with a recognizable popular-song style, turn it into an increasingly aggressive Lucky Strike parody, and keep singing while Benny pretended to become furious and tried to fire them. The commercial itself became a recurring comedy routine. The group also worked on <em>Burns and Allen</em>, <em>Eddie Cantor</em>, <em>Judy Canova</em> and other programs.</p><p>Golden Radio Hour's current archive-only identity does not capture all of that Jack Benny history. It verifies 31 performances across four preserved series, led by 23 on <em>The Mel Blanc Show</em>, plus appearances on <em>The Railroad Hour</em>, <em>The Phil Harris-Alice Faye Show</em> and <em>Columbia Workshop</em>. Their profile therefore combines GRH holdings with the broader documented career instead of mistaking the local archive count for their entire radio life.</p>",
+      "sources": ["https://www.library.ucsb.edu/sites/default/files/pamss170.pdf","https://www.worldradiohistory.com/BOOKSHELF-ARH/Radio-Programming/Radio-Programming/Sunday-Nights-At-Seven-Jack-Benny-Benny-1990.pdf"]
+    },
+    {
+      "id": "person.00c3789706975cf8",
+      "name": "The Smith Twins",
+      "category": "Vocal Groups & Choirs",
+      "excerpt": "The Smith Twins were a featured singing act on Red Skelton's early-1950s radio program, a lightly documented group whose surviving broadcasts now provide the strongest evidence of their network career.",
+      "bio_html": "<p>The Smith Twins are one of the cases where the surviving program record is stronger than the surviving publicity record. They joined the radio cast of <em>The Red Skelton Show</em> in 1951 and functioned as a featured singing act inside the program's mixture of sketches, monologue and music.</p><p>Unlike major recording groups whose careers generated biographies, interviews and discographies, the Smith Twins have left relatively little reliable personal documentation under that billing. GRH therefore does not invent member names or a pre-radio history that the available sources do not establish. Their page is built around what the broadcasts can actually prove.</p><p>Golden Radio Hour currently verifies 23 preserved <em>Red Skelton Show</em> appearances by the Smith Twins, beginning in 1951. As additional period sources are located, this group history can deepen without sacrificing the distinction between documented fact and inference.</p>",
+      "sources": ["https://www.oldtimeradiodownloads.com/actors/the-smith-twins"]
+    },
+    {
+      "id": "person.eb3c73cf32adf6e3",
+      "name": "The Whippoorwills",
+      "category": "Vocal Groups & Choirs",
+      "excerpt": "The Whippoorwills blended western harmony with Roy Lanham's unusually sophisticated guitar work, moving through radio transcriptions, Roy Rogers and the orbit of the Sons of the Pioneers.",
+      "bio_html": "<p>The Whippoorwills developed around guitarist Roy Lanham, whose playing combined western swing with jazz influences from musicians such as Charlie Christian and Django Reinhardt. An earlier group working with singer Gene Austin adopted the Whippoorwills name, and Lanham later re-formed the act after World War II, building a flexible western vocal-and-instrumental group around his guitar.</p><p>The group recorded radio transcriptions for Smiley Burnette and crossed paths with the Sons of the Pioneers, eventually filling in on radio when the Pioneers were touring. Lanham's later association with Roy Rogers and the Sons of the Pioneers helped carry the Whippoorwills into the broader western-entertainment circuit, where radio, records, personal appearances and film-related work overlapped constantly.</p><p>Golden Radio Hour currently verifies 25 preserved <em>Roy Rogers</em> appearances by the Whippoorwills. Their page treats them as a western vocal and instrumental group rather than forcing their collective credits into a human-performer template.</p>",
+      "sources": ["https://www.allmusic.com/artist/roy-lanham-mn0000348327","https://www.latimes.com/archives/la-xpm-1991-02-19-mn-1750-story.html"]
+    }
+  ]
+}
