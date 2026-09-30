@@ -43,7 +43,7 @@ async function networks(q){
  if(!networkCache){
   const r=await fetch('/old-time-radio-networks/',{credentials:'same-origin'});if(!r.ok)return [];
   const d=new DOMParser().parseFromString(await r.text(),'text/html');
-  networkCache=[...d.querySelectorAll('.grh-network-card')].map(a=>({link:a.href,title:(a.querySelector('strong')||a).textContent.trim()}));
+  networkCache=[...d.querySelectorAll('a[href*="/old-time-radio-networks/"]')].filter(a=>a.querySelector('strong')&&new URL(a.href,location.href).pathname!='/old-time-radio-networks/').map(a=>({link:a.href,title:a.querySelector('strong').textContent.trim()}));
  }
  const s=q.toLowerCase();return networkCache.filter(x=>x.title.toLowerCase().includes(s)).slice(0,3);
 }
